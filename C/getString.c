@@ -11,7 +11,7 @@ void getString(char *s, int max){
         }
 }
 
-int main(int argc, char* argv[]){
+int main(){
         char s[MAX];
         getString(s, MAX);
         printf("%s", s);
