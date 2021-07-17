@@ -5,7 +5,8 @@
 //array size become double from 
 //the previous size
 //**There may have memory leak
-//So, please if you can resolve the issue
+//So, please if you can resolve the issue.
+//Press ctrl + D for stop taking input.
 
 #include <iostream>
 using namespace std;
@@ -32,10 +33,11 @@ int main(){
         int length = 0;
         int size = 0;
         int *ptr;
-        
-        for(int i=0; i<10; i++){
-                ptr = insert(ptr, (i+100), &size, &length);
-        }
+        int t;
+
+       while((scanf("%d", &t)) > 0){
+               ptr = insert(ptr, t, &size, &length);
+       }
 
         cout << "\nArray: \n";
         for (int i = 0; i < size; i++){
