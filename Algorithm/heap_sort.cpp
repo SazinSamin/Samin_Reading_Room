@@ -49,6 +49,15 @@ void heapSort(int arr[], int l){
         //we run the for loop from half size because
         //The all leaf nodes has no left or right sub-tree
         //So, we don't need to heapify them.
+        //One things that, all sub-nodes are double than all parent node
+        //in row.
+        /*
+        1  - 1/32 -approximate.
+        2  - 1/16
+        4  - 1/8
+        8  - 1/4
+        16 - 1/2
+        */
         for (int i = (l / 2) - 1; i >= 0; i--){
                 heapfy(arr, l, i);
         }
