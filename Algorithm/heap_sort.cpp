@@ -34,7 +34,8 @@ void heapfy(int arr[], int l, int i){
         
         //check the largest node is not the parent node
         //If largest node is greater than parent node than swap
-        //two elements and heapify the tree again.
+        //two elements and heapify it's subtree until the leaf
+        //touch.
         if (largest != i && arr[largest] > arr[i]){
                 swap(&arr[largest], &arr[i]);
                 heapfy(arr, l, largest);
@@ -55,7 +56,7 @@ void heapSort(int arr[], int l){
         //here we swap last element with the first element.
         //Get the max element from the root node and keep in
         //last position.
-        //then heapify the tree again.
+        //then heapify the current sub-tree for next Max value node.
         for (int i = l - 1; i >= 0; i--){
                 swap(&arr[0], &arr[i]);
                 heapfy(arr, i, 0);
