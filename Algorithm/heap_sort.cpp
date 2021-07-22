@@ -56,7 +56,7 @@ void heapSort(int arr[], int l){
         2  - 1/16
         4  - 1/8
         8  - 1/4
-        16 - 1/2
+        16 - 1/2 - all last leaf nodes.
         */
         for (int i = (l / 2) - 1; i >= 0; i--){
                 heapfy(arr, l, i);
