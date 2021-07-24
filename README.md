@@ -11,6 +11,7 @@
 ### Data structure -
     Binary Heap
     Priority queue
+    Binary tree
 ### Algorithm -
     Heap sort
     Binary search
