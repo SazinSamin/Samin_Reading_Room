@@ -1,8 +1,11 @@
+//Array implementation of binary tree
+
 #include<iostream>
 using namespace std;
 int tree[100];
 
 void set_root(int k){
+        //Check root already exits or not.
         if(tree[0] != '\0'){
                 cout<<"\nTree has already a root";
         }else{
@@ -11,6 +14,7 @@ void set_root(int k){
 }
 
 void set_right(int k, int p){
+        //Before set the child check the parent exits or not.
         if(tree[p] == '\0'){
                 cout<<"\nNo parent in this position";
         }else{
@@ -19,6 +23,7 @@ void set_right(int k, int p){
 }
 
 void set_left(int k, int p){
+        //Before set the child check the parent exits or not.
         if (tree[p] == '\0'){
                 cout << "\nNo parent in this position";
         }
