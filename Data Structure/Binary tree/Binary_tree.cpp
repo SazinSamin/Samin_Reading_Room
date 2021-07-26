@@ -7,6 +7,8 @@ struct Node{
 };
 struct Node* head;
 
+//Get node by Dynamic memory alloocation from heap.
+//and set the value to the node.
 struct Node* getNode(int data){
         struct Node* temp = (struct Node*) malloc(sizeof(struct Node));
         temp->data = data;
