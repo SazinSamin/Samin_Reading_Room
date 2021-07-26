@@ -26,6 +26,7 @@ int main(){
 }
 
 
+//Another solution---->>>
 /*
 	int n;
         while(cin>>n && n){
@@ -41,12 +42,3 @@ int main(){
                         cout<<"Ordinary"<<endl;
 }
 */
-        
-
-
-
-
-
-
-
-
