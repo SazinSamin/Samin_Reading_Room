@@ -19,6 +19,10 @@ void init(){
 
 //Find a element belongs to which set 
 //and return it's parent.
+//Path compression also add here
+//First time visit all the path
+//Then set same parent which
+//belong to same root parent or subtree.
 int find(int u){
         if(u == parent[u]) return u;
         return parent[u] = find(parent[u]);
