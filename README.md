@@ -12,6 +12,9 @@
     Binary Heap
     Priority queue
     Binary tree
+    Disjoint set
 ### Algorithm -
     Heap sort
     Binary search
+    
+### uVa problem solution 
