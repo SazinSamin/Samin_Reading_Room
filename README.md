@@ -13,6 +13,7 @@
     Priority queue
     Binary tree
     Disjoint set
+    Graph
 ### Algorithm -
     Heap sort
     Binary search
