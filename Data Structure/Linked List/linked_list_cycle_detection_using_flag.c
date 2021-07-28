@@ -5,15 +5,15 @@ using namespace std;
 struct Node{
         int data;
         struct Node* next;
+        int flag;
 };
 struct Node* head;
-
-
 
 //get new Node
 struct Node* getNode(int data){
         struct Node* temp = (struct Node*) malloc(sizeof(struct Node));
         temp->data = data;
+        temp->flag = 0;
         temp->next = NULL;
         return temp;
 }
@@ -36,10 +36,12 @@ void insert(int data){
 
 
 
+
+
 //Make cycle in the linked list
-void makeCycle(){
+void makeCycle(int n){
         struct Node* temp4 = head;
-        for(int i=1; i<=4; i++){
+        for(int i=1; i<=n; i++){
                 temp4 = temp4->next;
         }
 
@@ -52,46 +54,22 @@ void makeCycle(){
 }
 
 
-
-
-//Declear global variable vector
-//for persistance data
-vector<int> v;
-int saveData(int data){
-        //Traverse the vector and see if the data already present or not.
-        //If present return from that position with -1 sign to indicate that.
-        for(int i=0; i<v.size(); i++){
-                if(data == v[i]){
-                        return -1;
-                }
-        }
-        //If not present before, save to the vector.
-        v.push_back(data);
-        return 1;
-}
-
-
-
-
-
-//
+//Detect cycle.
 void detectCycle(){
         struct Node* temp = head;
         while(temp != NULL){
-                cout<<temp->data<<endl;
-                //Put node data for testing that the node already visit or not
-                //If the node have visited before then the data already saved in the vector
-                //Which return -1 to indicate that. 
-                if(saveData(temp->data) == -1){
-                        cout<<"\nCycle Detected";
+        	cout<<temp->data<<endl;
+        	
+                //If flag == 1, then this node already visited before,
+        	//So, here is a cycle.
+                if(temp->flag == 1){
+                        cout<<"Cycle detected !!!";
                         return;
-                };
+                }
+                temp->flag = 1;
                 temp = temp->next;
         }
 }
-
-
-
 
 
 int main(){
@@ -100,6 +78,9 @@ int main(){
                 insert(i);
         }
 
-        makeCycle();
+        //Be carefull to pass data in makeCycle
+        //For reduce complexity we don't add
+        //any bound checking to it.
+        makeCycle(6);
         detectCycle();
 }
