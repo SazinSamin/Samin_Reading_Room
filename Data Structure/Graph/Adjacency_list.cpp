@@ -18,7 +18,7 @@ void printGraph(vector<int> g[], int l){
 
 
 int main(){
-        freopen("file.txt", "r", stdin);
+        //freopen("file.txt", "r", stdin);
         int nodes, edeges, n1, n2;
         cin>>nodes>>edeges;
         for(int i=0; i<edeges; i++){
