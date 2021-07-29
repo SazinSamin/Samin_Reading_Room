@@ -1,3 +1,6 @@
+//Floyed cycle detection in Linked_List.
+//https://www.youtube.com/watch?v=zbozWoMgKW0 -> the code
+//https://www.youtube.com/watch?v=LUm2ABqAs1w&t=1016s -> How does this algorithm work.
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -54,12 +57,15 @@ void makeCycle(int n){
 }
 
 
+//Function to detect where the slow & fast pointer intersect.
 struct Node* matchInCycle(){
         struct Node* temp1 = head;
         struct Node* temp2 = head;
 
         while (temp1 && temp2 && temp1->next){
+                //Fast pointer run 2 stem at a time
                 temp1 = temp1->next->next;
+                //Slow pointer run 1 stem at a time
                 temp2 = temp2->next;
 
                 if(temp1 == temp2){
@@ -72,7 +78,9 @@ struct Node* matchInCycle(){
 int detectCycle(){
         struct Node* temp = head;
         struct Node* match = matchInCycle();
-
+        
+        //Move each pointer one at a time to find where it intersect.
+        //The intersection point will be the starting point of the cycle.
         while(temp && match){
                 temp = temp->next;
                 match = match->next;
