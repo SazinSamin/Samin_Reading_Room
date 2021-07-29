@@ -8,7 +8,8 @@
   
     Another thing when the fast pointer reaches at the end then the slow pointer will be in the middle of the list because you know fast       pointer has twice speed than the slow pointer. After then fast pointer reaches end of the list, as list has loop or reapeted number it     will start it 2nd iteration, on the other hand slow pointer start it's journey to the second half. And as fast pointer has speed twice     of slow, it will be at the end of the list when the slow pointer also in the end of list. And both pointer value will match. 
     
-    So, if we counter the number, how match this loop iterate, we get the length of the loop.
+    So, if we counter the number, how match this loop iterate, we get the length of the loop. Also the number slow pointer moves is the 
+    length of the loop.
     
 
 
