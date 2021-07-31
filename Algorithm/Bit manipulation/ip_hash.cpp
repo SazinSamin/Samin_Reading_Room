@@ -1,3 +1,9 @@
+//Difference between logical & arithmatic shift -> 
+// https://stackoverflow.com/questions/44694957/the-difference-between-logical-shift-right-arithmetic-shift-right-and-rotate-r
+//Logical shift correspond to (left-shift) multiplication by 2, (right-shift) integer division by 2
+
+
+
 //Every ip address is 4 bytes (32 bits). Has 4 sections, each section isolates by "."(dot)
 //Each section has 1 byte(8 bits) which range from 0-255.
 //Here in the code we take each section decimal value. 
