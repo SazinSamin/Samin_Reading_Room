@@ -27,7 +27,7 @@ void CountingSort(int array[], int n, int range){
  
         //count first element with the next element & keep the value in the next element location.
         //do this until the array have finished.
-        for (int i = 1; i < range; i++){
+        for (int i = 1; i <= range; i++){
                 //count[i] = count[i] + count[i - 1];
                 count[i] += count[i-1]; 
         }
