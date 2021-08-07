@@ -1,0 +1,21 @@
+//https://stackoverflow.com/questions/1239938/accessing-an-array-out-of-bounds-gives-no-error-why
+
+
+
+
+g++ does not check for array bounds, and you may be overwriting something with 3,4 but nothing really important, if you try 
+with higher numbers you'll get a crash. You are just overwriting parts of the stack that are not used, you could continue till you 
+reach the end of the allocated space for the stack and it'd crash eventually.
+
+
+When you use array indexing, you are really using a pointer in disguise (called a "reference"), that is automatically dereferenced. 
+This is why instead of *(array+1),array[1] automatically returns the value at  that index.
+
+
+*** when you declare int array[2]; you reserve 2 memory spaces of 4 bytes each(32bit program). if you type array[4] in your code it
+still corresponds to a valid call but only at run time will it throw an unhandled exception. C++ uses manual memory management.
+This is actually a security flaw that was used for hacking programs this can help understanding:
+
+int * somepointer;
+
+somepointer[0]=somepointer[5];
