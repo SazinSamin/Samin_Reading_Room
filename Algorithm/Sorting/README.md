@@ -3,4 +3,8 @@
 ##### - Insertion Sort practically more efficient than selection and bubble sorts, even though all of them have O(n 2 ) worst case                     complexity.
 ##### - Merge sort used for sorting Linked List.
 
+#### - Counting sort
+       there are smaller integers with multiple counts.
+       linear complexity is the need.
+
 Sorting in Dart progamming language implementated as when the difference between right & left value is 32 or less, they use regular insertion sort. But if the difference avobe the level then thay use Dual-Pivot Quicksort algorithm.
