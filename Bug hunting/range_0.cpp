@@ -2,6 +2,11 @@
 //https://stackoverflow.com/questions/1239938/accessing-an-array-out-of-bounds-gives-no-error-why
 //read the above link 2nd last comment.
 
+//https://softwareengineering.stackexchange.com/questions/318699/memory-allocation-in-c-while-calling-function
+/*Furthermore, depending on the platform, stack space may need to be aligned on specific boundaries; if you pass a single 2-byte 
+argument via the stack, but the stack pointer must be aligned on 4-byte addresses, then the stack pointer will be adjusted by 4 bytes,
+leaving 2 bytes allocated but unused/*
+
 
 
 
