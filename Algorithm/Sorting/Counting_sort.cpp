@@ -1,6 +1,15 @@
 //Counting sort
 //https://www.youtube.com/watch?v=uvOe510RmWc -> good explaination in bangla.
 
+/*
+Time Complexity	 
+Best	O(n+k)
+Worst	O(n+k)
+Average	O(n+k)
+Space Complexity	O(max)
+Stability	Yes
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -25,25 +34,27 @@ void CountingSort(int array[], int n, int range){
         }
         
  
-        //count first element with the next element & keep the value in the next element location.
-        //do this until the array have finished.
+        /*count first element with the next element & keep the value in the next element location.
+        do this until the array have finished.*/
         for (int i = 1; i <= range; i++){
                 //count[i] = count[i] + count[i - 1];
                 count[i] += count[i-1]; 
         }
 
         
-        //This loop will go from last to first element,
-        //get the value contain from the position, go to value position in count array,
-        //decrease it by 1, get the value from there now, and go to output variable that position.
-        //And put the main array value there
+        /*This loop will go from last to first element,
+        get the value contain from the position, go to value position in count array,
+        decrease it by 1, get the value from there now, and go to output variable that position.
+        And put the main array value there*/
         
         for (int i = n - 1; i >= 0; i--){
                 output[--count[array[i]]] = array[i];
-                //array[i]  ---> get the value 
-                //--count[array[i]] ---> decrease the count array that position
-                //output[--count[array[i]]] --> go the that position output array
-                //array[i] -- > put the array value
+                /*
+                array[i]  ---> get the value 
+                --count[array[i]] ---> decrease the count array that position
+                output[--count[array[i]]] --> go the that position output array
+                array[i] -- > put the array value
+                */
         }
 
         //Copy sorted array to the main array.
