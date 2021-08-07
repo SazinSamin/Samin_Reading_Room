@@ -1,3 +1,11 @@
+//Array out of bound problem --->
+//https://stackoverflow.com/questions/1239938/accessing-an-array-out-of-bounds-gives-no-error-why
+//read the above link 2nd last comment.
+
+
+
+
+
 /*I have get a very strange problem here, line 17 foor loop, after finishing the process of for loop, the range variable value become
 8 to 0, but the value store in different varibale. So I dig into the address arithmatic and find that when allocate memory for count array
 (line 11) exact less than the requirement, the line 19 for loop access to that address(where the range "range" variable value store),
