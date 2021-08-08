@@ -1,0 +1,4 @@
+/*
+If you divide a number by 0 then,
+C complier will generate "floating point exception".
+Dart compiler gives us "infinity"
