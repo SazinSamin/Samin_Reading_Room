@@ -15,10 +15,10 @@ output.
       Like look at this below array, here in index 1 we have a value 2, that means the index 1 actullay represent element 1, and this           element 1 will be store in first 2 position (0 and 1), 
       the next index is 2, which have value 3, this has difference (3 - 2 = 1) which means it have only 1 value, which location is next         (so after 0 and 1) it will be 2. 
       
-      <img src="https://github.com/SazinSamin/prgramming_problem_solving/blob/main/Algorithm/Sorting/Couting%20sort/3.png" width="20%">
+      <img src="https://github.com/SazinSamin/prgramming_problem_solving/blob/main/Algorithm/Sorting/Couting%20sort/3.png" width="50%">
       
       
 4. 
 
 
-<img src="https://github.com/SazinSamin/prgramming_problem_solving/blob/main/Algorithm/Sorting/Couting%20sort/4.png" width="20%">
+<img src="https://github.com/SazinSamin/prgramming_problem_solving/blob/main/Algorithm/Sorting/Couting%20sort/4.png" width="50%">
