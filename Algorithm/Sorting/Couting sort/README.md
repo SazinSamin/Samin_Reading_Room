@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=uvOe510RmWc&t=717s
+---- This video explaination is good. Please see full video.
+
 #### Couting sort
 
    <img src="https://github.com/SazinSamin/prgramming_problem_solving/blob/main/Algorithm/Sorting/Couting%20sort/1.png" width="60%">
