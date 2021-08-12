@@ -19,3 +19,9 @@
     Binary search
     
 ### uVa problem solution 
+
+
+good website->
+https://www.youtube.com/channel/UCSpQqfgiGQtcxR_8Ihy7oXg - Tanvir Sajor
+Safayet blog
+https://www.youtube.com/watch?v=OpebHLAf99Y&list=PL2_aWCzGMAwI9HK8YPVBjElbLbI3ufctn&index=3 ->mycodeschool
