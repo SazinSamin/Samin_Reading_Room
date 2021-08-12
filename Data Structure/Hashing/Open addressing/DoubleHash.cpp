@@ -1,5 +1,5 @@
 //https://www.geeksforgeeks.org/double-hashing/
-/*Double hashing is a collision resolving technique in "Open Addressed Hash tables". Double hashing uses the idea of applying a second hash function to key when a collision occurs.
+/*Double hashing is a collision resolving technique in "[Open Addressed Hash tables]". Double hashing uses the idea of applying a second hash function to key when a collision occurs.
 
 Double hashing can be done using :
 (hash1(key) + i * hash2(key)) % TABLE_SIZE
