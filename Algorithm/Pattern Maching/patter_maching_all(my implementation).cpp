@@ -12,8 +12,6 @@ void patAttery(string s, int array[]){
                 array[i] = 0;
 
         while (s[j] != '\0'){
-                //char x = s[i];
-                //char y = s[j];
                 if (s[i] == s[j]){
                         array[j] = i + 1;
                         int u = array[j];
@@ -33,10 +31,6 @@ void patAttery(string s, int array[]){
                         }
                 }
         }
-
-        /*for (int i = 0; i < s.size(); i++){
-                cout << array[i] << " ";
-        }*/
 }
 
 
@@ -48,17 +42,14 @@ void KMP(string txt, string pat){
 
         int i =0;
         int j =0;
-        //int txtSize = txt.size();
-        //int patSize = pat.size();
         int idx = 0;
 
         for(int i=0; i<txt.size()+1; i++){
                 idx = i;
                 if(j == pat.size()-1){
-                        cout<<"\nPattern found";
-                        break;
+                        cout<<"\nPattern found at index: "<<idx - j<<endl;
+                        j = 0;
                 }
-                //char x = txt[i]; char y = pat[j];
                 if(txt[i] == pat[j]){
                         j++;
                 }else{
@@ -69,11 +60,12 @@ void KMP(string txt, string pat){
                                 j = 0;
                 }
         }
-        cout<<"\n"<<idx - j;
 }
+
+
 int main(){
-        string txt = "THIS IS A TEST TEXT";
-        string pat = "IS";
+        string txt = "AABAACAADAABAABA";
+        string pat = "AABA";
         int array[10];
         KMP(txt, pat);
 }
