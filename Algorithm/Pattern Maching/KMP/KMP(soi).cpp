@@ -4,17 +4,22 @@
 #include <iostream>
 using namespace std;
 
+//Preprocessing for pattern for auxillay array lps
 void patAttery(string s, int array[]){
         
+        //For traversing the given string
         int i = 0;
+        //For traversing the pattern
         int j = 1;
+        //set all value to 0
         for (int i = 0; i < s.size(); i++){
                 array[i] = 0;
         }
-
+        
+        
         while (s[j] != '\0'){
-                //char x = s[i];
-                //char y = s[j];
+                //If character of given string & pattern match, then increase the j location of corresponding i
+                //Then increase both i & j to test next match.
                 if (s[i] == s[j]){
                         array[j] = i + 1;
                         //int u = array[j];
@@ -22,9 +27,11 @@ void patAttery(string s, int array[]){
                         j++;
                 }
                 else{
+                        //If i == 0, that means i already in first postion, so just have to increase the j.
                         if (i == 0){
                                 j++;
                         }
+                        //If not, then backtrack until you find a match or come to the 0th postion.
                         else{
                                 while (i > 0){
                                         i = array[i - 1];
