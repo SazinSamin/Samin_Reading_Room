@@ -17,7 +17,7 @@ void patAttery(string s, int array[]){
                 //char y = s[j];
                 if (s[i] == s[j]){
                         array[j] = i + 1;
-                        int u = array[j];
+                        //int u = array[j];
                         i++;
                         j++;
                 }
@@ -63,14 +63,14 @@ void KMP(string txt, string pat){
                 if(txt[i] == pat[j]){
                         j++;
                 }else{
-                        int u = array[j];
+                        //int u = array[j];
                         if(j>0)
                                 j = array[j-1];
                         else
                                 j = 0;
                 }
         }
-        cout<<"\n"<<idx - j;
+        //cout<<"\n"<<idx - j;
 }
 int main(){
         string txt = "THIS IS A TEST TEXT";
