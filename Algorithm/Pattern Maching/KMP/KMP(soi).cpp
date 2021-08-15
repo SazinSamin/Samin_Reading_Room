@@ -8,8 +8,9 @@ void patAttery(string s, int array[]){
         
         int i = 0;
         int j = 1;
-        for (int i = 0; i < s.size(); i++)
+        for (int i = 0; i < s.size(); i++){
                 array[i] = 0;
+        }
 
         while (s[j] != '\0'){
                 //char x = s[i];
