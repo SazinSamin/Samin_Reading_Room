@@ -6,22 +6,28 @@ int BinarySearch(int array[], int n, int key){
         int low = 1, mid, high = n;
         
         while(low <= high){
+                
                 //calculate the mid.
                 mid = (low + high) / 2;
+                
                 //Find if  the element match with the mid value.
                 if(array[mid] == key){
                         return mid;
+                        
                 //If element less than mid value 
                 //Set high value equal to mid 
                 //for traverse only the left half.
+                        
                 }else if(key < array[mid]){
                         cout<<"\n"<<array[mid]<<" ";
                         high = mid -1 ;
+                        
                 //Do same for traverse right half.
                 }else if(key > array[mid]){
                         low = mid + 1;
                 }
         }
+        
         //If element doesn't found
         //return a value to indicate that.
         return -9999999;
