@@ -14,9 +14,12 @@
     Binary tree
     Disjoint set
     Graph
+    Hashing
+    
 ### Algorithm -
     Heap sort
     Binary search
+    Pattern seaching
     
 ### uVa problem solution 
 
