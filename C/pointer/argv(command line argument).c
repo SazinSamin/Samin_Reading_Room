@@ -7,6 +7,7 @@
 //first argc(which is 0) is represent the name of the file,
 //If total argc is 4 then there have item 0, 1, 2, 3.
 //We can get access them like a normal array.
+//argument start & close with quotation mark(" ") treat as a single string.
 
 int main(int argc, char* argv[]){
   
