@@ -15,7 +15,7 @@ struct Node
 };
 
 
-//All function Declearation
+//All function Declearation, first 4 are helper function...
 struct Node *getNode(int data);
 void display(struct Node *head);
 struct Node *insert(int data, struct Node *head);
@@ -96,6 +96,12 @@ int main(){
 
 
 
+
+
+
+
+
+//These all are helper function......
 //Allocate memory for new node & put data to it.
 struct Node *getNode(int data){
         struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
