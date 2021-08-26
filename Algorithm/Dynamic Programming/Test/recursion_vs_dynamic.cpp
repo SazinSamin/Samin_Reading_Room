@@ -1,3 +1,6 @@
+//Test case from HackerRank test case(test case 12)
+//14
+//4 47 98
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
