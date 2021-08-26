@@ -6,7 +6,7 @@ This test based on HackerRank problem -> https://www.hackerrank.com/challenges/r
       - 8 gm ram
       - Platform Ubuntu(20.04)
       
-Linux terminal  
+###### Time measure by Linux terminal  
 recursion----  
 real	0m13.015s  
 user	0m0.001s  
@@ -18,6 +18,9 @@ user	0m0.001s
 sys	0m0.000s  
 
 
+
+
+###### Time measure by std::chrono
       
 - Recursive          Dynamic  
  16467               890
