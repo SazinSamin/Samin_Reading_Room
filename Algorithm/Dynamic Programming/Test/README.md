@@ -4,6 +4,7 @@ This test based on HackerRank problem -> https://www.hackerrank.com/challenges/r
 ##### We have test two methods 20 times, see the execution time difference
       - Intel Core i5 8250
       - 8 gm ram
+      - Platform Ubuntu(20.04)
       
 - Recursive          Dynamic  
  16467               890
