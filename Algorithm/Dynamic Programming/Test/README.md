@@ -5,27 +5,27 @@ This test based on HackerRank problem -> https://www.hackerrank.com/challenges/r
       - Intel Core i5 8250
       - 8 gm ram
       
-Recursive          Dynamic
+- Recursive          Dynamic
  16467               890
-Recursive          Dynamic
+- Recursive          Dynamic
  17206               1471
-Recursive          Dynamic
+- Recursive          Dynamic
  10701               613
-Recursive          Dynamic
+- Recursive          Dynamic
  10476               635
-Recursive          Dynamic
+- Recursive          Dynamic
  7930               491
-Recursive          Dynamic
+- Recursive          Dynamic
  15809               947
-Recursive          Dynamic
+- Recursive          Dynamic
  13728               669
-Recursive          Dynamic
+- Recursive          Dynamic
  10679               659
-Recursive          Dynamic
+- Recursive          Dynamic
  13465               654
-Recursive          Dynamic
+- Recursive          Dynamic
  10902               646
-Recursive          Dynamic
+- Recursive          Dynamic
  13699               639
 Recursive          Dynamic
  13738               644
