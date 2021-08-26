@@ -1,7 +1,7 @@
 ## Recursion VS Dynamic
 This test based on HackerRank problem -> https://www.hackerrank.com/challenges/recursion-in-c/problem
 Test case 12 is best for testing this programe...
-Below that case  
+Below this is case 12  
 14  
 4 47 98  
 
