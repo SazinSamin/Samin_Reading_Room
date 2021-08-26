@@ -6,6 +6,19 @@ This test based on HackerRank problem -> https://www.hackerrank.com/challenges/r
       - 8 gm ram
       - Platform Ubuntu(20.04)
       
+Linux terminal
+recursion----
+real	0m13.015s
+user	0m0.001s
+sys	0m0.000s
+
+dynamic-----
+real	0m3.747s
+user	0m0.001s
+sys	0m0.000s
+
+
+      
 - Recursive          Dynamic  
  16467               890
 - Recursive          Dynamic  
