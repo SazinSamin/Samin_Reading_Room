@@ -63,13 +63,15 @@ int findNext(struct Node *head, int data)
 
                 //If the pointer hit NULL, then we are in top most node, if top most node data is greater than
                 //our given node then return that node.
-                //If not than out given node is parent node & it has no right child also,
-                //that means it has no adjacent node, so return a value(here is -1) to indicate that.
                 if (getSearchNode->data > data)
                 {
                         return getSearchNode->data;
                 }
         }
+        
+        //If not than out given node is parent node & it has no right child also,
+        //that means it has no adjacent node, so return a value(here is -1) to indicate that.
+        
         return -1;
 }
 
