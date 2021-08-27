@@ -29,6 +29,15 @@ int findNext(struct Node *head, int data)
 {
         //search the node position
         struct Node *getSearchNode = findNode(head, data);
+        
+        
+        //If findNode return NULL, means there the given node doesn't exit, 
+        //so there is no need to search the existing node.
+        if(getSearchNode == NULL){
+                return -1;
+        }
+        
+        
 
         //If node right has right child...
         if (getSearchNode->right != NULL)
