@@ -1,5 +1,11 @@
 ## Recursion VS Dynamic
-This test based on HackerRank problem -> https://www.hackerrank.com/challenges/recursion-in-c/problem
+This test based on HackerRank problem -> https://www.hackerrank.com/challenges/recursion-in-c/problem  
+All the measurement test have done with test case 12 of that problem...  
+Below this is case 12-->  
+14  
+4 47 98  
+
+
 #### Code has written in recursive & dynamic procedure method.
 ##### We have test two methods 20 times, see the execution time difference
       - Intel Core i5 8250
