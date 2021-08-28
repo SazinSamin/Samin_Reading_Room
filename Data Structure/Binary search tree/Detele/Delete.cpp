@@ -69,7 +69,7 @@ struct Node *deleteNode(struct Node *head, int data){
                 struct Node* min = FindMin(head->right);
                 //Take the data from the node and put to the given node.
                 head->data = min->data;
-                //Now delete that leftmost, given node next node.
+                //Now delete that leftmost min node of that tree or next node of given node.
                 head->right = deleteNode(head->right, head->data);
                 
                 return head;
