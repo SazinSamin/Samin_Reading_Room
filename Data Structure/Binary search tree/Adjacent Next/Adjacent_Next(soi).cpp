@@ -1,5 +1,8 @@
 //https://www.coursera.org/learn/data-structures/lecture/T3oPE/basic-operations
 //https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+//https://www.youtube.com/watch?v=5cPbNCrdotA&t=901s
+
+
 #include <iostream>
 using namespace std;
 
