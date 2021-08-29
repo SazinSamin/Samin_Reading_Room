@@ -106,16 +106,16 @@ int AllPostionCheck(int array[]){
 
 int Check(int array[]){
         if (AllPostionCheck(array)){
-                printf("\nGame End ---------------------------");
+                printf("\nMatch Draw \nGame End ---------------------------");
                 return 1;
         }
         int result = Math(array);
         if (result == 65){
-                printf("\nPlayer A Win");
+                printf("\nPlayer A Win !!!!");
                 return 1;
         }
         else if (result == 66){
-                printf("\nPlayer B Win");
+                printf("\nPlayer B Win !!!");
                 return 1;
         }
         else{
