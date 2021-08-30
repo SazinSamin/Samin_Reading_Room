@@ -1,25 +1,36 @@
-# Problem_solving
+# Samin's Reading Room
 
 ### C/C++ -
     pointer
     C library function implementation
+    
     
 ### Dart -
     Constructor injection
     Method injection
     
 ### Data structure -
+    Linked List
     Binary Heap
     Priority queue
-    Binary tree
+    Tree
     Disjoint set
     Graph
     Hashing
     
+    
 ### Algorithm -
-    Heap sort
-    Binary search
-    Pattern seaching
+    Sorting
+    Pattern Matching
+    Bisection
+    Bit manipulation 
+    Dynamic Programming
+    miscellaneous
+    Floyed cycle detection
+
+### Implementation
+    Execution time in C++
+    Pause
     
 ### uVa problem solution 
 
