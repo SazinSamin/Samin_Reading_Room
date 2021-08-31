@@ -45,6 +45,7 @@ struct Node* insert(int data, struct Node* head){
 }
 
 //Traverse node by In order traversal.
+//Inorder traversal
 void traverse(struct Node* head){
         if(head == NULL){
                 return;
