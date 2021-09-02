@@ -10,7 +10,7 @@ Link -> https://www.geeksforgeeks.org/generic-treesn-array-trees/
 
 When we gat array for contruct a tree, the array explain that    
 
-Link we have an array ->   
+Like we have an array this ->   
 int array[] = {4, -1, 4, 1, 1};
 
  node 0 is a child of node 4, node 1
