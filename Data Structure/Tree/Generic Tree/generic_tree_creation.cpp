@@ -29,7 +29,7 @@ int generic_tree(int array[], int n, vector<int> tree[]){
                 }
           
                 // 0: 1 2 3                       0
-                // 1: 0 5 6                 /     |     \
+                // 1: 0 5 6                 /     |    \
                 // 2: 0 7                  1      2     3
                 // 3: 0 4                 / \     |      \
                 // 4: 3                  5   6    7       4
