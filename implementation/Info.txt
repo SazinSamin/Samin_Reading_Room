@@ -1,0 +1,3 @@
+In a Stack, memory is limited but is depending upon which language/OS is used, the average size is 1MB.
+
+
