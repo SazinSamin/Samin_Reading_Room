@@ -1,4 +1,6 @@
-//https://www.youtube.com/watch?v=ZR9f2YIFHD0&list=PLlOmh-YAEmsA3TaCvAAQjXrgeZKWxEuak&index=10
+// https://www.youtube.com/watch?v=ZR9f2YIFHD0&list=PLlOmh-YAEmsA3TaCvAAQjXrgeZKWxEuak&index=10
+// Define all array as global variable, we can define them as local variable & pass them to the function.
+// That will allow us to take variabel amount of value.
 
 #include<iostream>
 #include<vector>
