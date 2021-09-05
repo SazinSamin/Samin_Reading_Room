@@ -16,7 +16,10 @@ Recursively traverse the current node's left subtree.
       - is used to create a copy of the tree. Preorder traversal is also used to get prefix expression on of an expression tree.  
 
 #### Postorder traversal
-      - Postorder traversal is used to delete the tree.
+      - Postorder traversal is used to delete the tree.  
+      
+      
+      ### [Wiki link-> Tree Traverse](https://en.wikipedia.org/wiki/Tree_traversal)
 
 
 
