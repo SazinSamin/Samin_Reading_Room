@@ -1,0 +1,2 @@
+1. Finding the root of a tree.
+2. Finding the lowest common ancestor of two nodes
