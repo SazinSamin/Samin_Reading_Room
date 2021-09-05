@@ -11,4 +11,6 @@ This procedure use recursion for that.
 Another topic, if we just use simple recursion delete the tree's nodes, but doesn't change the root to NULL, we have still access to the
 memory location. So we need to change root or head to NULL, by define another function & call the postorder like delete function from  there.  
 
-See delete(head_to_NULL).cpp
+See delete(head_to_NULL).cpp  
+
+Reference -> [GeeksForGeeks](https://www.geeksforgeeks.org/write-a-c-program-to-delete-a-tree/)
