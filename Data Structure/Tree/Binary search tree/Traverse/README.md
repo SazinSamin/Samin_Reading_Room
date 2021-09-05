@@ -19,7 +19,7 @@ Recursively traverse the current node's left subtree.
       - Postorder traversal is used to delete the tree.  
       
       
-      ### [Wiki link-> Tree Traverse](https://en.wikipedia.org/wiki/Tree_traversal)
+[Wiki link-> Tree Traverse](https://en.wikipedia.org/wiki/Tree_traversal)
 
 
 
