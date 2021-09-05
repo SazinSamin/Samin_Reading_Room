@@ -2,6 +2,9 @@
 #include<vector>
 using namespace std;
 
+// This code doesn't work with big cases, beacuse the recursion will lead to stack overflow, for big input use
+// bfs to find the height -> https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Data%20Structure/Tree/Generic%20Tree/Height/height(bfs).cpp
+
 // To understand how the given array represent the tree, see the README.md file of generic tree folder.
 // In this code we get the hieght of tree by traversing from each node to it's parent node.
 // & return the distance from that node to parent node
