@@ -1,4 +1,4 @@
-//https://www.youtube.com/watch?v=kMS5Fxjrd6E&list=PLlOmh-YAEmsA3TaCvAAQjXrgeZKWxEuak&index=7
+// https://www.youtube.com/watch?v=kMS5Fxjrd6E&list=PLlOmh-YAEmsA3TaCvAAQjXrgeZKWxEuak&index=7
 
 
 #include<iostream>
@@ -7,11 +7,11 @@
 using namespace std;
 
 
-//                                         10
-//                              /       /        \      \                                  
+//                                       10
+//                           /       /       \      \                                  
 //                          2        34       56    100
-//                      /     \                        /    |    \
-//                   77      88                  7     8     9
+//                      /     \                 /    |    \
+//                    77      88               7     8     9
 
 
 struct Node{
