@@ -1,6 +1,8 @@
 // This methods describe in coursera mergeWithRoot procedure -> https://www.coursera.org/learn/data-structures/lecture/22BgE/split-and-merge
 
 // We take two node root pointer root1 & root2
+// Then we take a new root node, one subtree should be it's left side, another in right side.
+
 // This methods has constrain that one of the tree all nodes have to be lesser or greater than the other tree all nodes.
 // Then we have to take the largest value node from the all node lesser tree.
 // or we have to take the smallest value node from the all node greater tree.
