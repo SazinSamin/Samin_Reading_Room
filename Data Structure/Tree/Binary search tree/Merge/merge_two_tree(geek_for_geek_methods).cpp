@@ -39,7 +39,7 @@ struct Node* mergeTree(struct Node* tree1, struct Node* tree2){
         // go to right of both trees.
         tree1->right = mergeTree(tree1->right, tree2->right);
 
-        // in tree1, we add & save our two trees nodes value, now return that head1 with value.
+        // in tree1, we add & save our two trees nodes value, now return that tree1 with value.
         return tree1;
 }
 
