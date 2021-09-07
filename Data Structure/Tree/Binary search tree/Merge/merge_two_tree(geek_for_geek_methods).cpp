@@ -18,27 +18,28 @@
 //     5   2   7
 
 
-struct Node* mergeTree(struct Node* head1, struct Node* head2){
+struct Node* mergeTree(struct Node* tree1, struct Node* tree2){
   
-        // if head1 or head2 == NULL, means one tree node is NULL, then we return other tree node.
-        // other tree may have node there or not, if there is node then that node & it's descendent also insert to our merge node.
-        // if not, like other tree has no node there means NULL, also automatically return from there.
+        // if tree1 or tree2 == NULL, means one tree current node is NULL, then we return other tree node.
+        // other tree may have there node or not, if there is node then that node & it's descendent return from this position
+        // automatically insert to the corresponding postion of our merge node.
+        // if not, like other tree has also no node there, means NULL, then NULL return from there.
         
-        if(head1 == NULL) return head2;
-        if(head2 == NULL) return head1;
+        if( ! tree1) return tree2;
+        if( ! tree2) return tree1;
   
   
   
-        // if tree1 & tree2 both have node then we add two tree same position node value,
+        // if tree1 & tree2 both have node at same position, then we add two tree same position node value,
         // save that value to the tree1.
-        head1->data = head1->data + head2->data;
-  
+        tree1->data += tree2->data;
+
         // go to left of both trees.
-        head1->left = mergeTree(head1->left, head2->left);
+        tree1->left = mergeTree(tree1->left, tree2->left);
         // go to right of both trees.
-        head1->right = mergeTree(head1->right, head2->right);
-  
-        // in head1 or tree1, we add & save our two trees nodes value, now return that head1 with value.
-        return head1;
+        tree1->right = mergeTree(tree1->right, tree2->right);
+
+        // in tree1, we add & save our two trees nodes value, now return that head1 with value.
+        return tree1;
 }
 
