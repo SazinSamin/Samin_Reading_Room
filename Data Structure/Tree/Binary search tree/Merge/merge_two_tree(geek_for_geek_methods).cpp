@@ -43,3 +43,5 @@ struct Node* mergeTree(struct Node* tree1, struct Node* tree2){
         return tree1;
 }
 
+
+// As this is a recursive procedure, so think all recursivly, you will understand easily....
