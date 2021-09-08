@@ -17,7 +17,7 @@ int OrderStatistitcs(struct TreeNode* head, int k){
         
         
         
-        // here (s+1) represent the root node of tree which left subtree size we measured. 
+        // here (s+1) represent the next node of tree which left subtree size we have measured. 
         // Suppose if the left subtree size is 3, then we actullay have 3 nodes before the.
         // so this will compare with the 3 + 1 = 4th node.
         // if the Kth position macth with the any node, means we find the Kth node, return the value of the node.
