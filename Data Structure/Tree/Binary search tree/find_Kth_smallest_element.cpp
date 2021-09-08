@@ -17,8 +17,9 @@ int OrderStatistitcs(struct TreeNode* head, int k){
         
         
         
-        // here (s+1) represent the root node of left subtree. 
-        // like if the left subtree size is 3, then we actullay have 3 nodes before the root of the tree.
+        // here (s+1) represent the root node of tree which left subtree size we measured. 
+        // Suppose if the left subtree size is 3, then we actullay have 3 nodes before the.
+        // so this will compare with the 3 + 1 = 4th node.
         // if the Kth position macth with the any node, means we find the Kth node, return the value of the node.
         if(k == s+1) {
                 return head->val;
@@ -38,7 +39,7 @@ int OrderStatistitcs(struct TreeNode* head, int k){
         // of the tree. Then we already right from the 3 + 1 = 4, node.
         // so we subtract that amount of node.
         // because we need to search the 6 - 4 = 2nd element from the root in right subtree.
-        // which is 6th element of whole tree.
+        // which is the 6th element of whole tree.
         else{
                return OrderStatistitcs(head->right, k - (s + 1));
         }       
