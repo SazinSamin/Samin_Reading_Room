@@ -31,9 +31,9 @@ int rank_of_tree(struct TreeNode* root, int data){
                 }else if(data > root->data){
                         
                         // when we go to the right of the tree, then we have to also count the left subtree size with root node.
-                        // because we are goring (size of left subtree + root node) far from the tree.
+                        // because we are going (size of left subtree + root node) far from the current node.
                         // also we can think as, if we go to a node right subtree, then the node's left subtree & the node itselt
-                        // ahead of any node of right subtree.
+                        // ahead of any node of node's right subtree.
                         rank += 1 + treeSize(root->left); 
                         
                         // go to the right subtree.
