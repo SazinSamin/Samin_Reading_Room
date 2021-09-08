@@ -15,16 +15,34 @@
 
 
 int rank_of_tree(struct TreeNode* root, int data){
+        
+        // intialize the rank as 0.
         int rank = 0;
+        
+        // while root not encounter NULL.
         while(root){
+                
+                // if the data less than the root we go to left subtree.
                 if(data < root->data){
                         root = root->left;
+                        
+                // if the data greater than the root we go to right subtree.        
                 }else if(data > root->data){
+                        // when we go to the right of the tree, then we have to also count the left subtree size with root node.
+                        // because we are (size of left subtree + root node) far from the tree.
                         rank += 1 + treeSize(root->left); 
+                        
+                        // go to the right subtree.
                         root =  root->right;
+                        
+                        
                 }else{
+                        // here we add previous rank count + the size of the our given match node left subtree
+                        // as in binary search tree, all nodes the in left subtree ahead of it's root node.
                         return rank + treeSize(root->left); 
                 }
         }
+        
+        // if given node data doesn't find the in tree, return -1 to indicate that.
         return -1;
 }
