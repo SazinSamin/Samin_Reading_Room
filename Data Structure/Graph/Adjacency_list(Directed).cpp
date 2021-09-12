@@ -1,3 +1,7 @@
+// https://www.youtube.com/watch?v=iySJfHhYXw4&list=PLlOmh-YAEmsA3TaCvAAQjXrgeZKWxEuak&index=6
+// http://www.shafaetsplanet.com/?p=211
+
+
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -41,6 +45,8 @@ int main(){
 
         for(int i=1; i<=edges; i++){
                 cin>>n1>>n2;
+                // as this graph is directional, here is unidirectional, so we take input just one time for that.
+     
                 v[n1].push_back(n2);
         }
 
