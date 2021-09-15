@@ -10,3 +10,29 @@ a specific object of the class, and when a static method is called, there might 
 
 /* Static variable in C++, have life time scope, so it always retain position, not destroyed by any function call or wipe out the
   stack section of the memory*/
+
+
+
+
+
+
+
+#include<iostream>
+using namespace std;
+class Player{
+        private:
+               const static int x = 10;
+        public:
+                static int getData(){
+                        return x;
+                }
+};
+
+
+
+int main(){
+        Player p1;
+        cout << p1.getData();
+
+        cout << Player::getData();
+}
