@@ -1,5 +1,6 @@
 // https://www.geeksforgeeks.org/static-keyword-cpp/
 // https://www.youtube.com/watch?v=1QTZeeDL0bc
+//  same in other programming language like Dart -> https://docs.google.com/document/d/1tQRqFEWMXu675f-4fGTCZwy8n14ePPcquYPPpYqBDAI/edit
 
 /* A static method cannot access a class’s instance variables and instance methods, 
 because a static method can be called even when no objects of the class have been instantiated. 
