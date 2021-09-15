@@ -36,4 +36,8 @@ Player::Player(int x, int y){
 int main(){
         Player p1(10, 20);
         p1.display();
+        
+        
+        Player p2 = Player(30, 40);
+        p2.display();
 }
