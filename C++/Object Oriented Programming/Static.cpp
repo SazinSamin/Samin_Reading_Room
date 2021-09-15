@@ -8,8 +8,6 @@ a specific object of the class, and when a static method is called, there might 
 */
 
 
-/* Static variable in C++, have life time scope, so it always retain position, not destroyed by any function call or wipe out the
-  stack section of the memory*/
 
 
 
@@ -19,20 +17,30 @@ a specific object of the class, and when a static method is called, there might 
 
 #include<iostream>
 using namespace std;
+
 class Player{
         private:
-               const static int x = 10;
+                // static private variable.
+                static int st_x;
         public:
-                static int getData(){
-                        return x;
-                }
+                // static public variable
+                static int y;
+
+        // static public method.
+        static int getValue(){
+                return st_x + y;
+        }
 };
 
-
+// Initialization of static variable.
+// you can't initialize static variable inside the class directly
+// You have to initialize them by scope resulation.
+int Player::st_x = 30;
+int Player::y = 10;
 
 int main(){
-        Player p1;
-        cout << p1.getData();
 
-        cout << Player::getData();
+        // can be directly accessed by Class name with scope resulation.
+        cout << Player::getValue();
+        cout << Player::y;
 }
