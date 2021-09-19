@@ -20,14 +20,22 @@ class Player{
         private:
                 // static private variable.
                 static int st_x;
+        
         public:
                 // static public variable
                 static int y;
+        
+        
+                // also in class intialization of a static variable always be const, because the value should be always same
+                // there will be only one copy of the value for that class
+                // compiler also can do some optimization in this case.
+                // ***need more clear explaination
+                const static int st_cnt_x = 10;
 
-        // static public method.
-        static int getValue(){
-                return st_x + y;
-        }
+                // static public method.
+                static int getValue(){
+                        return st_x + y;
+                }
 };
 
 // Initialization of static variable.
