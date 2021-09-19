@@ -1,3 +1,12 @@
+The four pillars of object-oriented programming are:  
+ ----------------------------  
+Abstraction  
+Encapsulation  
+Inheritance  
+Polymorphism  
+
+
+
 There are four combinations of (shared, accessible) pairs. All four are available to you:    
 
 public static variable is shared and accessible outside the class  
