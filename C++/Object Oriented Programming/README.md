@@ -6,6 +6,7 @@ Inheritance
 Polymorphism  
 
 
+##### Static 
 
 There are four combinations of (shared, accessible) pairs. All four are available to you:    
 
