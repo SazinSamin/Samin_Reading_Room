@@ -1,4 +1,5 @@
 // https://www.geeksforgeeks.org/inheritance-in-c/
+// Multiple inheritance -> https://www.geeksforgeeks.org/multiple-inheritance-in-c/
 
 #include<iostream>
 using namespace std;
