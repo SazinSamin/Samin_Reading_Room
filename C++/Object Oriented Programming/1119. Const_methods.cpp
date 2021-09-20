@@ -26,6 +26,18 @@ class Const{
                 void setValue(int X){
                         x = X;
                 }       
+
+
+                // however if we declear a variable "mutable", then we can change
+                // the variable value inside a const function.
+                mutable int y;
+                void display(int y) const{
+                        y += 10;
+                        cout << "x: " << x << " y: " << y << endl;
+                }
+
+
+
 };
 
 int main(){
@@ -35,5 +47,7 @@ int main(){
         
         const Const c2(12);
         cout << c2.getValue() << endl;
+
+        c2.display(10);
 
 }
