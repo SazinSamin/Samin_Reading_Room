@@ -24,8 +24,35 @@ class Person{
                 void display(){
                         cout << "Name: " << this->name << " Age: " << this->age << endl;
                 }
+
+
+                // we can also get reference of this class by dereferancing the "this" pointer.
+                Person& GetClass(){
+                        return *this;
+                }
+
+                Person& setName(string name){
+                        this->name = name;
+                        return *this;
+                }
+
+                Person& setAge(int age){
+                        this->age = age;
+                        return *this;
+                }
 };
+
+
 
 int main(){
         Person p1("Sazin", 24);
+
+        // instance p2 will get the reference of p1.
+        Person p2 = p1.GetClass();
+        p2.display();
+
+        // When a reference to a local object is returned, the returned reference 
+        // can be used to chain function calls on a single object.
+        p1.setName("Rishad").setAge(23);
+        p1.display();
 }
