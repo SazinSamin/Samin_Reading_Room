@@ -9,6 +9,11 @@
 
 
 
+// when we initialize class variable in constructor, we should always maintain the initialization order
+// with the declearation order of class variable,
+// like here in Parent class we have two class variabel x, y, so we first should initialize x, then y.
+
+
 #include<iostream>
 using namespace std;
 
@@ -18,7 +23,7 @@ class Parent{
                 int y;
         
         public:
-                                                // member initializer
+                                      // member initializer
                Parent(int x, int y) : x(x), y(y){}
 
         void display(){
