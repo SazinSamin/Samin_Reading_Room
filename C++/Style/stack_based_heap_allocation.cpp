@@ -33,6 +33,12 @@ class GetPerson{
                 ~GetPerson() { 
                         delete p1_ptr;
                 }
+
+                // operator overloading to get the heap pointer from class.
+                Person* operator -> () {
+                        return p1_ptr;
+                }
+
 };
 
 
@@ -41,4 +47,7 @@ int main(){
         // instantiate Person instance in heap, send to the GetPerson class as argument,
         // things getting work due to implicit conversion.
         GetPerson g1 = new Person("Sazin", 24);
+        
+
+        g1->display();
 }
