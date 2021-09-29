@@ -1,3 +1,7 @@
+// https://www.youtube.com/watch?v=j3mYki1SrKE&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=55
+// https://www.geeksforgeeks.org/cc-preprocessors/
+// https://www.geeksforgeeks.org/macros-and-its-types-in-c-cpp/
+
 #include<iostream>
 using namespace std;
 #define print(data) cout << data << endl
