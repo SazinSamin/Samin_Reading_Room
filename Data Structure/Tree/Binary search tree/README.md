@@ -1,3 +1,9 @@
+Algorithm		Average	Worst case  
+Space		O(n)	O(n)  
+Search		O(log n)	O(n)  
+Insert		O(log n)	O(n)  
+Delete		O(log n)	O(n)    
+
 [Wikipedia -Tree](https://en.wikipedia.org/wiki/Tree_(data_structure))  
 [GeeksForGeeks](https://www.geeksforgeeks.org/binary-tree-set-1-introduction/)  
 [Construct Binary Tree from given Parent Array representation](https://www.geeksforgeeks.org/construct-a-binary-tree-from-parent-array-representation/)  
