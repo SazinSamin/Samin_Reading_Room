@@ -1,6 +1,9 @@
+// https://www.youtube.com/watch?v=p4sDgQ-jao4&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=58
+// https : //www.geeksforgeeks.org/function-pointer-in-c/
+
 #include<iostream>
 #include<vector>
-using namespace std;
+        using namespace std;
 
 // function
 void print(int val){
