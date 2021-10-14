@@ -16,8 +16,7 @@ class Parent{
         private:
                 int x;
         public:
-                Parent(int x){
-                        this->x = x;
+                Parent(int x) : x(x){
                         cout << "Parent X: " << this->x << endl;
                 }
 };
@@ -29,8 +28,7 @@ class Child1 : public Parent{
         public:
                 // When we inherit a super class from sub class, we have to also manually call the super class constructor,
                 // as well as pass the value to that. 
-                Child1(int x) : Parent(x+ 10){
-                        y = x;
+                Child1(int x) : y(x), Parent(x + 10){
                         cout << "Y: " << y << endl; 
                 }
 };
