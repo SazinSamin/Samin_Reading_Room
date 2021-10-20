@@ -1,5 +1,6 @@
 // https://www.youtube.com/watch?v=jELbKhGkEi0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=68
 // https://www.geeksforgeeks.org/virtual-destructor/
+// also know about virtual function -> https://github.com/SazinSamin/Samin_Reading_Room/blob/main/C%2B%2B/Object%20Oriented%20Programming/1117.%20Vitual_Function.cpp
 
 
 
