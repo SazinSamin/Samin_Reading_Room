@@ -10,6 +10,10 @@
 // https://stackoverflow.com/questions/44137442/what-is-type-punning-what-is-the-purpose-of-itwhat-happens-if-i-use-it-or-not
 
 
+// strict aliasing rule in my github code
+// https://github.com/SazinSamin/Samin_Reading_Room/blob/main/C++/VoltStar/strict_aliasing_rule.cpp
+
+
 
 
 #include<iostream>
