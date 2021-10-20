@@ -2,8 +2,8 @@
 // https://www.youtube.com/watch?v=oIV2KchSyGQ&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=29
 // https://www.geeksforgeeks.org/virtual-function-cpp/
 // https://www.geeksforgeeks.org/multiple-inheritance-in-c/
-
-
+// also know about polymophism or polymorphic class - > https://cplusplus.com/doc/tutorial/polymorphism/
+// https://stackoverflow.com/questions/35422885/is-polymorphic-base-class-a-part-of-c-standard
 
 
 #include<iostream>
