@@ -15,12 +15,14 @@ if (green) {
 var num1 = 5;
 var num2 = "5";
 
+// coparision can do implicit conversion of variable if types are different.
 if (num1 == num2) {
         console.log("num 5 & string 5  are same");
 } else {
         console.log("num 5 & string 5 are not same");
 }
 
+// comparision only become true when two variable types are same.
 if (num1 == num2) {
         console.log("num 5 & string 5  are same");
 } else {
