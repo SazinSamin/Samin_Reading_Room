@@ -6,6 +6,13 @@
   stack section of the memory*/
 
 
+// I have found that static variable initialized once and retain it's position
+// in debugging mode i see that that line "static int b = 0" never get executed
+// so, may be the static variable initialized in compile time once.
+// whether we use this in function or global, the line "static int b = 0" never get touched in runtime.
+
+
+
 #include<iostream>
 using namespace std;
 
