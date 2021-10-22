@@ -1,4 +1,6 @@
 // https://www.geeksforgeeks.org/pure-virtual-functions-and-abstract-classes/
+// https://stackoverflow.com/questions/12854778/abstract-class-vs-interface-in-c
+
 
 #include<iostream>
 using namespace std;

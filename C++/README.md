@@ -7,7 +7,11 @@
 
 
 
-##### Global, static variable initialized to zero & pointer as NULL -> https://stackoverflow.com/questions/14049777/why-are-global-variables-always-initialized-to-0-but-not-local-variables
+##### Global, static variable initialized to zero & pointer as NULL -> https://stackoverflow.com/questions/14049777/why-are-global-variables-always-initialized-to-0-but-not-local-variables  
+
+
+
+#### [cplusplus.com](https://cplusplus.com/doc/tutorial/inheritance/)
 
 
 
