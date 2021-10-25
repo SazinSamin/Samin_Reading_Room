@@ -1,14 +1,6 @@
-# Samin's Reading Room
+# Samin's Reading Room  
 
-### C/C++ -
-    pointer
-    C library function implementation
-    
-    
-### Dart -
-    Constructor injection
-    Method injection
-    
+
 ### Data structure -
     Linked List
     Binary Heap
@@ -27,6 +19,17 @@
     Dynamic Programming
     miscellaneous
     Floyed cycle detection
+
+### C/C++ -
+    pointer
+    C library function implementation
+    
+    
+### Dart -
+    Constructor injection
+    Method injection
+    
+### Javascript -  
 
 ### Implementation
     Execution time in C++
