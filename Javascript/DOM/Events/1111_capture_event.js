@@ -3,6 +3,7 @@ function Clicked(){
         alert("You have clicked a button");
 }
 
+// we can also use anonymous function here.
 btn.onclick = Clicked;
 
 
