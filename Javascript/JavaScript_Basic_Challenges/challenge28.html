@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                div {
+                        width: 50px;
+                        height: 50px;
+                        background-color: rgb(255, 0, 0);
+                        transition: all 2s;
+                }
+
+                .big {
+                        width: 200px;
+                        height: 200px;
+                        background-color: rgb(0, 0, 255);
+                        border-radius: 50%;
+                        transition: all 2s;
+                }
+        </style>
+</head>
+
+<body>
+
+        <h1>Javascript Event Challenge: 28</h1>
+        <div></div>
+
+        <script>
+                var box = document.querySelector('div');
+                box.addEventListener('mouseover', function () {
+                        console.log("We are inside the box");
+                        box.setAttribute("class", "big");
+                })
+
+                box.addEventListener('mouseout', function () {
+                        box.removeAttribute("class", "big");
+                })
+        </script>
+</body>
+
+</html>

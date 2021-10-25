@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        
+        <h1>Javascript Event Challenge: 22</h1>
+        <p>Here is the paragraph of text</p>
+        <button>Turn Green Dammit !</button>
+        <script>
+                var btn = document.querySelector('button');
+                function turnGreen(){
+                        var text = document.querySelector('p').style.color = 'green';
+                }
+
+                btn.onclick = turnGreen;
+
+        </script>
+</body>
+</html>
