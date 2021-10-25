@@ -1,3 +1,5 @@
+// https://stackoverflow.com/questions/6958401/the-difference-between-and/6958421
+
 #include<iostream>
 using namespace std;
 
