@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+
+<body>
+
+        <h1>Javascript Event Challenge: 27</h1>
+        <form>
+                <label>Enter a number <input type="text">
+                <input type="submit" value="send number"></label>
+        </form>
+        <script>
+                
+                var myForm = document.querySelector('form');
+                myForm.addEventListener('submit', function(event){
+                        
+                        event.preventDefault();
+
+                        var sumittedValue = document.querySelector('input').value;
+                        var tagName = document.getElementsByTagName('h1');
+                        var parsedValue = parseInt(sumittedValue);
+                        console.log(parsedValue);
+                        console.log(typeof(parsedValue));
+
+                        // when we parsed a sumitted value to integer it make integer like if we give 23 it return 23 number type,
+                        // in case of string it return NaN, but when return submit 23bc like this, it return 23 number type, but
+                        // which doesn't work as like number.
+
+
+                        if(parsedValue){
+                                tagName[0].style.fontSize = sumittedValue + "px";
+                        }else{
+                                alert("Please enter a number");
+                        }
+                })
+
+
+        </script>
+
+</body>
+
+</html>
