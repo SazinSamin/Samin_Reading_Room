@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destinations WishList</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Vacation Destinations Wish List</h1>
+        <p>Found an exiting place to visitation on your next Vacation? Use the form below to them to your wishlist</p>
+    </div>
+
+
+    <main>
+        <form id="details_form">
+            <label for="Destination Name">Destination Name</label>
+            <input type="text" id="name" placeholder="Enter the name of the destination">
+
+            <label for="Location">Location</label>
+            <input type="text" id="location" placeholder="Where it is located?">
+
+            <label for="Photo">Photo</label>
+            <input type="url" id="photo" placeholder="Enter an image url of the place">
+
+            <label for="Description">Description</label>
+            <textarea id="description" cols="25  " rows="3" placeholder="Describe the destination"></textarea>
+
+            <button type="submit" id="details_form_button">Add to list</button>
+        </form>
+
+
+        <article id="article1">
+            <h2 id="title">Wish List</h2>
+            <div id="destination_container">
+                
+                <!-- <div class="card">
+                    <img src="/images/signpost.jpg" alt="">
+                    <div class="card_body">
+                        <h3>Destination Name</h3>
+                        <h4>Destination Location</h4>
+                        <div class="card_text">Enter description here</div>
+                        <button>Remove</button>
+                    </div>
+                </div> -->
+            </div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
