@@ -8,4 +8,7 @@ gcc -E function.c -o function_preprocessed.c
 gcc -S fucntion_preprocessed.c -o function_compiled.s  
 gcc -E function_compiled.s -o function_assembled.o  
      
-gcc main_assembled.o function_assembled.o exe  
+gcc main_assembled.o function_assembled.o exe    
+
+
+[Link](https://www.cs.hmc.edu/~geoff/classes/hmc.cs070.200009/notes/multi-file.html)
