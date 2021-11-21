@@ -1,11 +1,10 @@
-#include <iostream>
-using namespace std;
+#include<stdio.h>
 
 int function(int a, int b);
 
 
 int main()
 {
-     cout << function(10, 20);
+     printf("%d", function(10, 20));
     return 0;
 }
