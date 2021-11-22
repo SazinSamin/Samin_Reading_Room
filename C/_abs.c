@@ -1,3 +1,5 @@
+// https://www.programmingsimplified.com/c/math.h/abs
+
 #include<iostream>
 using namespace std;
 
