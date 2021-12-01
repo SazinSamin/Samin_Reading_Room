@@ -1,0 +1,2 @@
+Number are not allowed as a first character of a variable, in this way javascript can identify the difference between number and
+a variable name.
