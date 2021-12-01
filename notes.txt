@@ -1,0 +1,2 @@
+Fixed values are called Literals.
+Variable values are called Variables.
