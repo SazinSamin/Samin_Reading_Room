@@ -1,6 +1,6 @@
 Number are not allowed as a first character of a variable, in this way javascript can identify the difference between number and
 a variable name.
 
-
-
 Comparing two JavaScript objects always returns false.
+
+toFixed(2) is perfect for working with money.
