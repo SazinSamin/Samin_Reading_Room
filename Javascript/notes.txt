@@ -1,6 +1,10 @@
-Number are not allowed as a first character of a variable, in this way javascript can identify the difference between number and
-a variable name.
+*** Number are not allowed as a first character of a variable, in this way javascript can identify the difference between number and
+    a variable name.
 
-Comparing two JavaScript objects always returns false.
+*** Comparing two JavaScript objects always returns false.
 
-toFixed(2) is perfect for working with money.
+*** toFixed(2) is perfect for working with money.
+
+
+*** A common question is: How do I know if a variable is an array?
+    The problem is that the JavaScript operator typeof returns "object":
