@@ -1,4 +1,4 @@
-// https://www.w3schools.com/js/js_date_methods_set.asp
+// https://www.w3schools.com/js/js_date_methods.asp
 
 const d = new Date();
 let sec = d.getSeconds();
