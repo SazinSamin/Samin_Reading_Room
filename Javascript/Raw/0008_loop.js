@@ -7,9 +7,6 @@ for(let i=0; i<array.length; i++){
 }
 
 
-
-// https://stackoverflow.com/questions/29285897/what-is-the-difference-between-for-in-and-for-of-statements
-
 // this for in loop i will be 0, 1, 2, 3, 4, 5
 // this means how will start as zero and increment to last array element.
 // so to access the data of the loop we have to use array[i].
@@ -31,3 +28,16 @@ console.log("for each loop");
 array.forEach((element)=>{
         console.log(element);
 })
+
+
+console.log("While loop");
+let i = 0;
+while(i < array.length){
+        console.log(array[i++]);
+}
+
+console.log("Do-While loop");
+i = 0;
+do{
+        console.log(array[i++]);
+}while(i < array.length);
