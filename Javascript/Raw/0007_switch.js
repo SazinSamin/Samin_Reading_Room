@@ -6,6 +6,8 @@ var num = 1;
 // if we do
 // var num = "1";
 // it will go to the defaule case.
+// remember switch use strict comparison.
+
 
 switch(num){
         case 1:
