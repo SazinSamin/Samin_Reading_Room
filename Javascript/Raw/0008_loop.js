@@ -7,6 +7,9 @@ for(let i=0; i<array.length; i++){
 }
 
 
+
+// https://stackoverflow.com/questions/29285897/what-is-the-difference-between-for-in-and-for-of-statements
+
 // this for in loop i will be 0, 1, 2, 3, 4, 5
 // this means how will start as zero and increment to last array element.
 // so to access the data of the loop we have to use array[i].
