@@ -18,8 +18,16 @@ let exp = 3453445.656456;
 let convertExp = exp.toExponential();
 console.log(convertExp);
 
-let fixed = 34.3454236;
+// this will rounded the value after the point
+let fixed = 3.14164545345;
 let afterFixed = fixed.toFixed(3);
 console.log(afterFixed);
+
+// this is will take that whole number mention in arguments
+// the same value in fixed will be 3.142 & in precision 3.14     
+let precision = 3.14164545345;
+let afterPrecision = precision.toPrecision(3);
+console.log(afterPrecision);
+
 
 
