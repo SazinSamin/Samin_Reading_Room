@@ -30,4 +30,23 @@ let afterPrecision = precision.toPrecision(3);
 console.log(afterPrecision);
 
 
+// JS toString() method can take radix as argument and covert to that base form
+// radix must be up to 32, like 2 for binary, 8 for octal, 
+// toString(2) for convert to binary.
+
+
+// binary to decimal
+let bin_to_dec = 0b0001010101;
+console.log(bin_to_dec.toString(10));
+// we can also use parseInt function for conversion
+// let decResult = parseInt(bin_to_dec, 10).toString();
+console.log(decResult); 
+
+
+// decimal to binary
+let num = 15;
+let binnum = num.toString(2);
+console.log(binnum);
+
+
 
