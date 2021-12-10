@@ -11,3 +11,7 @@
 var x = 10;
 var y = 20;
 console.log(x + y);
+
+// this below code will generate error, because we didn't declear the variable yet.
+// x = 5;
+// console.log(x); 
