@@ -6,6 +6,10 @@
 // in times of declearation of a variable, this will throw error immediatly.
 
 
+// The "use strict" directive is only recognized at the beginning of a script or a function.
+
+
+
 "use strict";
 
 var x = 10;
