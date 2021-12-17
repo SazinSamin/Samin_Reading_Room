@@ -1,4 +1,5 @@
-function myFunction(a, b) {
+// ECMAScript 2015 allow default parameter as arguments
+function myFunction(a = 0, b = 0) {
         return a * b;
 }
 
@@ -12,4 +13,3 @@ console.log(result);
 // we use that variable which hold that function object and use like that function.
 let x = myFunction;
 console.log(x(10, 20));
-
