@@ -1,4 +1,5 @@
 // First class functions are functions that are treated like an object(or are assignable to a variable).
+// https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
 // diffrence between first class function & higher order funciton
 // https://stackoverflow.com/questions/10141124/any-difference-between-first-class-function-and-high-order-function
 
