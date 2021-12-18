@@ -8,3 +8,10 @@
 
 *** A common question is: How do I know if a variable is an array?
     The problem is that the JavaScript operator typeof returns "object":
+ 
+ 
+*** JavaScript does not support arrays with named indexes. In JavaScript, objects use named indexes.
+    If you use a named index, when accessing an array, JavaScript will redefine the array to a standard object.
+    After the automatic redefinition, array methods and properties will produce undefined or incorrect results.
+
+
