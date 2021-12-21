@@ -3,15 +3,23 @@
 const person1 = {
         firstName: "Sazin",
         lastName: "Samin",
-        age: 24,
+        birthYear: 1999,
         // object method
         details: function () {
-                return `Name: ${this.firstName} ${this.lastName}\n Age: ${this.age}`;
+                return `Name: ${this.firstName} ${this.lastName}\n birthYear: ${this.birthYear}`;
         }
 }
 
 console.log(person1.details());
 // without "()", the funciton defintion will return
+
+
+person1.age = function(currentYear){
+        return currentYear - this.birthYear;
+}
+
+console.log(person1.age(2021));
+
 
 
 // example of built in method
