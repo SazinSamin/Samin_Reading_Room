@@ -13,7 +13,7 @@ const person1 = {
 console.log(person1.details());
 // without "()", the funciton defintion will return
 
-
+// addition of a method
 person1.age = function(currentYear){
         return currentYear - this.birthYear;
 }
