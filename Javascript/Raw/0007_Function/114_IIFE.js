@@ -5,12 +5,21 @@
 
 
 
-// we can also remove the function name, that also work.
+// You cannot self-invoke a function declaration.
+// You have to add parentheses around the function to indicate that it is a function expression:
 // function (){
 (function dostuff(){
         var a = 10;
         var b = 20;
         console.log(a + b);
 })();
+
+
+// we can also remove the function name, that also work.
+(function () {
+        console.log("Welcom to Javascript");
+})();
+
+
 
 
