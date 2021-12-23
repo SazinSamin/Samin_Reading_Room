@@ -15,5 +15,10 @@ const person2 = {
         lastName: "Ahmed"
 };
 
+// The call() method takes arguments separately.
+
 console.log(person.fullName.call(person1, "Jhenaidah", "Bangladesh"));
 console.log(person.fullName.call(person2, "Gazipur", "Bangladesh"));
+
+// The apply() method takes arguments as an array.
+console.log(person.fullName.apply(person1, ["Jhenaidah", "Bangladesh"]));
