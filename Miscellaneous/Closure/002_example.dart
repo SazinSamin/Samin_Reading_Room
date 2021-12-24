@@ -5,6 +5,9 @@ Function counter() {
   }
   return increment;
 }
+
+
+
 void main(){
   Function count = counter();
   print(count());
