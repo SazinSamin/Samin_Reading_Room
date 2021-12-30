@@ -1,3 +1,5 @@
+// https://www.youtube.com/watch?v=V_Kr9OSfDeU
+
 function searchLocation(location) {
         return new Promise((resolve, rejected) => {
                 if(location == "USA" ) {
