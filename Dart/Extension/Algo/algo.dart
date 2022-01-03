@@ -1,12 +1,14 @@
 extension Algo on List {
-  static const MIN_VAL = -9223372036854775808;
+  
+  /// minimum value of [64] bit.
+  static const minVal = -9223372036854775808;
 
   /// return the [sum] of a subarray [maximum value]
   /// Based on [Kadane's] algorithm
   /// https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Algorithm/Dynamic%20Programming/Test/Kadane's_algorithm
 
   num maxSubArraySum() {
-    num _sum = 0, _max = MIN_VAL;
+    num _sum = 0, _max = minVal;
     List<dynamic> list = this;
     int _size = list.length;
 
