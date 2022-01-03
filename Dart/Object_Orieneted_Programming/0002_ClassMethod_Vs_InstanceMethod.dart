@@ -36,3 +36,34 @@ void main() {
   // class method call
   Person.getPerson();
 }
+
+
+// I have to add some info also to this files, because instance member can acess static variables and methods.
+
+// Instance method vs Static method
+
+// Instance method can access the instance methods and instance variables directly.
+// Instance method can access static variables and static methods directly.
+// Static methods can access the static variables and static methods directly.
+// Static methods can’t access instance methods and instance variables directly. 
+// They must use reference to object. And static method can’t use this keyword as there is no instance for ‘this’ to refer to.
+
+
+class Person {
+  static const person = 'male';
+
+  void display() {
+    print(person);
+    getMale();
+  }
+
+  static void getMale() {
+
+    print(person);
+  }
+}
+
+void main() {
+  Person p = Person();
+  p.display();
+}
