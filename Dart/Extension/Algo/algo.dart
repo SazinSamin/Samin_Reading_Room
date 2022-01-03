@@ -1,5 +1,4 @@
 extension Algo on List {
-  
   /// minimum value of [64] bit.
   static const minVal = -9223372036854775808;
 
@@ -11,6 +10,10 @@ extension Algo on List {
     num _sum = 0, _max = minVal;
     List<dynamic> list = this;
     int _size = list.length;
+
+    if(_size <= 0) {
+      throw Exception('List is empty');
+    }
 
     try {
       for (int i = 0; i < _size; i++) {
@@ -24,7 +27,7 @@ extension Algo on List {
       }
     } catch (e) {
       print(e);
-      return _max;
+      return -1;
     }
     return _max;
   }
