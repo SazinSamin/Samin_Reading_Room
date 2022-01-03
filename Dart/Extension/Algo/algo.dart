@@ -24,7 +24,7 @@ extension Algo on List {
       }
     } catch (e) {
       print(e);
-      return -1;
+      return _max;
     }
     return _max;
   }
