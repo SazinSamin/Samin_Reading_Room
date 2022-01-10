@@ -1,3 +1,5 @@
+# [DOM](https://www.w3schools.com/js/js_htmldom.asp)  
+
 ##### as the querySelectorAll or getElementByTag or getElementByClass return array of elements, so we have to access those elements like array using loop or individual key like getElement[1].
 
 
