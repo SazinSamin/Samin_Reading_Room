@@ -17,3 +17,6 @@ for(let i = 0; i < array.length; i++) {
 let a1 = document.getElementById("demo")
 console.log(a1.innerHTML);
 console.log(a1.firstChild.nodeValue);
+
+// get the tag name
+console.log(a1.nodeName);
