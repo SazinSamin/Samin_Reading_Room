@@ -7,3 +7,13 @@ Good website & youtube link
 
 Github link:
 https://github.com/shamiul94/Robotic-Shadow-Arm-ATMega32
+
+
+
+Coding problem solving website
+-> https://exercism.org/    = have 53 language problems.
+
+
+High language to assembly
+https://godbolt.org/
+http://www.ctoassembly.com/
