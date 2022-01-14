@@ -4,6 +4,12 @@ Good website & youtube link
 -> https://www.youtube.com/c/FarhanHossan
 
 
+Web Dev: 
+  Node js: 
+    Learn with Sumit - LWS - Bangladesh
+
+
+
 
 Github link:
 https://github.com/shamiul94/Robotic-Shadow-Arm-ATMega32
