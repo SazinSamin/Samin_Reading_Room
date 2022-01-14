@@ -22,6 +22,10 @@ int main()
   
         // declearation of vecto with "int" data type
         vector<int> v;
+        // we can set vector size also, first argument is vector size & second argument is elements which fill up the vector.
+        vector<int> v2(5, 10);
+        // similar to "vector<int> v2 = {10, 10, 10, 10, 10};"
+        
 
         for(int i=0; i<10; i++) { 
                 // add elements to the vector.
