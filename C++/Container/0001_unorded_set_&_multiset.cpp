@@ -1,15 +1,23 @@
 // https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
 
-
 #include<iostream>
 #include<unordered_set>
 using namespace std;
 
 int main() {
+        // set doesn't allow duplicate 
         unordered_set<int> set1;
+        // multiset allow duplicate
+        unordered_multiset<int> set2;
+
         for(int i=1; i <=20; i++) {
                 set1.insert(i);
+                set2.insert(i);
         }
+
+        set2.insert(20);
+        set2.insert(20);
+        cout <<"20 count in multiset: "<< set2.count(20) << endl;
 
         // return iterator, point to the first element.
         unordered_set<int>::iterator it;
