@@ -1,0 +1,2 @@
+- Write variable names in JavaScript in camelCase
+- A common practice when naming constants is to use all uppercase letters, with words separated by an underscore.
