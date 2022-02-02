@@ -10,4 +10,5 @@ array.forEach((val) => {
         console.log(val);  
 })*
 
-but we can't assign new array or anything else to the "array" variable, which violate the const rule.
+but we can't assign new array or anything else to the "array" variable, which violate the const rule.  
+also know about [String mutability](https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Documentation/String%20mutability).  
