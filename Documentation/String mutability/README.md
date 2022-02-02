@@ -1,3 +1,5 @@
+# String mutabilty  
+also read [Const_&_Mutability](https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Documentation/Const_%26_Mutability)  
 Mutability meaning you can change anything. As we know String are array of character. But most of the time it treat as other primitive 
 data type like int, bool which like String is a single object. String are mutable means you can change the String internal value, immutable
 means you can't. Some some programming language they are mutable like C and C++,
