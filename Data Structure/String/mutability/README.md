@@ -8,4 +8,5 @@ we can change it like
 - myStr[0] = "F";
 
 
-But in other like Javascript, Python, Dart we can not do this.
+But in other like Javascript, Python, Dart we can not do this.  
+[Reference](https://lemire.me/blog/2017/07/07/are-your-strings-immutable/)
