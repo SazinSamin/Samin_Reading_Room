@@ -10,3 +10,4 @@ array.forEach((val) => {
         console.log(val);  
 })*
 
+but we can't assign new array or anything else to the "array" variable, which violate the const rule.
