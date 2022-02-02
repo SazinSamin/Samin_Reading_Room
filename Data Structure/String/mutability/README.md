@@ -3,9 +3,9 @@ data type like int, bool which like String is a single object. String are mutabl
 means you can't. Some some programming language they are mutable like C and C++,
 like a variable
 
- string myStr = "Good";
+- string myStr = "Good";
 we can change it like 
- myStr[0] = "F";
+- myStr[0] = "F";
 
 
 But in other like Javascript, Python, Dart we can not do this.
