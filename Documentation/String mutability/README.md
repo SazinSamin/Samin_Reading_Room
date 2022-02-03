@@ -10,4 +10,5 @@ we can change it like
 
 
 But in other like Javascript, Python, Dart we can not do this.  
+But unlike string, array are not immutable in js
 [Reference](https://lemire.me/blog/2017/07/07/are-your-strings-immutable/)
