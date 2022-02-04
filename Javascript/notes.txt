@@ -24,3 +24,10 @@
 \t	tab  
 \b	word boundary  
 \f	form feed  
+
+
+
+*** greater than equal (>=) or (<=) are comparison are not strickly equal.  
+
+  
+*** In switch, case values are tested with strict equality (===). 
