@@ -31,3 +31,8 @@
 
   
 *** In switch, case values are tested with strict equality (===). 
+
+
+*** we can access a object properties using dot(.) or bracket([]) notation, but if that property name has space then we have to use the
+    bracket notation, because dot notation will not work then.
+    // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-       bracket-notation
