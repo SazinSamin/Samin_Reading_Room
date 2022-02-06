@@ -1,14 +1,16 @@
 function randomFraction() {
-
-        // Only change code below this line
         const testArray = [];
-        const unique = new Set();
         for(let i = 0; i < 100; i++) {
                 console.log(parseInt(Math.random() * 10));
         }
-        return unique;
-        // Only change code above this line
 }
+
+
+// get a random whole number between a range
+function getRandom(max, min) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 
 
 console.log(randomFraction());
