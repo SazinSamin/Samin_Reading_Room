@@ -13,7 +13,7 @@ class Person{
 class Student extends Person{
         constructor(name, age, id) {
                 // The super() method refers to the parent class.
-                // By calling the super() method in the constructor method, we call the pare    nt's
+                // By calling the super() method in the constructor method, we call the parent's
                 // constructor method and gets access to the parent's properties and methods.
                 super(name, age);
                 this.id = id;
