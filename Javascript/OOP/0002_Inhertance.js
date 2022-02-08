@@ -1,4 +1,4 @@
-class Person{
+class Person {
         constructor(name, age) {
                 this.name = name;
                 this.age = age;
@@ -10,13 +10,20 @@ class Person{
 }
 
 // use "extends" keyword for new class to inherit method
-class Student extends Person{
+class Student extends Person {
         constructor(name, age, id) {
                 // The super() method refers to the parent class.
                 // By calling the super() method in the constructor method, we call the parent's
                 // constructor method and gets access to the parent's properties and methods.
                 super(name, age);
                 this.id = id;
+        }
+
+
+        display() {
+                // by using the "super" we have access to the super class display methods here.
+                super.display();
+                console.log(this.id);
         }
 }
 
