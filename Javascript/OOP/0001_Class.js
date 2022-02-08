@@ -1,6 +1,3 @@
-// UpperCamelCase should be used by convention for ES6 class names
-
-
 // In ES5, we usually define a constructor function and use the new keyword to instantiate an object.
 /*
 let Person = function(name, birthYear) {
@@ -10,6 +7,7 @@ let Person = function(name, birthYear) {
 const p1 = new Person('Green', 24);
 */
 
+// UpperCamelCase should be used by convention for ES6 class names
 
 class Person {
         // constructor method.
