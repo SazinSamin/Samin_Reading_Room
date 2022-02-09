@@ -17,6 +17,7 @@ class Person {
                 this.birthYear = birthYear;
         }
 
+        // inside a class we don't have "function" keyword to declear a function or method.
         getAge(currentYear = new Date().getFullYear()) {
                 console.log(`${this.firstName} ${currentYear - this.birthYear}`);
         }
