@@ -1,4 +1,4 @@
-# Module  
+# [Module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)  
 to use module in a js file we need to tell in html file by adding (type="module") inside the script tag.  
 * <script type="module" src="constructor.js"></script> *  
 
