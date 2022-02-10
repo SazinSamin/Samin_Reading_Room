@@ -1,5 +1,5 @@
 // default export is shorthand form
-// only works for function
+// come handy when we use anonymous function
 // only one defaule export could be in one module
 // default export could be named or anonymous function
 
