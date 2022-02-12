@@ -3,6 +3,7 @@ const string1 = "mississippi missouri";
 
 
 // find out a consecutive same character using "+" after the character.
+// it will find a character once or more times.
 // e.g. "mississippi" => "ss" here we have two consecutive same character "ss".
 
 const regEx = /s+/g;
