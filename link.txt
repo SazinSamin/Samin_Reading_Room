@@ -8,6 +8,9 @@ Web Dev:
   Node js: 
     Learn with Sumit - LWS - Bangladesh
 
+Api:
+  https://jsonplaceholder.typicode.com/
+
 
 
 
