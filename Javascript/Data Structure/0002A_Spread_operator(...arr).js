@@ -4,19 +4,22 @@
 // spread operator does like an array have [1, 2, 3], then spread operator return 1, 2, 3 
 
 
+
+const arr1 = [1, 2, 3, 4, 5];
+// using spread to insert another array elements.
+let arr2 = [0, ...arr1, 6];
+console.log("arr2");
+console.log(arr2);
+
+
+
+// spread operator in function arguments.
 function getSum(...args) {
         let sum = 0;
-        for(let i = 0; i < args.length; i++) {
+        for (let i = 0; i < args.length; i++) {
                 sum += args[i];
         }
         return sum;
 }
 
-
-
-const arr1 = [1, 2, 3, 4, 5];
-let arr2 = [0, ...arr1];
-console.log(arr2);
-
-console.log(getSum(1, 2, 3, 4, 5));
-
+console.log(getSum(0, 1, 2, 3, 4, 5, 6));
