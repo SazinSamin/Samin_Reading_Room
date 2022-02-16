@@ -1,3 +1,10 @@
+// This code has problem, leads to 
+// script.js:10 Uncaught TypeError: Cannot read properties of undefined (reading 'firstName')
+//   at Person.getName (script.js:10:39)
+//   at script.js:19:9
+
+
+
 function Person (first, last, age) {
         this.firstName = first;
         this.lastName = last;
