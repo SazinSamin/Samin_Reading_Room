@@ -31,3 +31,5 @@ const person1  = {
 }
 
 console.log(person1.data.userID);
+// we can also do
+// console.log(person1['data']['userID']);
