@@ -4,3 +4,4 @@
 
 Some important properties:  
 1. hasOwnProperty(val), return true if that object have that property.
+2. val in person1, return true if that object have that property.
