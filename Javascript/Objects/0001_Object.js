@@ -16,3 +16,18 @@ const x = person;
 console.log(`${x.firstName}, ${x.secondName}, ${x.age}`);
 x.age = 23;
 console.log(`${x.firstName}, ${x.secondName}, ${x.age}`);       
+
+
+
+
+// nester object.
+const person1  = {
+        name: "Ashique",
+        age: 24,
+        data: {
+                location: "Bangladesh",
+                userID: 123,
+        }
+}
+
+console.log(person1.data.userID);
