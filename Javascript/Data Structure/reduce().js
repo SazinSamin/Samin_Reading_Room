@@ -5,7 +5,7 @@
 // reduce use to access to previous & current value of an array or array like object.
 // it do operation on previous & current value then store the result in previous value, then again & again do operation on curr & prev
 // values until the array reaches the end. 
-// Then it return the single last previous value or last executing statement result.
+// Then it return the last previous value or last executing statement result.
 
 
 
@@ -17,21 +17,6 @@ function getSum(array) {
 }
 
 console.log(getSum(array));
-
-
-
-// sum of value of object array.
-let sum = [{ x: 1 }, { x: 2 }, { x: 3 }].reduce(function (prev, curr) {
-        // we have to give the initial value here. because,
-        // in first time we can acess the object previous & current value with prev.x & curr.x, but
-        // when it first calculation finish it, put it data to prev, when next time now then become, 
-        // just a numeric value, it can't access like prev.x which refer to the object value.
-
-        // return prev.x + curr.x ;     // not possible.
-        return prev + curr.x;
-}, 0)
-
-console.log(sum);
 
 
 
@@ -56,3 +41,25 @@ const func = names.reduce((prev, curr) => {
 );
 
 console.log(func);
+
+
+
+
+
+// sum of value of object array.
+let sum = [{ x: 1 }, { x: 2 }, { x: 3 }].reduce(function (prev, curr) {
+        // we have to give the initial value here. because,
+        // in first time we can acess the object previous & current value with prev.x & curr.x, but
+        // when it first calculation finish it, put it data to prev, when next time now then become, 
+        // just a numeric value, it can't access like prev.x which refer to the object value.
+
+        // return prev.x + curr.x ;     // not possible.
+        return prev + curr.x;
+}, 0)
+
+console.log(sum);
+
+
+
+
+
