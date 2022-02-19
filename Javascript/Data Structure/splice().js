@@ -1,6 +1,7 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
 // splice use to delete, replace or adding element.
+// It also modify the given array as well.
 
 // splice(start, deleteCount, item1, item2, ...);
 // splice take 3 parameters, start for starting index, deleteCount is the amount of element to be
