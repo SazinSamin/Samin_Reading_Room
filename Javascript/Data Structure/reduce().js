@@ -1,5 +1,14 @@
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 
-// The value returned by reduce() would be that of the last callback invocation or last excuting result.
+
+
+// reduce use to access to previous & current value of an array or array like object.
+// it do operation on previous & current value then store the result in previous value, then again & again do operation on curr & prev
+// values until the array reaches the end. 
+// Then it return the single last previous value or last executing statement result.
+
+
+
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 function getSum(array) {
         return array.reduce((prev, curr) => 
@@ -23,3 +32,27 @@ let sum = [{ x: 1 }, { x: 2 }, { x: 3 }].reduce(function (prev, curr) {
 }, 0)
 
 console.log(sum);
+
+
+
+
+
+// couting elements count
+const names = ["Sazin", "Sazin", "Reshed", "Abid", "Megh"];
+
+const func = names.reduce((prev, curr) => {
+        if(curr in prev) {
+                prev[curr]++;
+        } else {
+                prev[curr] = 1;
+        }
+        return prev;
+
+
+        // here look, we have add a prev values as empty object {}, 
+        // where we check & insert the elemenets, also return that object
+        
+}, {} // initialValue
+);
+
+console.log(func);
