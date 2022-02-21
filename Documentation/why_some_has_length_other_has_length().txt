@@ -1,0 +1,21 @@
+If we need to find the length of a string or array, In Js we have use lange.length  [lang here example a string name].
+But In c++ suppose we use the string class for a string, then lang.length()
+Note the difference herer, in js only have length but in c++ we have a parenthesis after the length()
+Because in js the length is a property of a class.
+But in c++ is a method of a class [remember methods are the function of a class].
+That's the difference in there.
+
+In javascript --------------->>>>>>
+
+
+const lang = "Javascript";
+console.log(lang.length);
+
+
+
+In C++  --------------->>>>>>
+
+int main() {
+        string lang = "Javascript";
+        cout << lang.length();
+}
