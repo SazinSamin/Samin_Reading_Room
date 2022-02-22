@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/define-a-constructor-function
+
 // define construcot
 // It is considered good practice to name constructor functions with an upper -case first letter.
 function Person (first, last, age) {
