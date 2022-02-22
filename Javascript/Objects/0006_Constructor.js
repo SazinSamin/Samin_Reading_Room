@@ -1,6 +1,6 @@
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/define-a-constructor-function
 
-// define construcot
+// constructor is the blueprint of define a object.
 // It is considered good practice to name constructor functions with an upper -case first letter.
 function Person (first, last, age) {
         this.firstName = first;
