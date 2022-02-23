@@ -2,7 +2,7 @@
 [W3School object](https://www.w3schools.com/js/js_object_definition.asp)  
 [Object all methods reference](https://www.w3schools.com/js/js_object_es5.asp)  
 
-Some important properties:  
+Some important properties:    
 return true if that object have that property.
 1.      hasOwnProperty(val)  
 2. => 
