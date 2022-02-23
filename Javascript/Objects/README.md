@@ -3,8 +3,9 @@
 [Object all methods reference](https://www.w3schools.com/js/js_object_es5.asp)  
 
 Some important properties:  
+return true if that object have that property.
 1.      hasOwnProperty(val)  
-2. => return true if that object have that property.
+2. => 
 3. val in person1   => return true if that object have that property.
 4. Object.keys(obj1)  => return an array which have all the properties of an object, *herer obj1 is an sample object to pass as an argument.*  
 5. Object.getOwnPropertyNames()  => return all property including non-enumarable which Object.keys() doesn't.  
