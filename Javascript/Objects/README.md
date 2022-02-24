@@ -1,5 +1,6 @@
 # Javascript Objects  
 [W3School object](https://www.w3schools.com/js/js_object_definition.asp)  
+[Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)  
 [Object all methods reference](https://www.w3schools.com/js/js_object_es5.asp)  
 
 Some important properties:    
