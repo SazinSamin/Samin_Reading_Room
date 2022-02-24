@@ -1,3 +1,5 @@
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+
 //  creation of javascript object using Object literals
 const person = {};
 person.firstName = "Sazin";
