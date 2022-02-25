@@ -1,15 +1,14 @@
-// In ES5, we usually define a constructor function and use the new keyword to instantiate an object.
-/*
-let Person = function(name, birthYear) {
-        this.name = name;
-        this.birthYear = birthYear;
-}
-const p1 = new Person('Green', 24);
-*/
-
 // UpperCamelCase should be used by convention for ES6 class names
 
 class Person {
+
+        // property declearation is optional, we can omit it, if we omit the constructor will automatically
+        // create the property before initialization. But decleration is good for other programmer to
+        // understand the code & identify the properties belongs to the class.
+        // we also don't need to specify the data type inside the class.
+        firstName;
+        birthYear;
+
         // constructor method.
         // always add constructor method, if you forget js will add for you.
         constructor(name, birthYear) {
@@ -28,7 +27,7 @@ class Person {
 // We have to initialize object with keyword "new" nor it won't work.
 // The constructor is invoked when new is called to create a new object.
 
-const person1 = new Person("Sazin", 1998);
+const person1 = new Person("Azim", 1998);
 person1.getAge();
 
 // in one line
