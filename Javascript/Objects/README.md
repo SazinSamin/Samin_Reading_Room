@@ -3,7 +3,7 @@
 [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)  
 [Object all methods reference](https://www.w3schools.com/js/js_object_es5.asp)  
 ------  
-From function => Parantheses are needed to return an object.  
+#### From function => Parantheses are needed to return an object.  
 -----  
 
 Some important properties:    
