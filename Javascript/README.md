@@ -5,9 +5,12 @@
 #### the "falsy" values: false, 0, "" (an empty string), NaN, undefined, and null.  
 -  
 
-#### JS hoisting means "moving the declaration to the top".  
+#### JS hoisting means "moving the declaration to the top".   
+-------  
+
 Js link:  
-https://www.javascripttutorial.net/  
+[Js github](https://github.com/zloirock/core-js#ecmascript-array)  
+[javascripttutorial](https://www.javascripttutorial.net/)    
 [javascript.plainenglish.io](https://javascript.plainenglish.io/)  
 
 -------  
