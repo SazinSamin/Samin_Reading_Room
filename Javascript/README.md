@@ -6,7 +6,11 @@
 -  
 
 #### JS hoisting means "moving the declaration to the top".  
+Js link:  
+https://www.javascripttutorial.net/  
 [javascript.plainenglish.io](https://javascript.plainenglish.io/)  
+
+-------  
 
 ## jS library:
   - brain.js  
