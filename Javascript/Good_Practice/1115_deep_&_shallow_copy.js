@@ -1,1 +1,37 @@
 // https://www.geeksforgeeks.org/what-is-shallow-copy-and-deep-copy-in-javascript/
+
+
+
+// when we initialize the array with an array, Js first allocate memory for the array elememnt,
+// put all element there, then make the "array" name variable(below code) point to that memory location.
+
+const array = [1, 2, 3, 4, 5, 6, 7];
+
+
+
+// shallow copy.
+// simple assignment do shallow copy in Js, mean when we use assignment operator, Js make a reference
+// to that variable, means it(the new "cp1" variable) also point to the same memory location 
+// hold by the "array" variable here.
+// so any changes  to any variable also reflect to the others as well.
+
+const cp1 = array;
+cp1[0] = 100;
+
+console.log("array: " + array);
+console.log("cp1: " + cp1);
+
+
+
+
+// deep copy.
+// for deep copy, completely new memory space allocated & copy all the element from the previous
+// memory location, the variable "cp2" now pointing to the newly allocated memory space,
+// so any change to new or old array doesn't reflect to other as well, because they are in different
+// memory location.
+
+const cp2 = [...array];
+cp2[0] = 1000;
+
+console.log("array: " + array);
+console.log("cp2: " + cp2);
