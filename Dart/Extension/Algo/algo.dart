@@ -4,7 +4,7 @@ extension Algo on List {
 
   /// return the [sum] of a subarray [maximum value]
   /// Based on [Kadane's] algorithm
-  /// https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Algorithm/Dynamic%20Programming/Test/Kadane's_algorithm
+  /// https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Algorithm/Dynamic%20Programming/Kadane's_algorithm
 
   num maxSubArraySum() {
     num _sum = 0, _max = minVal;
