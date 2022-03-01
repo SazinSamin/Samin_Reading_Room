@@ -11,6 +11,9 @@
 // "Own properties" & "Prototype".
 
 
+// prototype also use for inheritance.
+
+
 
 // Own properties are defined directly inside the Object. below example "firstName, lastName, age"
 // are the own properties. That means p1 & p2 has own seprate copy of this properties. Every instance
