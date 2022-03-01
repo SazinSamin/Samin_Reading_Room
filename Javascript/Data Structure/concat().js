@@ -2,6 +2,7 @@
 
 
 // concate() combined two array by run on an array & takes another array as parameter.
+// it also concate string, number, boolean as well.
 // it doesn't mutate any of it's given array.
 // return a completely new array.
 
