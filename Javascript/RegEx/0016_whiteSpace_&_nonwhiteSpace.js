@@ -1,3 +1,5 @@
+// https://stackoverflow.com/questions/5964373/is-there-a-difference-between-s-g-and-s-g
+
 const string1 = "The earth move around the sun";
 
 // \s matches any whitespace character.
