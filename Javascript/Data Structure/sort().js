@@ -29,3 +29,12 @@ arr.sort((a, b) => a - b);
 
 console.log(arr);
 console.log(res);
+
+
+
+// sort in alphabetical order 
+
+function alphabeticalOrderSort(arr) {
+    return arr.sort((a, b) => (a < b) ? -1 : 1);
+}
+console.log(alphabeticalOrderSort(["a", "r", "s", "a", "u", "g"]));
