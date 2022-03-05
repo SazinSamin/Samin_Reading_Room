@@ -11,7 +11,12 @@
 Js link:  
 [Js github](https://github.com/zloirock/core-js#ecmascript-array)  
 [javascripttutorial](https://www.javascripttutorial.net/)    
-[javascript.plainenglish.io](https://javascript.plainenglish.io/)  
+[javascript.plainenglish.io](https://javascript.plainenglish.io/)    
+
+
+------------------------------  
+Js note link:  
+https://www.chevtek.io/9-javascript-tips-you-may-not-know/#stack  
 
 -------  
 
