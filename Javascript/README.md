@@ -16,7 +16,7 @@ Js link:
 
 ------------------------------  
 Js note link:  
-https://www.chevtek.io/9-javascript-tips-you-may-not-know/#stack  
+[9-javascript-tips-you-may-not-know](https://www.chevtek.io/9-javascript-tips-you-may-not-know/#stack)  
 
 -------  
 
