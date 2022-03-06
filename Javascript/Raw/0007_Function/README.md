@@ -1,4 +1,4 @@
-## [Funtion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)    
+## [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)    
 ####   Functions defined using an expression are not hoisted.    
 ####   A function defined as the property of an object, is called a method to the object.
 ####   In JavaScript all functions are object methods. Global function refer to Global object.
