@@ -1,4 +1,5 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
+// https://www.youtube.com/watch?v=75W8UPQ5l7k&t=2s
 
 
 // The call() allows for a function/method belonging to one object to be assigned and called for a different object
