@@ -18,8 +18,8 @@ Js link:
 Js note link:  
 [9-javascript-tips-you-may-not-know](https://www.chevtek.io/9-javascript-tips-you-may-not-know/#stack)  
 
--------  
-Js algo: https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038  
+------------------------    
+### Js algo: https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038  
 ------------------------------  
 
 ## jS library:
