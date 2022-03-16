@@ -21,7 +21,11 @@ Recursively traverse the current node's left subtree.
 #### Postorder traversal
       - Postorder traversal is used to delete the tree. 
       -  
-      It read the node data from bottom to top.
+      It read the node data from bottom to top.  
+      
+#### Inorder traversal
+      - inorder traversal is same as depth-first-search for tree. 
+      -  
       
       
 [Wiki link-> Tree Traverse](https://en.wikipedia.org/wiki/Tree_traversal)  
