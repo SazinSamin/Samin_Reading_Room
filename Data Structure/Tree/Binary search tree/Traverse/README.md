@@ -1,3 +1,4 @@
+![Binary Tree Traverse](https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Data%20Structure/Tree/Binary%20search%20tree/Traverse/tree_traversal.png)
 #### Inorder traversal
     In a binary search tree ordered such that in each node the key is greater than all keys in its left subtree and less than all keys in 
     its right subtree, in-order traversal retrieves the keys in ascending sorted order.   
