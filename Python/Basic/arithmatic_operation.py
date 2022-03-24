@@ -16,6 +16,7 @@ print(a / b)
 # raise a to the power of b. If b is an no-integer, it will become a root. 
 print(a ** b)
 
+# floor division
 # gives the integral part of a divided by b.
 print(a // b)
 
