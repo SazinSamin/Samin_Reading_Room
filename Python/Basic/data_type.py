@@ -4,10 +4,13 @@ a = 10
 b = 12.3
 # string
 c = "Ahisque"
+# boolean
+e = True
 
-print(type(a));
-print(type(b));
-print(type(c));
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(e))
 
 
 def get(a) :
