@@ -1,0 +1,15 @@
+To revert kernel in Ubuntu.
+1. Enter to BIOS, if BIOS then press & hold shift, if UEFI then press & hold esc.
+2. It will enter to the GRUB image.
+3. Enter to the advance option
+4. Select kernal for booting.
+
+
+
+
+Asus Vivobook s15
+2. Press & hold esc
+3. Back from the UEFI
+4. GRUB image will load here.
+5. Select advance option
+6. Select kernal for booting.
