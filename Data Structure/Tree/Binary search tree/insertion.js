@@ -1,37 +1,46 @@
 class Node{
-        constructor(value) {
-                this.val = value;
-                this.letft = null;
+        constructor(val) {
+                this.val = val;
+                this.left = null;
                 this.right = null;
         }
-};
+}
+
 
 let root = null;
 
 
-function insert(val) {
-        root = insertHelper(root, val);
-}
-
-
-function insertHelper(root, val) {
+function insert(root, val) {
         if(root == null) {
                 root = new Node(val);
                 return root;
         }
 
         if(val < root.val) {
-                root.letft = insertHelper(root.letft, val);
+                root.left = insert(root.left, val);
         } else {
-                root.right = insertHelper(root.right, val);
+                root.right = insert(root.right, val);
         }
         return root;
 }
 
 
 
-insert(10);
-insert(12);
-insert(2);
-preOrder(root);
+function preOrder(root) {
+        if(root == null) {
+                return;
+        }
+        preOrder(root.left);
+        console.log(root.val);
+        preOrder(root.right);
+}
 
+
+
+
+const arr = [10, 9, 11, 8, 12, 7, 13];
+for(let i = 0; i < arr.length; i++) {
+        root = insert(root, arr[i]);
+}
+
+preOrder(root);
