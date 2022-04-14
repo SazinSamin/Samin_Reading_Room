@@ -2,6 +2,13 @@
 // we know in inorder traversal of depth first serach in a binary tree always result a sorted order value.
 // So we can easily check that if our binary tree is BST or not by keep track of previous traversed node value.
 
+// this method is sometime give wrong result, in like below tree 
+//            4
+//          /   \
+//         2     5
+//        / \
+//       1   3
+
 
 bool isBST(struct Node* head){
         
