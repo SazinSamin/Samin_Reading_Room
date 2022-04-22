@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Exclusive_or
+
 #include<iostream>
 using namespace std;
 
