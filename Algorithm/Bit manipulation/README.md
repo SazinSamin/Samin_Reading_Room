@@ -6,3 +6,5 @@
     
 #### Binary Facts
     https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/
+    https://www.geeksforgeeks.org/bitwise-hacks-for-competitive-programming/
+    https://medium.com/@shashankmohabia/bitwise-operators-facts-and-hacks-903ca516f28c
