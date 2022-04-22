@@ -14,9 +14,9 @@ int main() {
     char lowerMask  = ' ';
 
     char lowerA = upperA | lowerMask;
-    cout << lowerA << endl;
+    cout << lowerA << endl;     // a
     char lowerB = upperB | lowerMask;
-    cout << lowerB << endl;
+    cout << lowerB << endl;     // b
 
 
     // lowerCase to upperCase
@@ -24,8 +24,8 @@ int main() {
     char upperMask = '_';
 
     upperA = lowerA & upperMask;
-    cout << upperA << endl;
+    cout << upperA << endl;     // A
     upperB = lowerB & upperMask;
-    cout << upperB << endl;
+    cout << upperB << endl;     // B
 
 }
