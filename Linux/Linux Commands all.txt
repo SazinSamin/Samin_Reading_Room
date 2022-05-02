@@ -1,0 +1,68 @@
+﻿1. cat -> viewing any small file
+2. chmod ->changing permission
+3. chown ->changing ownership
+4. cp ->copying file
+5. mv -> moving file
+6. rm -> removing file
+7. grep ->searching file
+8. rm -r ->removing a directory
+9. sudo -i ->enter as administrative or root user
+10. exit -> exit from root user to normal
+
+
+
+
+11. uname -r -> checking current kernel version
+12. xinput -> give information about external device
+13. cat /proc/bus/input/devices -> checking external devices in broad information
+14. dpkg -s firefox        -> too see the information about dpkg(debian) package software
+15. ls /dev -> driver details Asus WMI hotkeys
+16. cat /proc/cpuinfo -> cpuinfo
+17. timedatectl -> NTP (time synchronizer)
+18. service -> Services]
+19. sudo systemctl disable mysql -> stop an app start during boot time(mysql is example)
+20. service mysql start -> start a service
+21. service mysql stop -> stop a service
+22. service mysql reload ->   reload means read the configuration file again without      hampering the current execution
+23. service mysql restart
+24. logger This is test log entry         [“This is test log entry” is an example]
+25. free -m -> get current ram information
+26. cd /etc -> all configuration file located here
+27. df - disk usages
+28. du -> all files disk usages [Disk ]
+29. netstat -lt -> network[port, ip] information[Network]
+30. man firefox ->display the user manual of any command that can run on the terminal
+31. cd /etc        -> all system configuration files lies here
+32. cat /etc/services -> port information
+33. sudo ufw status verbose -> Firewall information
+34. dig google.com -> resolve, query and give info about DNS server
+
+
+35. sudo tcpdump -> network packet analyze
+
+
+36. sudo nethogs -> network consume per application
+
+
+37. gcc -fpreprocessed -dD -E test.c -> remove comments from source code
+
+
+38. sudo apt-get install -f  -> fix any broken link link
+39. ls -la -> show the file's details also with hidden file[start with . consider hidden in unix]
+40. pgrep -lf ml2 -> find specific process by name[ “ml2” is a example process name]
+41. sudo apt install -f [install dependency for any software]
+42. lsmod -> to see all loaded dirver
+
+
+
+
+
+
+
+
+
+
+Logging :
+
+
+cat /var/log/syslog | grep dhcp
