@@ -66,3 +66,8 @@ Logging :
 cat /var/log/syslog | grep dhcp
 charging :
 cat var/log/syslog | grep charging
+
+dynamic output:
+tail -f /var/log/syslog
+
+
