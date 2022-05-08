@@ -1,1 +1,9 @@
 http://www.differencebetween.net/technology/difference-between-absolute-and-relative-path/#:~:text=In%20simple%20words%2C%20an%20absolute,directory%20you%20are%20working%20on.
+
+
+
+absolute path: the path exist from there
+ex: sys/class/power_supply/BAT0
+
+relative path: the path exist anywhere
+ex: /sys/class/power_supply/BAT0
