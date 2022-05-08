@@ -70,4 +70,7 @@ cat var/log/syslog | grep charging
 dynamic output:
 tail -f /var/log/syslog
 
+charging: 
+tail var/log/syslog | grep "asus_wmi: Unknown key cf pressed"
+
 
