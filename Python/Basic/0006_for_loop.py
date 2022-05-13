@@ -19,3 +19,18 @@ fruits = ['apple', 'orange', 'mango', 'jackfruit']
 for fruit in fruits:
 	print(fruit);
 	
+# nested loop:
+
+foods = ['apple', 'rice', 'chicken']
+meals = ["breakfast", "launch", "dinner"]
+
+for food in foods:
+    for meal in meals:
+        print(food + " " + meal)
+	
+	
+	
+	
+# Common pitfalls: from coursera
+# Forgetting that the upper limit of a range() isn’t included.
+# Iterating over non-sequences. Integer numbers aren’t iterable. Strings are iterable letter by letter, but that might not be what you want.
