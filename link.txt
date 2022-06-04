@@ -26,3 +26,8 @@ Coding problem solving website
 High language to assembly
 https://godbolt.org/
 http://www.ctoassembly.com/
+
+
+
+Math: 
+https://www.youtube.com/c/MathsInDepth/playlists
