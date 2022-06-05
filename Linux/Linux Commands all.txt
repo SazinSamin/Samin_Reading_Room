@@ -52,7 +52,9 @@
 40. pgrep -lf ml2 -> find specific process by name[ “ml2” is a example process name]
 41. sudo apt install -f [install dependency for any software]
 42. lsmod -> to see all loaded dirver
-
+43. top -> display all running processes, uptime, freemem, avg load and others
+44. uptime -> display uptime and avg load
+45. nproc -> numbers of core in cpu
 
 
 
