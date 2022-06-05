@@ -1,0 +1,1 @@
+https://www.tecmint.com/understand-linux-load-averages-and-monitor-performance/#:~:text=System%20load%2FCPU%20Load%20%E2%80%93%20is,1%2C%205%20and%2015%20minutes.
