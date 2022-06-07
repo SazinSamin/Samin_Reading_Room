@@ -31,3 +31,6 @@ http://www.ctoassembly.com/
 
 Math: 
 https://www.youtube.com/c/MathsInDepth/playlists
+
+mine:
+https://1abc.net/topics/algorithm/samin_reading_room-uuid-XdaiXsqmD
