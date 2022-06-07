@@ -9,6 +9,9 @@
     Disjoint set
     Graph
     Hashing
+    Stack & Queue
+    Cache
+    
     
     
 ### Algorithm -
@@ -18,7 +21,14 @@
     Bit manipulation 
     Dynamic Programming
     miscellaneous
+    Backtracking
     Floyed cycle detection
+    
+    
+### Linux
+    Commands
+    Bash
+    Nmap
 
 ### C/C++ -
     pointer
