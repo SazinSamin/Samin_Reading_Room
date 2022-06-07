@@ -28,7 +28,14 @@
 ### Linux
     Commands
     Bash
-    Nmap
+    Nmap  
+    
+### Programming Paradigm  
+    Modular Pattern
+    Functional Programming
+    First class function
+    Higher Order function
+    Callback function
 
 ### C/C++ -
     pointer
@@ -40,6 +47,7 @@
     Method injection
     
 ### Javascript -  
+    
 
 ### Implementation
     Execution time in C++
