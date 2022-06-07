@@ -37,6 +37,18 @@
     Higher Order function
     Callback function
 
+### Javascript -  
+    Raw
+    Async
+    DOM
+    Methods
+    OOP
+    Objects
+    Good practice
+    Data structure
+    Project
+    RegEx
+
 ### C/C++ -
     pointer
     C library function implementation
@@ -45,13 +57,16 @@
 ### Dart -
     Constructor injection
     Method injection
-    
-### Javascript -  
+
+### Python
+    Basic
     
 
 ### Implementation
     Execution time in C++
     Pause
+
+### Links
     
 ### uVa problem solution 
 
