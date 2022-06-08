@@ -55,6 +55,8 @@
 43. top -> display all running processes, uptime, freemem, avg load and others
 44. uptime -> display uptime and avg load
 45. nproc -> numbers of core in cpu
+46. sudo netstat -tulpn | grep LISTEN -> display all listening port
+
 
 
 
