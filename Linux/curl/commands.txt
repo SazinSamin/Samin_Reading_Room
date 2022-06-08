@@ -1,5 +1,0 @@
-// get a http response
-curl https://www.google.com
-
-// verbose output
-curl -v https://www.google.com
