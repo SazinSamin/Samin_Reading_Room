@@ -8,6 +8,8 @@
 8. rm -r ->removing a directory
 9. sudo -i ->enter as administrative or root user
 10. exit -> exit from root user to normal
+10a. mv /home/user/oldname /home/user/newname -> charge the directory name
+
 
 
 
@@ -56,6 +58,7 @@
 44. uptime -> display uptime and avg load
 45. nproc -> numbers of core in cpu
 46. sudo netstat -tulpn | grep LISTEN -> display all listening port
+
 
 
 
