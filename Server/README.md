@@ -1,3 +1,4 @@
+Curl -> [Website](https://curl.se/docs/manual.html), [Youtube](https://www.youtube.com/watch?v=7XUibDYw4mc)
 [REST Api](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)  
 [HTTP MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP)  
 [Web server using nodejs http module](https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module)  
