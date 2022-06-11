@@ -2,7 +2,7 @@
 
 class Person {
 
-        // property declearation is optional, we can omit it, if we omit the constructor will automatically
+        // property declearation is optional, we can omit it, if we omit, the constructor will automatically
         // create the property before initialization. But decleration is good for other programmer to
         // understand the code & identify the properties belongs to the class.
         // we also don't need to specify the data type inside the class.
