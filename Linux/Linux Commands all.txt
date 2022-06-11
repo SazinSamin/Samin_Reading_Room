@@ -58,6 +58,8 @@
 44. uptime -> display uptime and avg load
 45. nproc -> numbers of core in cpu
 46. sudo netstat -tulpn | grep LISTEN -> display all listening port
+47. sudo apt install [package name] -> install from online repo
+48. sudo dpkg -i [package name] -> install .deb file from local disk
 
 
 
