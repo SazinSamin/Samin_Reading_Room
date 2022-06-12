@@ -1,7 +1,7 @@
 const s = [1, 2, 3, 4, 5, 6, 7, 8];
 
 
-// herer we also add another method to the Javascript Array Object Prototype.
+// here we also add another method to the Javascript Array Object Prototype.
 // so we can use that method on a array like other built in method(slice, splice, map, reduce)
 
 
