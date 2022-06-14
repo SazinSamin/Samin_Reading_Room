@@ -49,3 +49,27 @@ const person2 = new Person("Zunaid", "Hasan", 24);
 for (var i in person1) {
         console.log(person1[i]);
 }
+
+
+
+
+// we can't add property to the constructor from outside
+// Person.location = "s korea".
+// cosnt p1 = new Person("Ahmed");
+// console.log(p1.location) --> undefined.
+
+
+
+// To add property outside from the constructor we have to use prototype 
+// https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Objects/0007_Prototype.js
+
+
+
+
+
+
+
+
+
+
+
