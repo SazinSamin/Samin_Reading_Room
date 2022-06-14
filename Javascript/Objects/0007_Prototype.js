@@ -1,6 +1,15 @@
 // first know what is prototype in below link:
 // https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Objects/0002_OwnProperty_%26_Prototype.js
-// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+// https://www.youtube.com/watch?v=6WBaPpFJhR0&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy&index=70
+// https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes.
+
+
+
+// JS is a prototype based language
+// prototype helps us to add property directly outside the constructor function
+// every object in js has prototype & prototype chain.
+// prototype also use for inhertance because if we add a prototype to a object, it will be avaiable to all instance.
+// we can also add prototype to js built-in object like String, Number, Boolean (which is highly un-recommended)
 
 
 function Person(first, last, age) {
