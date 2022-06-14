@@ -11,7 +11,7 @@ function Person(first, last, age) {
 
 
 // using js "prototype" property allow to add property or method to the
-// Object constructor directly outside the constructor function
+// We can add property directly outside the constructor function
 
 Person.prototype.job = "Software engineer";
 Person.prototype.getName = () => this.firstName + " " + this.lastName;
