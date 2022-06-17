@@ -2,3 +2,5 @@ Fixed values are called Literals.
 Variable values are called Variables.
 
 to learn - CMake
+https://nodejs.dev/learn/introduction-to-nodejs
+https://developer.mozilla.org/en-US/docs/Web/HTTP
