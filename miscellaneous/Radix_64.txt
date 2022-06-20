@@ -1,1 +1,2 @@
-https://dev-notes.eu/2018/08/radix-64-encoding-with-example-implementation-in-c/#:~:text=Radix%2064%20or%20base%2064,a%20working%20example%20in%20C.
+https://dev-notes.eu/2018/08/radix-64-encoding-with-example-implementation-in-c/#:~:text=Radix%2064%20or%20base%2064,a%20working%20example%20in%20C.  
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs
