@@ -10,7 +10,7 @@
     Graph
     Hashing
     Stack & Queue
-    Cache
+    Cache Algo
     
     
     
