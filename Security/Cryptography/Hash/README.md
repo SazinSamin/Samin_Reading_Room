@@ -1,4 +1,5 @@
 # Hash  
+- The result of a hash function called message digest.
 #### MD5 hash in teminal
 
     - md5sum <<<"Your text"
