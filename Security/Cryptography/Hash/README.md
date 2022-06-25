@@ -3,6 +3,8 @@
 #### MD5 hash in teminal
 
     - md5sum <<<"Your text"  
+    - sha256sum <<< bangaldesh124  
+    - sha512sum <<< bangaldesh124  
 #### [An introduction to hashing and checksums in Linux](https://www.redhat.com/sysadmin/hashing-checksums)
 #### [What's the difference between Message Digest, Message Authentication Code, and HMAC?](https://stackoverflow.com/questions/3696857/whats-the-difference-between-message-digest-message-authentication-code-and-h#:~:text=A%20Message%20Digest%20is%20simply,and%20cannot%20be%20counterfeited%20easily.)  
 #### [Cryptographic hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)  
