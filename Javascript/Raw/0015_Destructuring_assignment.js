@@ -70,6 +70,10 @@ const dataBase2 = [
 const [{ name: s1Name, age: s1Age } = student1] = dataBase2;
 console.log(`${s1Name}, ${s1Age}`);
 
+// also can be
+const [{name, age}] = database;
+console.log(name, age);
+
 
 
 
