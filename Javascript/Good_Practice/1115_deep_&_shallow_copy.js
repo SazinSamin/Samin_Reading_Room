@@ -1,6 +1,12 @@
 // https://www.geeksforgeeks.org/what-is-shallow-copy-and-deep-copy-in-javascript/
 
 
+// When we copy js primitive object like number, string, boolean it do deep copy, but non-primitive data type like
+// array & object get shalow copy.
+
+// for array deep copy read -> https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Data%20Structure/Array/0002_array_Copy.js
+// for object deep copy -> https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Objects/0012_deep_copy_of_object.js
+
 
 // when we initialize the array with an array, Js first allocate memory for the array elememnt,
 // put all element there, then make the "array" name variable(below code) point to that memory location.
