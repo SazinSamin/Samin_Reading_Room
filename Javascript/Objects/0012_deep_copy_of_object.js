@@ -4,8 +4,7 @@
 // https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy
 // https://code.tutsplus.com/articles/the-best-way-to-deep-copy-an-object-in-javascript--cms-39655
 
-
-
+// copy using JSON.stringify() [can't copy function]
 // object construction
 const obj1 = {
     name: 'ahmed',
@@ -23,6 +22,16 @@ const obj1String = JSON.stringify(obj1);
 // return to object from the string
 const obj2 = JSON.parse(obj1String);
 
-typeof(obj2) === 'object' ? console.log(obj2) : '';
+typeof (obj2) === 'object' ? console.log(obj2) : '';
 
 
+// copy using spread operator [can't copy nested function]
+const obj3 = {
+    name: 'hasan',
+    age: 22,
+};
+
+const obj4 = {...obj3};
+console.log(obj4);
+
+// 
