@@ -1,3 +1,5 @@
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+
 const arr = [1, 2, 3];
 console.log(arr instanceof Array);
 
