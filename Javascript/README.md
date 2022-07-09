@@ -17,7 +17,8 @@ Js link:
 
 ------------------------------  
 Js note link:  
-[9-javascript-tips-you-may-not-know](https://www.chevtek.io/9-javascript-tips-you-may-not-know/#stack)  
+[9-javascript-tips-you-may-not-know](https://www.chevtek.io/9-javascript-tips-you-may-not-know/#stack)    
+[understanding-the-javascript-runtime-environment](https://medium.com/@gemma.croad/understanding-the-javascript-runtime-environment-4dd8f52f6fca)  
 
 ------------------------    
 Js algo: https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038  
