@@ -5,3 +5,4 @@ Curl -> [Website](https://curl.se/docs/manual.html), [Youtube](https://www.youtu
 [Building a Simple CRUD app with Node, Express, and MongoDB](https://zellwk.com/blog/crud-express-mongodb/)  
 [Client-side vs. server-side rendering](https://www.freecodecamp.org/news/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d/amp/). 
 [Api vs Webhook](https://www.mparticle.com/blog/apis-vs-webhooks/)  
+[Firestore CRUD with NODE.JS](https://www.youtube.com/watch?v=8Se_F7c03UM&t=1015s)  
