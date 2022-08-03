@@ -1,6 +1,8 @@
 Link -> MyCodeSchool https://www.youtube.com/watch?v=COk73cpQbFQ&list=PL2_aWCzGMAwKedT2KfDMB9YA5DgASZb3U&index=8&t=6s
         Farhan hossan https://www.youtube.com/watch?v=kbxxPTbFj8I&list=PLgrAmbRAezuhDI7LqoRiDlS2eimB7zXBf
 
+- A sorting algorithm is said to be stable if the order of equal elements remains the same after sorting.
+
 ##### - Bubble sort
         can detect whether the input list is already sorted or not.
         
