@@ -7,6 +7,8 @@ import fetch from "node-fetch";
 // when we call the funciton it will be synchronous as normal function is synchronous
 // so until the result of async doesn't come, it won't go to the next statement.
 
+// but remember inside a asynchronous function all statement aren't executed synchronously.
+
 const weather = async () => {
         return await (await fetch('https://virusbase.herokuapp.com'))
                 .json();
