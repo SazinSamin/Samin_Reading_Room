@@ -1,4 +1,4 @@
-import * as script from "./script.js";
+import * as script from "./script.js"; // all import
 
 const s1 = new script.Student('Green', 24, 3.84);
 s1.display();

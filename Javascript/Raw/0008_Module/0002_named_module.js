@@ -1,4 +1,4 @@
-import {PI, Student, add, subtruct} from "./script.js";
+import {PI, Student, add, subtruct} from "./script.js"; // named import
 
 
 const s1 = new Student('Green', 24, '3.86');

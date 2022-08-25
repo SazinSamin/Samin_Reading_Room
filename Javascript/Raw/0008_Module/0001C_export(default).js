@@ -5,6 +5,8 @@
 // only one defaule export could be in one module
 // default export could be named or anonymous function
 
+// const pi =  3.1416;
+// export default pi;
 
 export default add(a, b) {
         return a * b;
