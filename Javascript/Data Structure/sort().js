@@ -3,7 +3,10 @@
 const arr = [3, 7, 2, 8, 4, 9, 1];
 
 // sort() first convert the array element into string, then use UTF-16 code for sorting.
-// so, we should carefull because "80" will come before "9" according to string UTF-16 code.
+// so, we should carefull because "80" will come before "9" according to string UTF-16 code
+
+// for sorting string or character we don't need below compareFunction.
+
 
 // In default it sort in ascending order.
 // It sort the array in place, means it mutate the original array. 
@@ -13,6 +16,8 @@ const arr = [3, 7, 2, 8, 4, 9, 1];
 // The sorting algo in JS is stable. means if we have if a map has names & grades, then if we 
 // sort map according to grades value, then after sorting the names will also retain previous 
 // position.
+
+// // for sorting string or character we don't need below compareFunction.
 
 // compareFunction(a, b) return value	sort order
 //        > 0	            sort b before a
