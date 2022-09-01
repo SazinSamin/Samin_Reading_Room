@@ -1,3 +1,6 @@
+// https://www.freecodecamp.org/news/implementing-a-linked-list-in-javascript/
+// https://www.geeksforgeeks.org/implementation-linkedlist-javascript/
+
 class ListNode {
         constructor(val, next) {
                 this.val = (val === undefined ? 0 : val);
