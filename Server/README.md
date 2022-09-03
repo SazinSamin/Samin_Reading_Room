@@ -6,3 +6,4 @@ Curl -> [Website](https://curl.se/docs/manual.html), [Youtube](https://www.youtu
 [Client-side vs. server-side rendering](https://www.freecodecamp.org/news/what-exactly-is-client-side-rendering-and-hows-it-different-from-server-side-rendering-bd5c786b340d/amp/). 
 [Api vs Webhook](https://www.mparticle.com/blog/apis-vs-webhooks/)  
 [Firestore CRUD with NODE.JS](https://www.youtube.com/watch?v=8Se_F7c03UM&t=1015s)  
+[Static Site generator](https://www.cloudflare.com/learning/performance/static-site-generator/#:~:text=A%20static%20site%20generator%20is,to%20users%20ahead%20of%20time.)
