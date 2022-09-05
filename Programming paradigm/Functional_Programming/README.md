@@ -1,3 +1,4 @@
+[7 Functional Programming Techniques for JavaScript Developers](https://www.syncfusion.com/blogs/post/7-functional-programming-techniques-for-javascript-developers.aspx)  
 [Purely_functional_data_structure](https://en.wikipedia.org/wiki/Purely_functional_data_structure)  
 Recall that in functional programming, changing or altering things is called mutation, and the outcome is called a side effect. A function, ideally, should be a pure function, meaning that it does not cause any side effects.
 
