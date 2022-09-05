@@ -34,7 +34,7 @@ const func = names.reduce((prev, curr) => {
         return prev;
 
 
-        // here look, we have add a prev values as empty object {}, 
+        // here look, we have add a prev values or initial value as empty object {}, 
         // where we check & insert the elemenets, also return that object
         
 }, {} // initialValue
