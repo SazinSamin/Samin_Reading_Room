@@ -1,3 +1,6 @@
+// https://www.youtube.com/watch?v=_MFUxQ7OXbI&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy&index=77
+// https://www.youtube.com/watch?v=hAfj8U0RKhI&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy&index=77
+
 const person = {
         fullName: function (city, country) {
                 return `Name: ${this.firstName} ${this.lastName} \nCity: ${city}\nCountry: ${country}`;
