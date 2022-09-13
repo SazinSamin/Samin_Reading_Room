@@ -1,3 +1,4 @@
+// https://www.youtube.com/watch?v=LEQNr5spj2U&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy&index=81
 // https://www.programiz.com/javascript/closure
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 // https://stackoverflow.com/questions/111102/how-do-javascript-closures-work
