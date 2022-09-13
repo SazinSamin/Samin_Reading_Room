@@ -12,6 +12,8 @@
 // on the function-object is copied into the outer environment reference of the environment 
 // record of the newly-created execution context (stack frame)
 
+// if a upper function variable used in lower function then it goes for closure otherwise not..
+
 
 function getA(a) {
         return function(b) {
@@ -23,6 +25,10 @@ const myFunc = getA(10);
 // even the getA() function execution reaches the end, the inner function still has acecess to the 
 // variable
 myFunc(20);
+
+
+// to see closure 
+// console.dir(myFunc);
 
 // another example
 function count() {
