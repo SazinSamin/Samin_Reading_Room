@@ -2,6 +2,8 @@
 
 
 // "this" refer to that object from where it calling.
+// "this" doesn't work inside arrow function.
+
 
 const Person = {
         firstName : "Sazin",
