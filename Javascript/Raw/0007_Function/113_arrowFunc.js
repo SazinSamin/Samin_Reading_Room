@@ -1,4 +1,5 @@
 // arrow function
+// "this" doesn't work inside arrow function.
 
 const myFunction = (a, b) => { return a + b; };
 console.log(myFunction(10, 20));
