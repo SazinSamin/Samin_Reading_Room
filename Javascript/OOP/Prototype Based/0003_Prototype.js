@@ -33,7 +33,7 @@ let person1 = new Person("Sazin", "Samin", 24);
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/change-the-prototype-to-a-new-object
 // add many prototype at once
 Person.prototype = {
-        // define constructor also, otherwise check constructor will fail.
+        // define constructor also, otherwise constructor check will fail.
         constructor: Person,
         location: "Dhaka",
         getLocation () {
