@@ -31,7 +31,7 @@ console.log(p2);
 
 
 // Prototype.
-// If we need a value for all instance of Person, then all the instance have that value own copy, 
+// If we need a same value for all instance of Person, then we go for each instance and add value to those instance, 
 // This is not gonna be a problem for one or two values, but if there are lots of same values, then 
 // there will have lots of same duplicate values.
 
