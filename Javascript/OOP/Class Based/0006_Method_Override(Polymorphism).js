@@ -1,4 +1,4 @@
-// method overriding
+// method overriding or Polymorphism
 // method override allow subclass to define a method which have same name like 
 // one of parent class method
 
@@ -21,6 +21,7 @@ class Student extends Person {
 
         // method override
         // here we redefine one of parent class method in superclass.
+        // also we have used Parent class method using super that another example of Polymorphism
         display() {
                 return `${super.display()}, id: ${this.id}`;
         }
