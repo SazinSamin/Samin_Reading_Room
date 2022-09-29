@@ -37,3 +37,18 @@ const res1 = s.myFilter(function (item) {
 });
 
 console.log(res1);
+
+
+// If we add a method to the master Object then we can access that from anywhere in Javascript. Because everything
+// in js create from master Object or inherit the master Object methods.
+ 
+const arr = new Array();
+console.dir(arr);
+
+Object.prototype.samin = function() {
+        console.log('I am Samin');
+}
+
+arr.samin();
+
+
