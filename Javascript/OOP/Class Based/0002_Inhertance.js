@@ -28,5 +28,5 @@ class Student extends Person {
 }
 
 // don't forget we must initialize object with keyword "new" nor it won't work.
-const s1 = new Student("Sazin", 24, 191011);
+const s1 = new Student("Ahmed", 24, 32423);
 s1.display();
