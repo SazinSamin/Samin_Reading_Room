@@ -3,6 +3,8 @@
 ### [Object](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)  
 ### [Object all methods reference](https://www.w3schools.com/js/js_object_es5.asp)    
 ### [Object are mutable, then are pass by reference not by value](https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Good_Practice/1116_passbyValue_&_passbyReference.cpp)  
+--  
+Everything is Javascript create from master "Object"  
 ------  
 #### From function => Parantheses are needed to return an object.  
 -----  
