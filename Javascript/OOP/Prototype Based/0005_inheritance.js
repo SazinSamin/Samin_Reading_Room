@@ -1,4 +1,6 @@
+// https://www.youtube.com/watch?v=93Styj1K9fY&list=PLHiZ4m8vCp9Nflbo9a0pZuLscG_Xc7DKq&index=8
 
+// I can't understand the below code
 
 function Person (name, age) {
         this.name = name;
