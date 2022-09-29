@@ -1,3 +1,5 @@
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/set
+
 class Person {
         constructor(name, birthYear) {
                 this._firstName = name;
@@ -6,6 +8,7 @@ class Person {
         }
 
         // setter
+        // setter can take only one parameter
         set setCurrentYear(val) {
                 this._currentYear = val;
         }
