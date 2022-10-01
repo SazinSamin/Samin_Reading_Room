@@ -1,4 +1,6 @@
+// https://www.youtube.com/watch?v=pT9xqCS8Vwk&list=PLHiZ4m8vCp9Nflbo9a0pZuLscG_Xc7DKq&index=5
 // https://www.digitalocean.com/community/tutorials/understanding-hoisting-in-javascript
+
 
 // Hoisting is (to many developers) an unknown or overlooked behavior of JavaScript.
 // If a developer doesn't understand hoisting, programs may contain bugs (errors).
