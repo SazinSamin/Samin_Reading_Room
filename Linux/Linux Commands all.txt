@@ -10,7 +10,7 @@
 10. exit -> exit from root user to normal
 10a. mv /home/user/oldname /home/user/newname -> charge the directory name
 
-
+10b. cd / -> get back to the root directory
 
 
 
@@ -60,10 +60,6 @@
 46. sudo netstat -tulpn | grep LISTEN -> display all listening port
 47. sudo apt install [package name] -> install from online repo
 48. sudo dpkg -i [package name] -> install .deb file from local disk
-
-
-
-
 
 
 
