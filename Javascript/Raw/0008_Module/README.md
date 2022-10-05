@@ -14,4 +14,6 @@ To do import export in ES6 convention use ->
 - {  
   - "type":"module"   
 - }   
-in package.json
+in package.json  
+-  
+ES6 also need .js extension after file pathname in import time
