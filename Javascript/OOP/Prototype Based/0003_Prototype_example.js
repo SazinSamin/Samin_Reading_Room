@@ -6,6 +6,8 @@ const s = [1, 2, 3, 4, 5, 6, 7, 8];
 
 
 // implementation of own "map" method.
+// remember we can't use the arrow function here, because "this" doesn't work in arrow function
+// https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Good_Practice/1117_this_in_arrow_function.js
 Array.prototype.myMap = function (callback) {
     const newArr = [];
     for (let i = 0; i < this.length; i++) {
