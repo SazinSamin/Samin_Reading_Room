@@ -1,3 +1,13 @@
+// everything is in js is an object, function also a object, but it is special type of object.  
+function foo () {  
+        console.log('I am function');  
+}  
+
+// here you can see that as function is a object so we add property to that object like in normal object we do
+foo.name = 'function name is foo';  
+console.log(foo.name);   
+
+
 [7 Functional Programming Techniques for JavaScript Developers](https://www.syncfusion.com/blogs/post/7-functional-programming-techniques-for-javascript-developers.aspx)  
 [Purely_functional_data_structure](https://en.wikipedia.org/wiki/Purely_functional_data_structure)  
 Recall that in functional programming, changing or altering things is called mutation, and the outcome is called a side effect. A function, ideally, should be a pure function, meaning that it does not cause any side effects.
