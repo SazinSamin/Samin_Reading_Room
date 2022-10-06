@@ -1,11 +1,8 @@
+// https://www.youtube.com/watch?v=dxyYP3BSdcQ
+
 #include<iostream>
 using namespace std;
-#define MAX 10000
-int memo[MAX];
 
-void initMemo() {
-        for(int i=0; i< MAX; i++) memo[i] = -1;
-}
 
 int fib(int n) {
         if (n == 0) return 0;
@@ -15,6 +12,5 @@ int fib(int n) {
 
 
 int main() {
-        initMemo();
         cout << fib(15);
 }
