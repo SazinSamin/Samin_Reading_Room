@@ -24,3 +24,16 @@ const foo = function (name) {
 
 // here we send function as argument
 foo(askUserName)();
+
+
+
+
+
+// everything is in js is an object, function also a object, but it is special type of object.
+function foo () {
+        console.log('I am function');
+}
+
+// here you can see that as function is a object so we add property to that object like in normal object we do
+foo.name = 'function name is foo';
+console.log(foo.name); 
