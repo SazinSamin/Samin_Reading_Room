@@ -15,8 +15,6 @@ console.log('Finished');
 
 
 
-
-
 // with then example
 /*
 weather().then(msg => {
