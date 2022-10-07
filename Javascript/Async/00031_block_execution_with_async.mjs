@@ -1,5 +1,3 @@
-// below code and explaination has a problem
-
 import fetch from "node-fetch";
 
 
