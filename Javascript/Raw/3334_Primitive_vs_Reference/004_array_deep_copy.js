@@ -13,7 +13,7 @@
 // because both of the array memory location ar same.
 
 
-const arr1 =  [1, 2, 3, 4, 5];
+const arr1 = [1, 2, 3, 4, 5];
 const res1 = arr1;
 res1[2] = 200;
 
@@ -31,3 +31,9 @@ res2[2] = 200;
 
 console.log(arr2); // [1, 2, 3, 4, 5]
 console.log(res2); //[1, 2, 200, 4, 5]
+
+
+// for deep copy use can use also "lodash";
+import _ from "lodash";
+const res3 = _.cloneDeep(arr2);
+console.log(res3);
