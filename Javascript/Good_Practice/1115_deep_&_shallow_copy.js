@@ -1,6 +1,10 @@
 // https://www.geeksforgeeks.org/what-is-shallow-copy-and-deep-copy-in-javascript/
 
 
+// first know about the difference between primitive vs reference -> 
+// https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Raw/0016_primitive_vs_reference.js
+
+
 // When we copy js primitive object like number, string, boolean it do deep copy, but non-primitive data type like
 // array & object get shalow copy.
 
