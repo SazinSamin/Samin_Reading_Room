@@ -14,6 +14,16 @@ let b = a;
 a = 12;
 console.log(a, b); // (12, 10)
 
+// also primitive type isn't mutable
+const b = "Tamim";
+// this below line leads to "TypeError: Cannot assign to read only property '1' of string 'Tamim'" in nodejs
+// in browser although it didn't throw any error, but also didn't mutate the value.
+b[1] = 'x'
+console.log(b); 
+
+
+
+
 
 // if we copy a reference variable to other variable.
 // in case of reference variable changing one variable make change the other variable as well.
