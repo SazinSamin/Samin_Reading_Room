@@ -45,3 +45,10 @@ cp2[0] = 1000;
 
 console.log("array: " + array);
 console.log("cp2: " + cp2);
+
+
+// for deep copy of any reference data type use "lodash"
+import _ from 'lodash';
+const cp3 = _.cloneDeep(cp2);
+console.log(`arr3: ${cp3}`);
+
