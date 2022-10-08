@@ -59,7 +59,14 @@
     Method injection
 
 ### Python
-    Basic
+    Basic  
+    
+    
+### Server
+    Deploy
+    Nodejs
+    EJS
+    
     
 
 ### Implementation
