@@ -1,4 +1,8 @@
+// // https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/
+
+
 // "this" behave different in javascript arrow function.
+
 
 // in regular function "this" represent the object that called the function.
 // in arrow function "this" represent the owner's of the function.
