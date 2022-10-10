@@ -2,6 +2,8 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
 
 
+// Traversing any array, string or object elements through iterator is much much faster that normal looping  
+
 
 // iterable: means which can be iterated(ex: Array, String);
 // iterator: means which traverse through the iterable object.
