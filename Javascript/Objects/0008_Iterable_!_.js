@@ -1,3 +1,7 @@
+// first learn about iterator and iterable
+// https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Javascript/Advance/Iterator
+
+
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/iterate-over-all-properties
 
 
