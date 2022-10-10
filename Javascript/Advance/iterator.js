@@ -1,4 +1,5 @@
 // https://www.youtube.com/watch?v=JXzQ0Aarnzc&list=PLHiZ4m8vCp9Nflbo9a0pZuLscG_Xc7DKq&index=19
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
 
 
 
