@@ -9,17 +9,16 @@ for(let i=0; i<array.length; i++){
 
 // this for in loop i will be 0, 1, 2, 3, 4, 5
 // this means how will start as zero and increment to last array element.
-// so to access the data of the loop we have to use array[i].
+// it iterate over the array keys.
 console.log("for in loop");
-for(let i in array){
-        console.log(array[i]);
+for(let keys in array){
+        console.log(keys);
 }
 
-// but this for of loop will return the array data directly.
-// in this case like 12, 34, 67... we don't need to use the array name here.
+// iterate over the array elements.
 console.log("for of loop");
-for(let j of array){
-        console.log(j);
+for(let ele of array){
+        console.log(ele);
 }
 
 
@@ -39,5 +38,5 @@ while(i < array.length){
 console.log("Do-While loop");
 i = 0;
 do{
-        console.log(array[i++]);
-}while(i < array.length);
+    console.log(array[i++]);
+} while(i < array.length);
