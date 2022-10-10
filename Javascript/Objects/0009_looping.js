@@ -1,4 +1,8 @@
 // https://stackoverflow.com/questions/8312459/iterate-through-object-properties?rq=1
+// we can iterate through iterator also
+// https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Javascript/Advance/Iterator
+
+
 
 let obj1 = {
         name: "Abid",
@@ -34,3 +38,7 @@ console.log("\nfor loop");
 for(const [key, value] of Object.entries(obj1)) {
         console.log(`${key}: ${value}}`);
 }
+
+
+
+
