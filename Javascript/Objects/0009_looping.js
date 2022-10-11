@@ -1,5 +1,7 @@
 // https://stackoverflow.com/questions/8312459/iterate-through-object-properties?rq=1
-// we can iterate through iterator also
+
+
+// we can loop through the object using iterator also
 // https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Javascript/Advance/Iterator
 
 
