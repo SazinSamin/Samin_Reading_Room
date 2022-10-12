@@ -11,12 +11,16 @@ function urlBuilder(scheme) {
         }
 }
 
-// here this below line is an exmple of partial function, beccause here we actullay first get the partial 
-// of our urlBuilder function, which return another function, 
-// Also see we fixed one paramter in this function, another parameter will be given latter.
+//  Here this below line is an exmple of partial function, beccause here we actullay first use the partial 
+// of our urlBuilder function with one arguments, which return another function which will take another argument. 
+// So, we didn't pass the all arguments need to complete the function at once.
 const schemed = urlBuilder('http'); 
+
+// Now we call the function that returned from the parent function with rest of the parameter
+
+
 const url1 = schemed('www.mozilla.com');
 const url2 = schemed('www.firefox.com');
 
-console.log(url1);
-console.log(url2);
+console.log(url1); // "http://www.mozilla.com"
+console.log(url2); // "http://www.firefox.com"
