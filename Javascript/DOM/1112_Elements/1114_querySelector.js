@@ -1,3 +1,5 @@
+// return the first element match with the search
+
 // One thing have to remember always about QuerySelector that
 // it always use the CSS syntax.
 
