@@ -7,3 +7,9 @@ var info = document.getElementsByClassName('info1');
 for(var i=0; i<info.length; i++){
         info[i].style.color = "blue";
 }
+
+
+
+// select the class from specifiq ID
+let selectID = document.getElementById('fruits');
+let selectClass = selectID.getElementsByClassName('fuitsList');
