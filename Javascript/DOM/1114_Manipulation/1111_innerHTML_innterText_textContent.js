@@ -9,3 +9,6 @@ console.log(ele1.textContent);
 console.log(ele1.innerText);
 // return html in string format
 console.log(ele1.innerHTML);
+
+// change HTML content
+ele1.innerHTML = "New Data";
