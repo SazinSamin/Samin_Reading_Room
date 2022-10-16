@@ -13,6 +13,11 @@ let nextSibling = demo.nextSibling;
 let prevSibling = demo.previousSibling;
 
 
+// like querySelector traverse from top to bottom to find a elemenet, 
+// closest do the reverse, from bottom(where the element belongs) to top for the element.
+let grandFather = demo.closest(".item");
+
+
 const array = [demo, parent, child, firstChild, lastChild, nextSibling, prevSibling];
 for(let i = 0; i < array.length; i++) {
         console.log(array[i]);
