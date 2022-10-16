@@ -4,7 +4,9 @@
 
 let demo = document.getElementById("demo");
 let parent = demo.parentNode;
+let parentEle = demo.parentElement;
 let child = demo.children;
+let firstChild = demo.children[0];
 let firstChild = demo.firstChild;
 let lastChild = demo.lastChild;
 let nextSibling = demo.nextSibling;
