@@ -16,3 +16,11 @@ var getElement2 = document.querySelector('.fruits');
 // multiple selection at once
 var getElement3 = document.querySelector('#article_1 .info1');
 
+
+
+
+// select specitfiq from querySelector
+// below lines code doesn't work properly
+let selectItem = document.querySelector('.fruitsList:last-child');
+let selectItem = document.querySelector('.fruitsList:nth-child(2)');
+console.log(selectItem);
