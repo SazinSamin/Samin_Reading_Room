@@ -4,3 +4,6 @@
 
 // data visulization
 - Plotly.js
+- C3
+- ApexChart
+- Charts.js
