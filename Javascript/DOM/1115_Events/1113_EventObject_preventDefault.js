@@ -1,4 +1,8 @@
 var btn = document.querySelector('button');
+
+
+
+// here event.target is button that has been clicked
 btn.addEventListener('click', function(event){
         event.target.style.backgroundColor = 'blue';
         event.target.style.color = 'white';
