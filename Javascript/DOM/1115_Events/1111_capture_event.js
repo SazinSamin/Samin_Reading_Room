@@ -1,3 +1,5 @@
+// we can also get the button by getElementById()
+
 var btn = document.querySelector('button');
 function Clicked(){
         alert("You have clicked a button");
@@ -6,7 +8,8 @@ function Clicked(){
 // we can also use anonymous function here.
 btn.onclick = Clicked;
 
-
+// also can be listen in html
+// <button onclick="Clicked()">Click Me</button>
 
 
 
