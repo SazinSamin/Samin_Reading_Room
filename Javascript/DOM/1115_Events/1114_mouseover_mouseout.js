@@ -16,6 +16,12 @@ heading.addEventListener('mouseover', function(){
 
 
 
+// mouseover and mouseenter have almost same behaviour but there is a difference, moueenter fire event only mouse enter to that 
+// element area, but mouseover fire event not only mouse enter to that element area but also it fire event if mouse enter
+// it's child element area also.
+
+
+
 /*<!-- helper html -->
 <!DOCTYPE html>
 <html lang="en">
