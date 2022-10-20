@@ -1,0 +1,2 @@
+// https://www.w3schools.com/jsref/event_target.asp
+get the element that triggered the element using "event.target"
