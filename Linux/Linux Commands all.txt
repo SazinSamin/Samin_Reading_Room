@@ -12,6 +12,8 @@
 
 10b. cd / -> get back to the root directory
 
+10c. clear -> clear the terminal
+10d. echo wow -> print out what you typed in the console
 
 
 11. uname -r -> checking current kernel version
