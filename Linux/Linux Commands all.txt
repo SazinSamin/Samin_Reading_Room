@@ -11,6 +11,9 @@
 . mv /home/user/oldname /home/user/newname -> charge the directory name
 
 . ls -> show the files and folders of directory
+. ls -l -> show long listing of files and folder in a directory
+
+
 . cd / -> get back to the root directory
 . cd -> only cd without any path leads you to your home directory
 . cd .. -> get back to the previous directory
@@ -19,6 +22,15 @@
 . cd [any character] -> if you type any character then press tab, it will autocomplete your search.
 . cd ../Downloads -> go back to previous directory and then go to the "Downloads" directory
 
+
+. mkdir puppet -> make a directory
+. mkdir ~/Downloads/original -> make a directory on absolute path
+
+. touch file1.txt -> create a new file
+
+. wc -> word count of a file. print three numbers(no. of lines, no. of words, no. of characters)
+. cat file1.txt -> view the files content in terminal
+. cat file1.txt file2.txt -> view 
 
 . clear -> clear the terminal
 . echo wow -> print out what you typed in the console
