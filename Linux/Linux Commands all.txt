@@ -40,6 +40,7 @@
 34. dig google.com -> resolve, query and give info about DNS server
 
 
+
 35. sudo tcpdump -> network packet analyze
 
 
@@ -60,6 +61,8 @@
 46. sudo netstat -tulpn | grep LISTEN -> display all listening port
 47. sudo apt install [package name] -> install from online repo
 48. sudo dpkg -i [package name] -> install .deb file from local disk
+49. dpkg --list | grep linux-image -> get the all kernel list
+50. cd /usr/src -> all kernel located here
 
 
 
