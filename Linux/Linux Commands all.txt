@@ -50,7 +50,11 @@
 . echo 'I am fine' >> test.txt = append your output at last to a file or somewhere( ">>" append operator)
 . cat file2.txt >> file1.txt = append one file content to another file
 
+. mv test.txt movetest -> move content from one directory to another.("test.txt" is filename & "movetest" is folder)
 
+
+
+. nano file1.txt -> for edit file in editor ("nano" here the editor name)
 
 . uname -r -> checking current kernel version
 . xinput -> give information about external device
