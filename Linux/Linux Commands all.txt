@@ -30,7 +30,7 @@
 
 . wc -> word count of a file. print three numbers(no. of lines, no. of words, no. of characters)
 . cat file1.txt -> view the files content in terminal
-. cat file1.txt file2.txt -> view 
+. cat file1.txt file2.txt files2.txt -> view many files content together in the terminal
 
 . clear -> clear the terminal
 . echo wow -> print out what you typed in the console
