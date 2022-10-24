@@ -42,11 +42,7 @@
 
 
 35. sudo tcpdump -> network packet analyze
-
-
 36. sudo nethogs -> network consume per application
-
-
 37. gcc -fpreprocessed -dD -E test.c -> remove comments from source code
 
 
@@ -59,10 +55,14 @@
 44. uptime -> display uptime and avg load
 45. nproc -> numbers of core in cpu
 46. sudo netstat -tulpn | grep LISTEN -> display all listening port
+
+
 47. sudo apt install [package name] -> install from online repo
 48. sudo dpkg -i [package name] -> install .deb file from local disk
-49. dpkg --list | grep linux-image -> get the all kernel list
-50. cd /usr/src -> all kernel located here
+49. sudo apt puge [package name] -> remove a package
+
+50. dpkg --list | grep linux-image -> get the all kernel list
+51. cd /usr/src -> all kernel located here
 
 
 
