@@ -25,16 +25,31 @@
 
 . mkdir puppet -> make a directory
 . mkdir ~/Downloads/original -> make a directory on absolute path
-
 . touch file1.txt -> create a new file
+
 
 . wc -> word count of a file. print three numbers(no. of lines, no. of words, no. of characters)
 . cat file1.txt -> view the files content in terminal
 . cat file1.txt file2.txt files2.txt -> view many files content together in the terminal
+. less file1.txt -> for viewing large file. It will open new window on terminal, use arrow key up & down move go up and down
+                    space for next page, b for previous page, q for quit.
+. head file1.txt -> view the first few lines of a file(print 10 lines as default)
+. head -5 file1.txt -> view first 5 lines of a files( -5 here as a argument)
+. head -n 5 file1.txt -> view first 5 lines of a files( 5 here as a argument)(same like above one)
+. tail file1.txt -> view last lines of a files.
+. tail -5 file1.txt -> view last 5 lines.
+
+
 
 . clear -> clear the terminal
 . echo wow -> print out what you typed in the console
 . pwd -> print working directory
+
+
+. echo 'I am fine' > test.txt = redirecting your output to another file or somewhere( ">" redirecting operator)
+. echo 'I am fine' >> test.txt = append your output at last to a file or somewhere( ">>" append operator)
+. cat file2.txt >> file1.txt = append one file content to another file
+
 
 
 . uname -r -> checking current kernel version
