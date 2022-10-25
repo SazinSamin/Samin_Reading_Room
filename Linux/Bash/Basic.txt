@@ -1,19 +1,11 @@
  :~$ -> this is called prompt, from where we start tpying
 
-. cat -> viewing any small file
-. chmod ->changing permission
-. chown ->changing ownership
-. cp ->copying file
-. mv -> moving file
-. rm -> removing file
-. grep ->searching file
-. rm -r ->removing a directory
-. sudo -i ->enter as administrative or root user
-. exit -> exit from root user to normal
-. mv /home/user/oldname /home/user/newname -> charge the directory name
-
 . ls -> show the files and folders of directory
 . ls -l -> show long listing of files and folder in a directory
+
+
+. pwd -> print working directory
+. clear -> clear the terminal
 
 
 . cd / -> get back to the root directory
@@ -43,9 +35,7 @@
 
 
 
-. clear -> clear the terminal
 . echo wow -> print out what you typed in the console
-. pwd -> print working directory
 
 
 . echo 'I am fine' > test.txt = redirecting your output to another file or somewhere( ">" redirecting operator)
@@ -62,6 +52,16 @@
 . rm -r test -> delete a folder(-r for recursive, delete nested files and folder inside the copying folder also)
 
 
+. grep -> searching file
+. sudo -i -> enter as administrative or root user
+
+
+. chmod -> changing permission
+. chown -> changing ownership
+
 . nano file1.txt -> for edit file in editor ("nano" here the editor name)
 
 . man ls -> open up the manual page for any command.("ls" here a command name)
+
+. exit -> exit from root user to normal
+
