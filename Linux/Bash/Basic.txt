@@ -1,0 +1,67 @@
+ :~$ -> this is called prompt, from where we start tpying
+
+. cat -> viewing any small file
+. chmod ->changing permission
+. chown ->changing ownership
+. cp ->copying file
+. mv -> moving file
+. rm -> removing file
+. grep ->searching file
+. rm -r ->removing a directory
+. sudo -i ->enter as administrative or root user
+. exit -> exit from root user to normal
+. mv /home/user/oldname /home/user/newname -> charge the directory name
+
+. ls -> show the files and folders of directory
+. ls -l -> show long listing of files and folder in a directory
+
+
+. cd / -> get back to the root directory
+. cd -> only cd without any path leads you to your home directory
+. cd .. -> get back to the previous directory
+. cd ~/Music -> Alsolute path from any directory
+. cd Music -> relative path from it's parent directory
+. cd [any character] -> if you type any character then press tab, it will autocomplete your search.
+. cd ../Downloads -> go back to previous directory and then go to the "Downloads" directory
+
+
+. mkdir puppet -> make a directory
+. mkdir ~/Downloads/original -> make a directory on absolute path
+. touch file1.txt -> create a new file
+
+
+. wc -> word count of a file. print three numbers(no. of lines, no. of words, no. of characters)
+. cat file1.txt -> view the files content in terminal
+. cat file1.txt file2.txt files2.txt -> view many files content together in the terminal
+. less file1.txt -> for viewing large file. It will open new window on terminal, use arrow key up & down move go up and down
+                    space for next page, b for previous page, q for quit.
+. head file1.txt -> view the first few lines of a file(print 10 lines as default)
+. head -5 file1.txt -> view first 5 lines of a files( -5 here as a argument)
+. head -n 5 file1.txt -> view first 5 lines of a files( 5 here as a argument)(same like above one)
+. tail file1.txt -> view last lines of a files.
+. tail -5 file1.txt -> view last 5 lines.
+
+
+
+. clear -> clear the terminal
+. echo wow -> print out what you typed in the console
+. pwd -> print working directory
+
+
+. echo 'I am fine' > test.txt = redirecting your output to another file or somewhere( ">" redirecting operator)
+. echo 'I am fine' >> test.txt = append your output at last to a file or somewhere( ">>" append operator)
+. cat file2.txt >> file1.txt = append one file content to another file
+
+
+. cp file.txt ~/Downloads -> copy file.(file.txt move to Downloads directory)
+. cp -r test ~/Downloads -> copy folder.(-r for recursive, copy nested files and folder inside the copying folder also)
+. mv test.txt movetest -> move content.("test.txt" is filename & "movetest" is folder)
+. mv file1.txt file.txt -> rename a file name("file1.txt" is previous name, "file.txt" is new name)
+
+. rm first.txt -> delete a file
+. rm -r test -> delete a folder(-r for recursive, delete nested files and folder inside the copying folder also)
+
+
+. nano file1.txt -> for edit file in editor ("nano" here the editor name)
+
+. man ls -> open up the manual page for any command.("ls" here a command name)

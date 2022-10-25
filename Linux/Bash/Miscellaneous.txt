@@ -1,0 +1,66 @@
+. uname -r -> checking current kernel version
+. xinput -> give information about external device
+. cat /proc/bus/input/devices -> checking external devices in broad information
+. dpkg -s firefox -> too see the information about dpkg(debian) package software
+. ls /dev -> driver details Asus WMI hotkeys
+. cat /proc/cpuinfo -> cpuinfo
+. timedatectl -> NTP (time synchronizer)
+. service -> Services]
+. sudo systemctl disable mysql -> stop an app start during boot time(mysql is example)
+. service mysql start -> start a service
+. service mysql stop -> stop a service
+. service mysql reload -> reload means read the configuration file again without hampering the current execution
+. service mysql restart
+. logger This is test log entry [“This is test log entry” is an example]
+. free -m -> get current ram information
+. cd /etc -> all configuration file located here
+. df - disk usages
+. du -> all files disk usages [Disk ]
+. netstat -lt -> network[port, ip] information[Network]
+. man firefox ->display the user manual of any command that can run on the terminal
+. cd /etc -> all system configuration files lies here
+. cat /etc/services -> port information
+. sudo ufw status verbose -> Firewall information
+. dig google.com -> resolve, query and give info about DNS server
+
+
+
+. sudo tcpdump -> network packet analyze
+. sudo nethogs -> network consume per application
+. gcc -fpreprocessed -dD -E test.c -> remove comments from source code
+
+
+. sudo apt-get install -f -> fix any broken link link
+. ls -la -> show the file's details also with hidden file[start with . consider hidden in unix]
+. pgrep -lf ml -> find specific process by name[ “ml” is a example process name]
+. sudo apt install -f [install dependency for any software]
+. lsmod -> to see all loaded dirver
+. top -> display all running processes, uptime, freemem, avg load and others
+. uptime -> display uptime and avg load
+. nproc -> numbers of core in cpu
+. sudo netstat -tulpn | grep LISTEN -> display all listening port
+
+
+. sudo apt install [package name] -> install from online repo
+. sudo dpkg -i [package name] -> install .deb file from local disk
+. sudo apt puge [package name] -> remove a package
+
+. dpkg --list | grep linux-image -> get the all kernel list
+. cd /usr/src -> all kernel located here
+
+
+
+
+
+
+
+Logging :
+cat /var/log/syslog | grep dhcp
+charging :
+cat var/log/syslog | grep charging
+
+dynamic output:
+tail -f /var/log/syslog
+
+charging: 
+tail var/log/syslog | grep "asus_wmi: Unknown key cf pressed"
