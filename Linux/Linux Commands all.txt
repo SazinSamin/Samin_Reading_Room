@@ -1,3 +1,5 @@
+ :~$ -> this is called prompt, from where we start tpying
+
 . cat -> viewing any small file
 . chmod ->changing permission
 . chown ->changing ownership
