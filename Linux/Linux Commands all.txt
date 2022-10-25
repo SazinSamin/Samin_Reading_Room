@@ -50,8 +50,15 @@
 . echo 'I am fine' >> test.txt = append your output at last to a file or somewhere( ">>" append operator)
 . cat file2.txt >> file1.txt = append one file content to another file
 
-. mv test.txt movetest -> move content from one directory to another.("test.txt" is filename & "movetest" is folder)
+
+. cp file.txt ~/Downloads -> copy file.(file.txt move to Downloads directory)
+. cp -r test ~/Downloads -> copy folder.(-r for recursive, copy nested files and folder inside the copying folder also)
+. mv test.txt movetest -> move content.("test.txt" is filename & "movetest" is folder)
 . mv file1.txt file.txt -> rename a file name("file1.txt" is previous name, "file.txt" is new name)
+
+. rm first.txt -> delete a file
+. rm -r test -> delete a folder(-r for recursive, delete nested files and folder inside the copying folder also)
+
 
 . nano file1.txt -> for edit file in editor ("nano" here the editor name)
 
