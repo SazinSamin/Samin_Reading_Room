@@ -20,3 +20,10 @@
 
 
 . egrep "\w" small.txt = match to all word characters(a-z and 0-9)
+. egrep "\W" small.txt = match to not word characters.
+. egrep "\d" small.txt = match digits(0-9)
+. egrep "\D" small.txt = match non-digits.
+. egrep "\s" small.txt = match to space
+. egrep "\S" small.txt = match to non space
+. egrep -v "\w" small.txt = invert match(return those lines aren't match
+
