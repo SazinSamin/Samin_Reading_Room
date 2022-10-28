@@ -50,3 +50,7 @@
 . egrep 'ganj|pur' districts.txt = match either 'ganj' or 'pur' ( | is pipe metacharacter)
 
 . egrep "^[AEIOU]{1}.+[aeiou]{1}$" states.txt = serach for a word start and end with vowel
+
+
+. find . -name 'Javascript' = find a folder name "Javascript"
+. find . -name '*.jpg' = find all pictures have extension of .jpg
