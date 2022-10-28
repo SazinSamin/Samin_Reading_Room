@@ -2,7 +2,7 @@
 
 . ls s* = match names of files that start with alphabet "s" & then followd by zero or more any characters.
 . ls *.txt = match names of files that start with zero or more any characters then ends with ".txt"
-. ls *lab* = match names of files that start with zero or more any characters then "lab" then again end with zero or more of any              characters.
+. ls *lab* = match names of files that start with zero or more any characters then "lab" then again end with zero or more of                any characters.
 
 . mv *2022-04-* ~/Pictures/Screenshots/04 = move month 04 all photos to 04 folder.
 
@@ -10,9 +10,13 @@
 . grep 'pur' districts.txt = search for a pattern to a file('pur' is pattern 'district.txt' is file name)
 
 
+. egrep -i "A" large.tx = match the range of character set with case insensitive( match both uppercase and lowercase)
+. egrep -n 'ganj' districts.txt = showing the number of line where match.
+. egrep "L" districts.txt large.txt = match in multple files.
+
 . egrep 'p.r' districts.txt =  search for p then any character then r .(here (.) is period which represent any character)
 . egrep 's+or' districts.txt = search for one or more of preceeding character "s" then "or". (+ means one or more of preceeding                                  character)
-. egrep 's*or' districts.txt = search for zero or more of preceeding character "s then "or". (* means zero or more of preceeding                                character)
+. egrep 's*or' districts.txt = search for zero or more of preceeding character "s then "or". (* means zero or more of                                          preceeding character)
 . egrep 's{2}' districts.txt = search for number of occurance of preceeding character.
 . egrep 's{2, 3}, districts.txt = serach for number of occurance between 2 and 3.
 . egrep '(na){2}' districts.txt = serach for number of occurance of a group of preceeding charaters.
@@ -34,4 +38,15 @@
 . egrep "[a-f]" large.txt = match the range of character set( from a to f)
 . egrep "[A-F]" large.txt = match the range of character set( from A to F)
 . egrep "[a-fA-F]" large.txt = match the range of character set (from a to f and from A to F)
-. egrep -i "[a-z]" large.tx = match the range of character set with case insensitive( match both uppercase and lowercase)
+
+
+
+. egrep '\+' small.txt = match to any metacharacter ( \ use here for find the metacharacters(ex: + - . /))
+
+. egrep '^J' districts.txt  = match the word start with specifiq character(J here the first character)
+. egrep '^(Ja)' districts.txt = match begining group of characters
+. egrep '^[JG]' districts.txt = match begingin set of characters
+
+. egrep 'ganj|pur' districts.txt = match either 'ganj' or 'pur' ( | is pipe metacharacter)
+
+. egrep "^[AEIOU]{1}.+[aeiou]{1}$" states.txt = serach for a word start and end with vowel
