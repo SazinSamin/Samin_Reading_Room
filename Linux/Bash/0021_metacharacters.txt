@@ -1,0 +1,79 @@
+.
+
+Any Character
+
+\w
+
+A Word
+
+\W
+
+Not a Word
+
+\d
+
+A Digit
+
+\D
+
+Not a Digit
+
+\s
+
+Whitespace
+
+\S
+
+Not Whitespace
+
+[def]
+
+A Set of Characters
+
+[^def]
+
+Negation of Set
+
+[e-q]
+
+A Range of Characters
+
+^
+
+Beginning of String
+
+$
+
+End of String
+
+\n
+
+Newline
+
++
+
+One or More of Previous
+
+*
+
+Zero or More of Previous
+
+?
+
+Zero or One of Previous
+
+|
+
+Either the Previous or the Following
+
+{6}
+
+Exactly 6 of Previous
+
+{4, 6}
+
+Between 4 and 6 or Previous
+
+{4, }
+
+More than 4 of Previous
