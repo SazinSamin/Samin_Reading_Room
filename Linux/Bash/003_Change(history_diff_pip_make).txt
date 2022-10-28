@@ -8,3 +8,16 @@ add alias srr='cd ~/Documents/Samin_Reading_Room/' to that file, now
 . source ~/.bash_profile = to get the effect of typing aliasing command
 . srr = typing this command on terminal will execute your given command in .bash_profile
 
+. diff file1.txt file2.txt = get the difference between two files.
+. sdiff file1.txt file2.txt  = get the difference between two files side by side.
+
+. md5sum file1.txt = compute MD5 hash (hash used for data integrity)
+. shasum file1.txt = compute sha-1 hash
+
+
+(Pip | , this commands syntax is [programe that generate output | programe that take first programe output as input])
+. cat districts.txt | grep '^F' = counting how many districts name start with F character.
+. ls -al | grep "^d" | wc -l = counting how many directory have in the current folder.
+
+. uniq check.txt = get only the uniq output(here uniq lines).
+. sort check.txt = get a sorted output
