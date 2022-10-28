@@ -1,0 +1,6 @@
+. history =  show the commands we have executed in out terminal before
+. head -5 ~/.bash_history  = show last 5 executed commands (.bash_history saves all previously executed commands)
+
+
+(if your home doesn't have '.bash_profile' file then create by yourself)
+  
