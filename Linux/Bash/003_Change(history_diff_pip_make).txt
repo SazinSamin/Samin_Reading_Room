@@ -3,4 +3,8 @@
 
 
 (if your home doesn't have '.bash_profile' file then create by yourself)
-  
+add alias srr='cd ~/Documents/Samin_Reading_Room/' to that file, now
+
+. source ~/.bash_profile = to get the effect of typing aliasing command
+. srr = typing this command on terminal will execute your given command in .bash_profile
+
