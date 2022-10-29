@@ -47,7 +47,8 @@
 . egrep '^(Ja)' districts.txt = match begining group of characters
 . egrep '^[JG]' districts.txt = match begingin set of characters
 
-. egrep 'ganj|pur' districts.txt = match either 'ganj' or 'pur' ( | is pipe metacharacter)
+. egrep 'ganj|pur' districts.txt = match either 'ganj' or 'pur' ( | is pipe metacharacter)(this is also multiple search)
+. egrep '^M|^j$' districts.txt = multiple serach at once
 
 . egrep "^[AEIOU]{1}.+[aeiou]{1}$" states.txt = serach for a word start and end with vowel
 
