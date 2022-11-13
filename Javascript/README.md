@@ -34,7 +34,7 @@ Js algo: https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038
 - https://danfo.jsdata.org/  
   
 
-####for data visulization  
+#### for data visulization  
 - Plotly.js  
 - C3  
 - ApexChart  
