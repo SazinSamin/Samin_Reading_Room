@@ -32,10 +32,11 @@ Js algo: https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038
     
 ### for data analysis  
 - https://danfo.jsdata.org/  
-  
 
 #### for data visulization  
 - Plotly.js  
 - C3  
 - ApexChart  
 - Charts.js  
+#### Math on web:
+- mathjax
