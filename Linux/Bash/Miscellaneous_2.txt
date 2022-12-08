@@ -1,1 +1,2 @@
 ll | wc -l -> find out the number of files in a directory(ll count the hidden files also)
+which [name] -> find out a package present or not(ex. which xclip)
