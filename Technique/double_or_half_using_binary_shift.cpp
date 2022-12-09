@@ -4,11 +4,11 @@
 using namespace std;
 
 int main() {
-    int x = 100;
+    int x = 100;                // 1100100 (binary)  = 100 (decimal)
     // doubling the number
-    int y = 100 << 1;
-    // half the number
-    int z = 100 >> 1;
+    int y = x << 1;             // 11001000 (binary) = 200 (decimal)
+    // half the number  
+    int z = x >> 1;             // 110010 (binary)   = 50 (decimal)
     cout << x << endl;
     cout << y << endl;
     cout << z << endl;
