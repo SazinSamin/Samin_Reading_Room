@@ -1,0 +1,5 @@
+get request:
+curl http://localhost:3000
+
+post request:
+curl -X POST -H "Content-Type: application/json" -d '{"charge":"80","temperature":"98", "pulse":"8", "oxygen":"2"}' http://localhost:3000/data
