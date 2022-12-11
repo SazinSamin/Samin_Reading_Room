@@ -7,10 +7,7 @@ Now I have add a firewall rule from '+' button from Gufw and input my server por
 from the port.  
 <div align="center">
     <img src="https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Linux/Firewall/Gufw/sc12.png" width="300px"</img> 
-</div>
-<div align="center">
-    <img src="https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Linux/Firewall/Gufw/sc11.png" width="300px"</img> 
-</div>  
+    <img src="https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Linux/Firewall/Gufw/sc11.png" width="300px"</img>   
 Now to access my localhost from other device in the same LAN use:  
 192.168.0.109:3000 (in my case)
 
