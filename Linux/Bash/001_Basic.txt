@@ -7,6 +7,7 @@
 . pwd -> print working directory
 . clear -> clear the terminal
 
+. .(dot) -> refer to the current directory
 
 . cd / -> get back to the root directory
 . cd -> only cd without any path leads you to your home directory
