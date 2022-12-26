@@ -2,3 +2,4 @@ ll | wc -l -> find out the number of files in a directory(ll count the hidden fi
 which [name] -> find out a package present or not(ex. which xclip)
 xclip -sel clip file.txt -> copy the content of a file or something in the clipboard 
 ls *txt -> list those file whose have the .txt extension
+ls -d */ -> list the directory only
