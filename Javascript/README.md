@@ -36,7 +36,7 @@ Js algo: https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038
 #### for data visulization  
 - Plotly.js  
 - C3  
-- ApexChart  
+- ApexChart (https://apexcharts.com/docs/options/xaxis/)  
 - Charts.js  
 #### Math on web:
 - mathjax
