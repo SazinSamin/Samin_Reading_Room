@@ -1,0 +1,1 @@
+Database Connection pooling -> [Connection Pooling](https://www.cockroachlabs.com/blog/what-is-connection-pooling/), [stackoverflow](https://stackoverflow.com/questions/4041114/what-is-database-pooling)
