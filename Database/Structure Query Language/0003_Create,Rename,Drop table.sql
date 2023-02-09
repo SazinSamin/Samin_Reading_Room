@@ -1,3 +1,4 @@
+-- Create a table
 CREATE TABLE student 
 (
   Roll int,
@@ -10,3 +11,12 @@ CREATE TABLE student
 
 -- if error comes like [Error: near "Roll": syntax error] then check the selected primary key name are inside
 -- parenthesis () or not.
+
+
+
+-- Rename a table(Won't work)
+RENAME TABLE Student TO Students;
+
+
+-- Drop a table
+DROP TABLE Student;
