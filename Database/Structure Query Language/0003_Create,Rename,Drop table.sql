@@ -7,3 +7,6 @@ CREATE TABLE student
   GPA float(3,2),
   PRIMARY KEY (Roll)
 );
+
+-- if error comes like [Error: near "Roll": syntax error] then check the selected primary key name are inside
+-- parenthesis () or not.
