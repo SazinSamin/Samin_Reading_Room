@@ -9,3 +9,5 @@ ls *txt -> list those file whose have the .txt extension
 ls -d */ -> list the directory only
 
 sudo apt -f install -> resolve all the mission dependeny for any installation
+
+./<file name> -> run a file
