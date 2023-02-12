@@ -28,7 +28,7 @@ Js algo: https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038
 
 ## jS library:
   - brain.js  
-  - particles.js  
+  - particles.js [youtube](https://www.youtube.com/watch?v=1yAR1eNWbCE)  
   
     
 ### for data analysis  
