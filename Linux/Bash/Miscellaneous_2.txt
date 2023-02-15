@@ -11,3 +11,5 @@ ls -d */ -> list the directory only
 sudo apt -f install -> resolve all the mission dependeny for any installation
 
 ./<file name> -> run a file
+
+dpkg --list -> get the list of all .deb files
