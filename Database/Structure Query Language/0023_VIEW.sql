@@ -16,7 +16,5 @@ WHERE Name='Abid';
 -- I can't able to insert data in a VIEW, as there has some condition to meet before change or insertion in VIEW
 -- https://www.geeksforgeeks.org/sql-views/
 
-
-
 -- delete a VIEW
 DROP VIEW Student_name;
