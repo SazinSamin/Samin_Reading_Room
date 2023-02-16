@@ -1,1 +1,2 @@
-[sql min function and other column](https://stackoverflow.com/a/40794224)
+[sql min function and other column](https://stackoverflow.com/a/40794224)  
+[VIEW change the original data in database](https://stackoverflow.com/a/2648600/10928027)
