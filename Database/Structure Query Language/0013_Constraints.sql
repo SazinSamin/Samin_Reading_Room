@@ -34,3 +34,24 @@ CREATE TABLE NSU (
     
 -- or by alteration.
 ALTER TABLE UIU ADD CONSTRAINT namecgpa UNIQUE(Name, CGPA);
+
+
+INSERT INTO Grades VALUES
+(1, 100, 3.24);
+
+
+
+-- set(check) constraints
+CREATE TABLE Grades(
+    ID int(5),
+    grade_id int(5),
+    CGPA float(3, 2),
+    PRIMARY KEY (grade_id),
+    -- here we set a constraint that the cgpa should not excedeed 4.00
+	CHECK (CGPA <= 4.00)
+);
+
+
+-- drop constrints;
+ALTER TABLE Grades DROP INDEX CGPA; -- can't able to run this code
+
