@@ -1,0 +1,6 @@
+- Think reverse ( like traverse array from end to start)
+- Look at the function if function is given. here here this below problem function has already given
+    If N ≤ 100, then f 91(N ) = f 91(f 91(N + 11));
+    If N ≥ 101, then f 91(N ) = N − 10.
+    
+ - check the function can be recursive or not
