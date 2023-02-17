@@ -1,4 +1,5 @@
 # Structure Query Language  
+[Different type of keys in database](https://www.guru99.com/dbms-keys.html#7)  
 #### Sql facts -  
 * Count consider both duplicate and null  
 * GROUP BY always be after WHERE and before ORDER BY.  
