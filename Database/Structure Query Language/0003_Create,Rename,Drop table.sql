@@ -14,6 +14,10 @@ CREATE TABLE student
 
 
 
+-- show tables name
+SHOW TABLES;
+
+
 -- Rename a table(Won't work)
 RENAME TABLE Student TO Students;
 
