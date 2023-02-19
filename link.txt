@@ -10,6 +10,8 @@ https://github.com/jigar-sable/Portfolio-Website
 Web Dev: 
   Node js: 
     Learn with Sumit - LWS - Bangladesh
+  Font awsome
+    how to add font awesome in html
 
 Api:
   https://jsonplaceholder.typicode.com/
