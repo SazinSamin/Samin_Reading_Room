@@ -11,3 +11,5 @@ SELECT * FROM Student LEFT JOIN result ON Student.Roll = result.Roll;
 -- right join show all record from right table and only matched records from the left table.
 -- (0 records show from the left if there is no match)
 SELECT * FROM Student RIGHT JOIN result ON Student.Roll = result.Roll;
+
+-- Mysql doesn't support FULL JOIN (https://stackoverflow.com/a/4531521/10928027)
