@@ -1,4 +1,4 @@
-// You can't do arithmatic operation on Generics type
+// You can't do arithmetic operation on Generics type
 // we have extend it either with num class or use interface.
 
 // stackoverflow:

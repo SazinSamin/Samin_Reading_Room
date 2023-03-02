@@ -1,4 +1,4 @@
-// arithmatic operator doesn't work for Generic
+// arithmetic operator doesn't work for Generic
 // solution: https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Dart/Info/arithmatic_operator_Generic.dart
 
 

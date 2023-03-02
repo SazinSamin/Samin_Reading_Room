@@ -22,7 +22,7 @@ console.log(getSum(array));
 
 
 
-// couting elements count
+// counting elements count
 const names = ["Sazin", "Sazin", "Reshed", "Abid", "Megh"];
 
 const func = names.reduce((prev, curr) => {
@@ -35,7 +35,7 @@ const func = names.reduce((prev, curr) => {
 
 
         // here look, we have add a prev values or initial value as empty object {}, 
-        // where we check & insert the elemenets, also return that object
+        // where we check & insert the elements, also return that object
         
 }, {} // initialValue
 );
@@ -49,7 +49,7 @@ console.log(func);
 // sum of value of object array.
 let sum = [{ x: 1 }, { x: 2 }, { x: 3 }].reduce(function (prev, curr) {
         // we have to give the initial value here. because,
-        // in first time we can acess the object previous & current value with prev.x & curr.x, but
+        // in first time we can access the object previous & current value with prev.x & curr.x, but
         // when it first calculation finish it, put it data to prev, when next time now then become, 
         // just a numeric value, it can't access like prev.x which refer to the object value.
 

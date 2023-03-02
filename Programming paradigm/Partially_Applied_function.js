@@ -11,7 +11,7 @@ function urlBuilder(scheme) {
         }
 }
 
-//  Here this below line is an exmple of partial function, beccause here we actullay first use the partial 
+//  Here this below line is an example of partial function, because here we actually first use the partial 
 // of our urlBuilder function with one arguments, which return another function which will take another argument. 
 // So, we didn't pass the all arguments need to complete the function at once.
 const schemed = urlBuilder('http'); 

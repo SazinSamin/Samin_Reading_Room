@@ -3,5 +3,5 @@ try{
 }catch(err){
         console.log(err);
 }finally{
-        console.log("This codeblock excuted always");
+        console.log("This codeblock executed always");
 }

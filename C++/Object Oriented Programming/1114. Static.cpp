@@ -26,10 +26,10 @@ class Player{
                 static int y;
         
         
-                // also in class intialization of a static variable always be const, because the value should be always same
+                // also in class initialization of a static variable always be const, because the value should be always same
                 // there will be only one copy of the value for that class
                 // compiler also can do some optimization in this case.
-                // ***need more clear explaination
+                // ***need more clear explanation
                 const static int st_cnt_x = 10;
 
                 // static public method.

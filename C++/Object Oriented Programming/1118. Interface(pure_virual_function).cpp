@@ -14,7 +14,7 @@ class Base{
                 virtual void ShowName() = 0;
 };
 
-// Subclass have to give implementation of abstruct class unimplemeted mathod
+// Subclass have to give implementation of abstruct class unimplemeted method
 // nor it will also be a abstruct class.
 class Child : public Base{
         public:

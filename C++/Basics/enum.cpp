@@ -5,7 +5,7 @@
 using namespace std;
 
 // enum only take integer type
-// defaule start from 0
+// default start from 0
 // we can also define integer type
 // enum Gender:char{male, female};
 

@@ -1,5 +1,5 @@
 // var has function scope, if we decleared it any global object like window object for browser
-// then it would avaiable to the all functions or statement below it.
+// then it would available to the all functions or statement below it.
 
 
 // declear a variable with "var", can have access to all of the code below it.
@@ -38,7 +38,7 @@ if(true) {
         let b = 120;
         console.log(b);
 }
-// console.log(b); // this will leads to error, because it doens't have access to the "let" variable which is block scope 
+// console.log(b); // this will leads to error, because it doesn't have access to the "let" variable which is block scope 
 
 
 
@@ -51,7 +51,7 @@ if(true) {
 
 
 
-// declear variable with "const", we have to assign the value immediatly there.
+// declear variable with "const", we have to assign the value immediately there.
 // also we can't reassign the value again.
 const d = 10;
 d = 20; // this leads to error

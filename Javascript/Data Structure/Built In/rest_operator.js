@@ -1,9 +1,9 @@
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
 // https://en.wikipedia.org/wiki/Variadic_function
 
-// "rest paramters" which aceept an indefinite parameters.
-// a function definition only can have one "rest paramters".
-// rest parameters have to be the last paramters of a function definition.
+// "rest parameters" which aceept an indefinite parameters.
+// a function definition only can have one "rest parameters".
+// rest parameters have to be the last parameters of a function definition.
 
 
 

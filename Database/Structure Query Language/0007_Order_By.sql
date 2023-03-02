@@ -1,4 +1,4 @@
--- sort the data by ascending order(mention ASC is not nessary, as it is default behaviour)
+-- sort the data by ascending order(mention ASC is not necessary, as it is default behaviour)
 SELECT * FROM countries ORDER BY area ASC;
 
 -- sort the data by descending order

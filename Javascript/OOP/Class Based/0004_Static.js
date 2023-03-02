@@ -2,7 +2,7 @@
 
 // class methods and variables belongs to class not instance,
 // we don't have to create instance of the class to use class variables and methods.
-// so, they have consistancy of data.
+// so, they have consistency of data.
 
 // in JS they defined with the keyword "static".
 

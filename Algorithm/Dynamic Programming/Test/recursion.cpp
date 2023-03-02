@@ -15,8 +15,8 @@ int main(){
         int n, a, b, c;
 
         scanf("%d %d %d %d", &n, &a, &b, &c);
-        int ans = find_nth_term(n, a, b, c);
-        printf("%d", ans);
+        int and = find_nth_term(n, a, b, c);
+        printf("%d", and);
         
         return 0;
 }

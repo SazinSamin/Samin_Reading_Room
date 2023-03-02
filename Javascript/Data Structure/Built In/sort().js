@@ -3,7 +3,7 @@
 const arr = [3, 7, 2, 8, 4, 9, 1];
 
 // sort() first convert the array element into string, then use UTF-16 code for sorting.
-// so, we should carefull because "80" will come before "9" according to string UTF-16 code
+// so, we should careful because "80" will come before "9" according to string UTF-16 code
 
 // for sorting string or character we don't need below compareFunction.
 

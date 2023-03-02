@@ -4,6 +4,6 @@ a = 'Md.'
 b = 'Tofajjel'
 c = 'Hossain'
 
-# sep for sperater between the print contens.
+# sep for sperater between the print contents.
 # end for how the line ends with
 print(a, b, c, sep = '_', end = '##')

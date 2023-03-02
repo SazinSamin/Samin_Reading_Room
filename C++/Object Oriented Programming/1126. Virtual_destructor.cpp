@@ -11,7 +11,7 @@ using namespace std;
 class Base{
         public:
                 Base(){ cout << "Base constructor called" << endl; }
-                // mark base class destructor as as virtual to call all it's subclass desctructor.
+                // mark base class destructor as as virtual to call all it's subclass destructor.
                 virtual ~Base() { cout << "Base destructor called" << endl; }
 };
 

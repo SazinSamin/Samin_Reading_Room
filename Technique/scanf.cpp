@@ -3,7 +3,7 @@
 //how much input you take
 
 
-//***********   I have got a problem here, if we enter 2 elements, it does't stop taking input.
+//***********   I have got a problem here, if we enter 2 elements, it doesn't stop taking input.
 
 
 #include<iostream>

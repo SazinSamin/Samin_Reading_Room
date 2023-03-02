@@ -3,7 +3,7 @@
 
 // strict mode convert javascript silent error to throw error
 // in strict mode, if you forget to use "var" or "let" means the type of the variable
-// in times of declearation of a variable, this will throw error immediatly.
+// in times of declearation of a variable, this will throw error immediately.
 
 
 // The "use strict" directive is only recognized at the beginning of a script or a function.

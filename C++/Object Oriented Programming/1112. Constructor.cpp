@@ -25,7 +25,7 @@ class Player{
         
 };
 
-//constructor defintion
+//constructor definition
 Player::Player(int x, int y){
         X = x;
         Y = y;

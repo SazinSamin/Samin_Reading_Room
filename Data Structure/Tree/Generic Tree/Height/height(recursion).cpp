@@ -2,11 +2,11 @@
 #include<vector>
 using namespace std;
 
-// This code doesn't work with big cases, beacuse the recursion will lead to stack overflow, for big input use
+// This code doesn't work with big cases, because the recursion will lead to stack overflow, for big input use
 // bfs to find the height -> https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Data%20Structure/Tree/Generic%20Tree/Height/height(bfs).cpp
 
 // To understand how the given array represent the tree, see the README.md file of generic tree folder.
-// In this code we get the hieght of tree by traversing from each node to it's parent node.
+// In this code we get the height of tree by traversing from each node to it's parent node.
 // & return the distance from that node to parent node
 // Which "node to distant" is most, that will be the height of the tree.
 
@@ -46,7 +46,7 @@ int main(){
         
         for(int i=0; i<n; i++){
                 result = Height(array, array[i]);
-                // the result or a distant more than the previous one, save the lastest far most distance.
+                // the result or a distant more than the previous one, save the latest far most distance.
                 if(result > max){
                         max = result;
                 }

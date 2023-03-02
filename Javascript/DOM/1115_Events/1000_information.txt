@@ -8,4 +8,4 @@ get the element that triggered the element using
 
 *** the difference of above two method that suppose a div with many childrent
 =event.currentTarget only return the "div" click anywhere in that div.
-=event.target that exact content was clicked, like if clicked happend in childrent area then that childrent, if div area then div
+=event.target that exact content was clicked, like if clicked happened in childrent area then that childrent, if div area then div

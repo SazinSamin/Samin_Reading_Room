@@ -8,7 +8,7 @@ using namespace std;
 
 
 // union used for type punning or aliasing. The largest data member of the union is hold the only memory location.
-// rest of the other member used that same location, this actullay for used for holding the same memory with
+// rest of the other member used that same location, this actually for used for holding the same memory with
 // different types.
 union Complex{
         int x;

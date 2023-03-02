@@ -5,10 +5,10 @@ function displayResult(res) {
         console.log(res);
 }
 
-// here we recieve a function as an argument -> "displayFunc". 
+// here we receive a function as an argument -> "displayFunc". 
 function getSum(a, b, displayFunc) {
         let result = a + b;
-        // callback that receieve function from here.
+        // callback that receive function from here.
         displayFunc(result);
 }
 

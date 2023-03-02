@@ -1,4 +1,4 @@
-// This video have sort of explaination
+// This video have sort of explanation
 // https://www.youtube.com/watch?v=HcESuwmlHEY&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=49
 
 #include<iostream>

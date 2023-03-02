@@ -3,7 +3,7 @@
 class Person {
 
         // property declearation is optional, we can omit it, if we omit, the constructor will automatically
-        // create the property before initialization. But decleration is good for other programmer to
+        // create the property before initialization. But declaration is good for other programmer to
         // understand the code & identify the properties belongs to the class.
         // we also don't need to specify the data type inside the class.
         firstName;
@@ -22,7 +22,7 @@ class Person {
         }
 };
 
-// initialize the instance variable through passing value to the constuctor
+// initialize the instance variable through passing value to the constructor
 // and creation of a Class instance
 // We have to initialize object with keyword "new" nor it won't work.
 // The constructor is invoked when new is called to create a new object.

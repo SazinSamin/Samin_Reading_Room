@@ -45,7 +45,7 @@ int findNext(struct Node *head, int data)
                 //then go to the right subtree, just right node
                 getSearchNode = getSearchNode->right;
                 //traverse that just right node left subtree until the pointer hit NULL
-                //When pointer hit hit NULL, thats means there is no node other node in it's left,
+                //When pointer hit hit NULL, that's means there is no node other node in it's left,
                 //and this the just next node of out given node or data.
                 while (getSearchNode->left != NULL)
                 {
@@ -148,14 +148,14 @@ struct Node *insert(int data, struct Node *head){
         if (data < head->data){
                 temp2 = insert(data, head->left);
                 head->left = temp2;
-                //set currrent node as a parent of new node.
+                //set current node as a parent of new node.
                 temp2->parent = head;
         }
         
         else{
                 temp2 = insert(data, head->right);
                 head->right = temp2;
-                //set currrent node as a parent of new node.
+                //set current node as a parent of new node.
                 temp2->parent = head;
         }
         return head;

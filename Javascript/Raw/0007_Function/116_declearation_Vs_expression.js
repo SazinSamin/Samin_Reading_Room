@@ -6,4 +6,4 @@ function myFunc1(parameters) {
 }
 
 // function expression
-const myFunc2 = function () { console.log("Javascipt")};
+const myFunc2 = function () { console.log("Javascript")};

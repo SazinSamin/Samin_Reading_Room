@@ -13,7 +13,7 @@ let json1 = `[
         }
 ]`;
 
-// parse json to covert json to js object.
+// parse json to convert json to js object.
 let obj1 = JSON.parse(json1);
 console.log(obj1);
 console.log(obj1[0].name);

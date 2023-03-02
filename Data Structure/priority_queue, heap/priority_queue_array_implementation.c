@@ -1,5 +1,5 @@
 //Priority_queue array implementation
-//Priority will be coresponding data value
+//Priority will be corresponding data value
 
 #include<iostream>
 using namespace std;

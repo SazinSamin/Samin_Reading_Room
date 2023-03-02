@@ -6,14 +6,14 @@ So I want to assign my newly allocated array
 "new_arr" to the old "array".
 The assignment of address of "new_arr"
 is successfully assign to the "array",
-But the change we can see in just in the funciton,
+But the change we can see in just in the function,
 Not in the global scope.
 But we know that pointer hold the address of that 
 variable.
 So if we make any change to that, then the change
 reflected globally.
-But in this case that's doesn't happend.
-The address of "array" remain same in main funciton.
+But in this case that's doesn't happened.
+The address of "array" remain same in main function.
 
 
 

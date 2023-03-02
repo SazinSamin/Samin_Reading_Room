@@ -1,4 +1,4 @@
--- carefull VIEW change the original as data -> https://stackoverflow.com/a/2648600/10928027
+-- careful VIEW change the original as data -> https://stackoverflow.com/a/2648600/10928027
 
 
 -- create VIEW from single table.

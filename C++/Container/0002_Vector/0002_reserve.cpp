@@ -4,7 +4,7 @@
 // but we can allocate space in first position like array.
 // so the requested space will allocated for the vector.
 // no dynamic allocation will happened before the space has consumed.
-// increase performace.
+// increase performance.
 
 #include<iostream>
 #include<vector>

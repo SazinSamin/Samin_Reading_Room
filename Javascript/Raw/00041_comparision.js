@@ -22,7 +22,7 @@ if (num1 == num2) {
         console.log("num 5 & string 5 are not same");
 }
 
-// comparision only become true when two variable types are same.
+// comparison only become true when two variable types are same.
 if (num1 == num2) {
         console.log("num 5 & string 5  are same");
 } else {

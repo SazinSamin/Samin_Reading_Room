@@ -12,7 +12,7 @@
 const button = document.getElementById("button");
 
 
-// debounce hanlder
+// debounce handler
 // request will make to server after some time, if another request come in between that time.
 // first we clear the previous request and accept only the recent request.
 function debounce (fn, delay) {

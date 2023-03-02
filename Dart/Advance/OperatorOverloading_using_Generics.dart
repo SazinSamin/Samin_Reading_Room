@@ -1,4 +1,4 @@
-// see this link to know, how to do arithmatic operation in Generics variables
+// see this link to know, how to do arithmetic operation in Generics variables
 // https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Dart/Advance/Arithmatic_operation_on_Generics.dart
 
 class Complex<T extends num, K extends num>{

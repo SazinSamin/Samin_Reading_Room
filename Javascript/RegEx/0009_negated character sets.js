@@ -1,5 +1,5 @@
-// ***One important things to remeber to use carat (^) as negated character we have to use square bracket and use that carat symbol
-// inside the square bracket[], otherwise it will be use as match at begining of the string regEx.
+// ***One important things to remember to use carat (^) as negated character we have to use square bracket and use that carat symbol
+// inside the square bracket[], otherwise it will be use as match at beginning of the string regEx.
 // link: https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/RegEx/0013_match_at_begining.js
 
 
@@ -19,7 +19,7 @@ console.log(result);
 
 // excluding a single character.
 
-const string1 = "United International Univesity";
+const string1 = "United International University";
 const regEx = /[^n]/gi;
 const result = string1.match(regEx);
 console.log(result);    

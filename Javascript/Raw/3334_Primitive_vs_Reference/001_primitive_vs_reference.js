@@ -28,8 +28,8 @@ console.log(b);
 // if we copy a reference variable to other variable.
 // in case of reference variable changing one variable make change the other variable as well.
 // when we copy another reference variable to other, another pointer created in stack for that copied variable.
-// but that pointer points to the same memory location in the heap where the first variable actullay points to.
-// thats why in case of reference variable changing one variable make change the other variable as well.
+// but that pointer points to the same memory location in the heap where the first variable actually points to.
+// that's why in case of reference variable changing one variable make change the other variable as well.
 let obj1 = {
         count : 1,
 };
@@ -50,7 +50,7 @@ console.log(arr1, arr2);
 
 
 // as we see that making change to the reference variable also reflect to the other's we copy variable.
-// but there is differnce between assignment(=) and mutatation(.) between variable.
+// but there is difference between assignment(=) and mutatation(.) between variable.
 let person = {
         name: "Sakib",
         age: 35,

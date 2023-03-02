@@ -1,7 +1,7 @@
 // https://www.youtube.com/watch?v=iNuTwvD6ciI&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=43
 
 // stack based automatic heap allocation.
-// as allocating memmory in the heap, we have to free that memory explicitly. 
+// as allocating memory in the heap, we have to free that memory explicitly. 
 // we can automate this things by stack based heap allocation.
 
 #include<iostream>

@@ -30,7 +30,7 @@ let afterPrecision = precision.toPrecision(3);
 console.log(afterPrecision);
 
 
-// JS toString() method can take radix as argument and covert to that base form
+// JS toString() method can take radix as argument and convert to that base form
 // radix must be up to 32, like 2 for binary, 8 for octal, 
 // toString(2) for convert to binary.
 

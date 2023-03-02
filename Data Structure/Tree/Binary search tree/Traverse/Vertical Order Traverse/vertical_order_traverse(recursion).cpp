@@ -1,4 +1,4 @@
-// explaination -> https://www.youtube.com/watch?v=PQKkr036wRc&t=184s
+// explanation -> https://www.youtube.com/watch?v=PQKkr036wRc&t=184s
 // code reference -> https://www.geeksforgeeks.org/print-binary-tree-vertical-order/
 
 

@@ -1,7 +1,7 @@
 
 
 
-// private variables & methods have only scope in class, means they are only avaiable inside the class,
+// private variables & methods have only scope in class, means they are only available inside the class,
 // to declear a private property start the property name with #. 
 
 class Person {

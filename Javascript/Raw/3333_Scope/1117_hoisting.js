@@ -24,7 +24,7 @@
 
 
 
-// decleration hoisting
+// declaration hoisting
 console.log(a); // this line will print "undefined";
 var a;
 a = 1;
@@ -67,7 +67,7 @@ console.log(c)
 let viachle1 = 'car';
 let viachle2 =  'bus';
 // as let is block scope so it won't hoist outside it block, that why it's doesn't make
-// that "var" decleared varibale type unpredictable behaviour.
+// that "var" decleared variable type unpredictable behaviour.
 function chooseViachle() {
         if (!viachle1) {
                 // let viachle1; // let will hoist here
@@ -80,7 +80,7 @@ console.log(chooseViachle());
 
 
 // here because of hoisting normally we expect to print the value undefined, we get 
-// actullay "Science"
+// actually "Science"
 // because of hoisting that "subject" variable hoist to the top of the function, so when in execution phase 
 // js found "subject = Science" it just set the variable value, not making that variable global.
 function foo() {

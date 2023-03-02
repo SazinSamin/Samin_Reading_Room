@@ -6,5 +6,5 @@ example:
           4 -> 100
           5 -> 101
   
- So, we can quickly check a number is odd or not using binary ans(&).
+ So, we can quickly check a number is odd or not using binary and(&).
  if the result is non-zero then the given number is odd, else the result is 0 then even

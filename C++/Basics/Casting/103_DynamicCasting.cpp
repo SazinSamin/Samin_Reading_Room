@@ -1,12 +1,12 @@
  /*
- dynamic cast is actullay for casting from one class to another.
+ dynamic cast is actually for casting from one class to another.
  Base class to Child class = DownCasting
  Child class to Base class = UpCasting
  But if we manually do DownCasting, it would be Ok, because Child class already have information about Base class
  But UpCasting may cause problem, because a function which is unique to Child class may not have in Base class.
  Also a Child class instance, which type is "pointer to a Base" class, if we cast it to another Child of Base class
  then it might crash the problem as well, because in Casting time don't know what the actual type of that instance.
- In dynamic_cast casting will not happend and return "null" in this case.
+ In dynamic_cast casting will not happened and return "null" in this case.
 
  https:www.youtube.com/watch?v=CiHfz6pTolQ&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=74
  https:www.geeksforgeeks.org/dynamic-_cast-in-cpp/
@@ -22,7 +22,7 @@ https://en.cppreference.com/w/cpp/language/dynamic_cast
 #include<iostream>
 using namespace std;
 
-// Polymorphic class, becase it has one virtual function. 
+// Polymorphic class, because it has one virtual function. 
 class Base{
        public:
               virtual void print(){
@@ -54,7 +54,7 @@ int main(){
        if(c1){
               c1->print();
        }else{
-              cout << "Cust didn't successfull" << endl;
+              cout << "Cust didn't successful" << endl;
        }
 
 }

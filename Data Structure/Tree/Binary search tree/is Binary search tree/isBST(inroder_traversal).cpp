@@ -1,5 +1,5 @@
 // Check binary tree or not by inroder traversal
-// we know in inorder traversal of depth first serach in a binary tree always result a sorted order value.
+// we know in inorder traversal of depth first search in a binary tree always result a sorted order value.
 // So we can easily check that if our binary tree is BST or not by keep track of previous traversed node value.
 
 // this method is sometime give wrong result, in like below tree 

@@ -11,7 +11,7 @@ void increment_by_ref(int& a, int &b){
         b++;
 }
 
-// get addreess the of that variable by pointer & directly write to that.
+// get address the of that variable by pointer & directly write to that.
 void increment_by_ptr(int* a, int *b){
         (*a)++;
         (*b)++;
@@ -32,7 +32,7 @@ vector<int> increment_by_vector(int a, int b){
 }
 
 
-// make a strcuture with joining the different types of data, and return that struct, 
+// make a structure with joining the different types of data, and return that struct, 
 // we can also do this by make a class.
 struct Node{
         int a;

@@ -4,7 +4,7 @@ function Person(fName, lNamge, age) {
         this.age = age;
         this.location = "Dhaka";
         // we can make a variable private by create a variable inside the constructor function.
-        // by this the scope of the variable will just be avaiable inside the constructor, not globally like
+        // by this the scope of the variable will just be available inside the constructor, not globally like
         // the rest of others.
         // only the methods inside the constructor can have access & modify the variable.
         let pass = 123;

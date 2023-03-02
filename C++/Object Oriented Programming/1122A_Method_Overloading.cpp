@@ -14,7 +14,7 @@ class Person {
                 }
 
                 void display() {
-                        cout << "Same name No paramter" << endl;
+                        cout << "Same name No parameter" << endl;
                 }
                 void display(int param) {
                         cout << "Same name One parameter " << endl;

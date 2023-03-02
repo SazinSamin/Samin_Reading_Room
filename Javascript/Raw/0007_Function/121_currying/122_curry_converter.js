@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-// custome implementation of curry converter
+// custom implementation of curry converter
 function currying (foo) {
         return function curried(...args) {
                 if(args.length >= foo.length) {
@@ -8,8 +8,8 @@ function currying (foo) {
                         return foo.apply(this, args);
                 } else {
                         return function (...args2) {
-                                // here recursively we call the curried function to match the first requirment to call the given function.
-                                // also in currying we divide the arguments which in normall function call at once.
+                                // here recursively we call the curried function to match the first requirement to call the given function.
+                                // also in currying we divide the arguments which in normal function call at once.
                                 // so here in recursive call we concate those arguments using concat.
                                 return curried.apply(this, args.concat(args2));
                         }

@@ -22,7 +22,7 @@ console.log(res1); // [1, 2, 200, 4, 5]
 
 
 // so, to avoid shallow copy, we need deep copy means we have to create a new array which have
-// complete seprate memory location, any change to new array doesn't reflect to the old array, 
+// complete separate memory location, any change to new array doesn't reflect to the old array, 
 // one of the method to do deep copy by spreading operator.
 
 const arr2 = [1, 2, 3, 4, 5];

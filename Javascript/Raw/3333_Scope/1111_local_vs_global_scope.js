@@ -1,6 +1,6 @@
 // https://www.coursera.org/learn/javascript-basics/lecture/QRcIS/scope-in-javascript
 
-// javscript global variable visible to everwhere, where local variable belongs to local function.
+// javscript global variable visible to everywhere, where local variable belongs to local function.
 //  they are only visible to that function.
 
 // if we comment this global variable x and try to use it to see that there is a variable with same name inside
@@ -9,7 +9,7 @@ var x = 10;
 
 function func() {
         var x = 12;
-        // Carefull !!!         local variabe without var become global varibale
+        // Careful !!!         local variable without var become global variable
         y = 20;
         console.log(`Local x: ${x}`);
 }

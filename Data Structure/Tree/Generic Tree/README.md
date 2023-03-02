@@ -1,4 +1,4 @@
-### Generic tree has similary with adjacency list graph data structure(as tree is a special kind of graph).
+### Generic tree has similarly with adjacency list graph data structure(as tree is a special kind of graph).
 
 
 
@@ -8,7 +8,7 @@ Link -> https://github.com/SazinSamin/Samin_Reading_Room/tree/main/Data%20Struct
 Link -> https://www.geeksforgeeks.org/generic-treesn-array-trees/    
 
 
-When we gat array for contruct a tree, the array explain that    
+When we gat array for construct a tree, the array explain that    
 
 Like we have an array this ->   
 int array[] = {4, -1, 4, 1, 1};

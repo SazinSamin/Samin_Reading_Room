@@ -7,7 +7,7 @@
 // https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Objects/0007_Prototype.js
 
 
-// In javascipt there are two types of property.
+// In javascript there are two types of property.
 // "Own properties" & "Prototype".
 
 
@@ -16,7 +16,7 @@
 
 
 // Own properties are defined directly inside the Object. below example "firstName, lastName, age"
-// are the own properties. That means p1 & p2 has own seprate copy of this properties. Every instance
+// are the own properties. That means p1 & p2 has own separate copy of this properties. Every instance
 // we instantiate from this Object will have there own copy of these properties.
 
 function Person (fName, lName, age) {

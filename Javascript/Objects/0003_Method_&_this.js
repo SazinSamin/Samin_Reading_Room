@@ -10,7 +10,7 @@ const person1 = {
                 return `Name: ${this.firstName} ${this.lastName}\n birthYear: ${this.birthYear}`;
         },
         
-        // we can refer to the object by avobe style {this.property} or by refering
+        // we can refer to the object by avobe style {this.property} or by referring
         // own variable by {objectName.property}. But the above one (this.property) is perfect & reusable,
         // because the {objectName.property} has a serious drawback that if the objectName has
         // changed, we have changed all the reference or objectName as well.
@@ -22,7 +22,7 @@ const person1 = {
 
 console.log(person1.details());
 console.log(person1.getFirstName());
-// without "()", the funciton defintion will return
+// without "()", the function definition will return
 
 
 // addition of a method

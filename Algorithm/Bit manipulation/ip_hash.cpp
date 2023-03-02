@@ -1,4 +1,4 @@
-//Difference between logical & arithmatic shift -> 
+//Difference between logical & arithmetic shift -> 
 // https://stackoverflow.com/questions/44694957/the-difference-between-logical-shift-right-arithmetic-shift-right-and-rotate-r
 //Logical shift correspond to (left-shift) multiplication by 2, (right-shift) integer division by 2
 

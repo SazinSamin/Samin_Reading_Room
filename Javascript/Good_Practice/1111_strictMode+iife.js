@@ -4,9 +4,9 @@
 // https://www.coursera.org/learn/javascript-basics/lecture/thJcX/strategy-2-use-strict
 
 
-// strict mode convert javascript silent error to throw erro
+// strict mode convert javascript silent error to throw error
 // in strict mode, if you forget to use "var" in times of declearation of a variable, this will throw 
-// error immediatly.
+// error immediately.
 
 "use strict";
 

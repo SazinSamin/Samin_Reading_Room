@@ -1,10 +1,10 @@
 // currying is a programming style or paradigm
 // It is used to reduce the parameters of a function
-// Currying object is to reduce paramters at least as possible or even reduced into one parameter is best by
+// Currying object is to reduce parameters at least as possible or even reduced into one parameter is best by
 // dividing one function into many and return from there.
 
 
-// normall function
+// normal function
 function foo (a, b, c) {
         return a + b + c;
 }
@@ -46,7 +46,7 @@ function vat2(tax) {
         }
 }
 
-const taxRate = vat2(.1); // look this one is parital function, beacuse here we use partial portion of the total function
+const taxRate = vat2(.1); // look this one is partial function, because here we use partial portion of the total function
 const v4 = taxRate(100);
 const v5 = taxRate(200);
 const v6 = taxRate(300);

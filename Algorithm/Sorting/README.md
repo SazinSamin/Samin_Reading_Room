@@ -20,4 +20,4 @@ Link -> MyCodeSchool https://www.youtube.com/watch?v=COk73cpQbFQ&list=PL2_aWCzGM
        linear complexity is the need.
 
 ####   -Practical information.
-       Sorting in Dart progamming language implementated as when the difference between right & left value is 32 or less, they use regular        insertion sort. But if the difference avobe the level then thay use Dual-Pivot Quicksort algorithm.
+       Sorting in Dart programming language implemented as when the difference between right & left value is 32 or less, they use regular        insertion sort. But if the difference avobe the level then they use Dual-Pivot Quicksort algorithm.

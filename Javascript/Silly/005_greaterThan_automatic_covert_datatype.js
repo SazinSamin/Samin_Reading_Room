@@ -1,4 +1,4 @@
-// be carefull like the equality operator, the greater than operator will convert data types of values while comparing.
+// be careful like the equality operator, the greater than operator will convert data types of values while comparing.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than_or_equal
 
 

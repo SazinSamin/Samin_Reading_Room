@@ -23,7 +23,7 @@ class Person{
 };
 
 int main(){
-        // unique_ptr are hold unique_position. So, they cann't be copied, or store in another pointer,
+        // unique_ptr are hold unique_position. So, they can't be copied, or store in another pointer,
         // because if one pointer freed that location, another then hold that empty free position, 
         // try to free again and crashed program 
         unique_ptr<Person> u_ptr = make_unique<Person>("u_ptr", 24);

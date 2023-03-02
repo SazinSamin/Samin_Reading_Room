@@ -54,7 +54,7 @@ void makeCycle(){
 //to traverse the loop, we point the head node to the nx node.
 //see the code, you can understand
 
-//We here actully traverse the loop and make every node next pointer pointing to the same temp node
+//We here actually traverse the loop and make every node next pointer pointing to the same temp node
 //So, if a node already pointing to the temp node, that means we visited that node before
 //and there is a loop.
 

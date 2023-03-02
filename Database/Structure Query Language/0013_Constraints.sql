@@ -47,11 +47,11 @@ CREATE TABLE Grades(
     grade_id int(5),
     CGPA float(3, 2),
     PRIMARY KEY (grade_id),
-    -- here we set a constraint that the cgpa should not excedeed 4.00
+    -- here we set a constraint that the cgpa should not exceeded 4.00
 	CHECK (CGPA <= 4.00)
 );
 
 
--- drop constrints;
+-- drop constraints;
 ALTER TABLE Grades DROP INDEX CGPA; -- can't able to run this code
 

@@ -17,9 +17,9 @@ console.log(arr2);
 
 
 // spread operator in function arguments.
-// spread operator in function are same like called "rest paramters" which aceept an indefinite parameters.
-// a function definition only can have one "rest paramters".
-// rest parameters have to be the last paramters of a function definition.
+// spread operator in function are same like called "rest parameters" which aceept an indefinite parameters.
+// a function definition only can have one "rest parameters".
+// rest parameters have to be the last parameters of a function definition.
 
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters

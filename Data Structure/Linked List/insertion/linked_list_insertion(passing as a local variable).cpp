@@ -1,4 +1,4 @@
-//Node pass to funtion from the main function & return from there.
+//Node pass to function from the main function & return from there.
 
 #include<iostream>
 using namespace std;

@@ -1,5 +1,5 @@
 // https://www.geeksforgeeks.org/merge-two-binary-trees-node-sum/
-// This merge completely merge two tree by add every poistion nodes value from two different tree.
+// This merge completely merge two tree by add every position nodes value from two different tree.
 
 //               Input:
 
@@ -22,7 +22,7 @@ struct Node* mergeTree(struct Node* tree1, struct Node* tree2){
   
         // if tree1 or tree2 == NULL, means one tree current node is NULL, then we return other tree node.
         // other tree may have there node or not, if there is node then that node & it's descendent return from this position
-        // automatically insert to the corresponding postion of our merge node.
+        // automatically insert to the corresponding position of our merge node.
         // if not, like other tree has also no node there, means NULL, then NULL return from there.
         
         if( ! tree1) return tree2;
@@ -44,4 +44,4 @@ struct Node* mergeTree(struct Node* tree1, struct Node* tree2){
 }
 
 
-// As this is a recursive procedure, so think all recursivly, you will understand easily....
+// As this is a recursive procedure, so think all recursively, you will understand easily....
