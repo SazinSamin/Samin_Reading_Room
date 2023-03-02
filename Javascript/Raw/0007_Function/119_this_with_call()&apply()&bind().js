@@ -54,7 +54,7 @@ const person2 = new Person("Sakib", 23);
 console.log(person2);
 
 
-// window binding, autometicall bind to the brower window or nodejs global object
+// window binding, autometicall bind to the browser window or nodejs global object
 // leads to undefined, to avoid such behaviour use strict mode.
 const printName = function () {
         console.log(this.name);

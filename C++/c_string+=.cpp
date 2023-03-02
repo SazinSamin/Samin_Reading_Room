@@ -1,4 +1,4 @@
-//C++ string work like other varibale
+//C++ string work like other variable
 //
 
 #include <iostream>

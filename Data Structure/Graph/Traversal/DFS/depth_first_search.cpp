@@ -1,6 +1,6 @@
 //https://www.youtube.com/watch?v=kMS5Fxjrd6E&list=PLlOmh-YAEmsA3TaCvAAQjXrgeZKWxEuak&index=6
 //I use vector & visited array as local variable to manipulate as much as data you want.......
-//Be carefull about put the source number in dfs function from main function.
+//Be careful about put the source number in dfs function from main function.
 //Put the node number when to start traversing. If you put a number which doesn't exit
 //then it wouldn't traverse the list.
 #include<iostream>

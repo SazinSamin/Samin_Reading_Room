@@ -1,5 +1,5 @@
 // https://medium.com/javascript-scene/higher-order-functions-composing-software-5365cf2cbe99
-// diffrence between first class function and higher order funciton
+// difference between first class function and higher order function
 // https://stackoverflow.com/questions/10141124/any-difference-between-first-class-function-and-high-order-function
 
 

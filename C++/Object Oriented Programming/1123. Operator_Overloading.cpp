@@ -16,7 +16,7 @@ class Complex{
                         return Complex( real + other.real, imag + other.imag);
                 }
                 
-             // by overload the == opeartor, we can compare two class.   
+             // by overload the == operator, we can compare two class.   
             bool operator == (Complex other){
                     return (real == other.real && imag == other.imag);
             }

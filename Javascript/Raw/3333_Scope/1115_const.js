@@ -2,7 +2,7 @@
 
 // also we can't reassign the value again.
 
-// declear variable with "const", we have to assign the value immediatly there.
+// declear variable with "const", we have to assign the value immediately there.
 const x = 10;
 
 // we can't do this with "const"

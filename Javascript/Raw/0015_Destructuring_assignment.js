@@ -1,4 +1,4 @@
-// Destructuring assignment is assigning multple values at same time from array elements, function or others as well.
+// Destructuring assignment is assigning multiple values at same time from array elements, function or others as well.
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
 
 
@@ -19,7 +19,7 @@ console.log(d);
 
 
 
-// unpacking from object requres same of object variable as assigning variable, otherwise through an error.
+// unpacking from object requires same of object variable as assigning variable, otherwise through an error.
 const person1 = {
         name: "Hasan",
         age: 24
@@ -109,7 +109,7 @@ const weather = {
 
 
 
-// exclusivly unpacking
+// exclusively unpacking
 const weatherReport1 = weatherInfo => {
         const {maxTemp: max, minTemp: min} = weatherInfo;
         console.log(`Temperature = max: ${max}, min: ${min}`);

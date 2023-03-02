@@ -12,5 +12,5 @@ const c = a.concat(b);
 console.log(c);
 
 
-// MDN website have written that concate() do shallow copy, means it actullay copy the reference, so if any array mutate, then it reflect
+// MDN website have written that concate() do shallow copy, means it actually copy the reference, so if any array mutate, then it reflect
 // to another array as well, but don't find that on practical by mutating a, b , or c array.

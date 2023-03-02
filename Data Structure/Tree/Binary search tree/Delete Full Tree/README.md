@@ -1,6 +1,6 @@
 To delete a binary, if we just use "delete head", then instead of deleting the whole tree, it will just free the head or root pointer
 of the tree, but the other pointers of the tree's nodes still allocated in the memory because dynamic memory allocation or explicitly 
-allocated memmory by user is allocated memory in the heap section, which have to explicitly freed by user. 
+allocated memory by user is allocated memory in the heap section, which have to explicitly freed by user. 
 So, this leads to memory leak.  
 
 To avoid this situation we have free every pointers or every nodes from the tree.

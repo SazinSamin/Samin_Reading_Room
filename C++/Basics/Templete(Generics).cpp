@@ -1,5 +1,5 @@
-// I found templete & Generics are same concept in C++
-// Generics implment using templete
+// I found template & Generics are same concept in C++
+// Generics implement using template
 // https://www.geeksforgeeks.org/templates-cpp/
 // https://www.geeksforgeeks.org/generics-in-c/
 // https://www.youtube.com/watch?v=I-hZkUa9mIs&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb&index=53
@@ -12,8 +12,8 @@ using namespace std;
 
 
 // temeplete class
-// define templete
-// we can also take multiple arguments in templete
+// define template
+// we can also take multiple arguments in template
 template<typename T, typename U>
 
 class Complex{
@@ -34,8 +34,8 @@ class Complex{
 };
 
 
-// templete function
-// define templete
+// template function
+// define template
 template<typename T>
 T compare(T o1, T o2){
         return (o1 > o2) ? o1 : o2;

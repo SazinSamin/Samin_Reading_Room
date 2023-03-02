@@ -1,4 +1,4 @@
-As far I know to become make "anonymous function" a programming lanuage should treat function a first class member.    
+As far I know to become make "anonymous function" a programming language should treat function a first class member.    
 
 First Class functions can:  
 //              Be stored in variables  

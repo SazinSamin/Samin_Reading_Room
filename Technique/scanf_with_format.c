@@ -6,7 +6,7 @@ int main(){
         
         //scanf can take as format you like to take input. 
         //In this code we take input of a ip address like 192.168.0.1
-        //The section of the ip seperated by "."(dot). 
+        //The section of the ip separated by "."(dot). 
         //So scanf will ignore that 
         //And each integer value to it's corresponding variable.
   

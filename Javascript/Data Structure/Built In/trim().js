@@ -8,7 +8,7 @@ const res1 = string.trim();
 console.log(res1);
 
 
-// trimStart() for only remove whitespace from the begining.
+// trimStart() for only remove whitespace from the beginning.
 // trimLeft() is the alias of trimeStart().
 const res2 = string.trimStart();
 // trimStart() for only remove whitespace from the ending.

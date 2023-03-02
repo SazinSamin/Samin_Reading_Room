@@ -1,4 +1,4 @@
-// arrray in JS is mutable.
+// array in JS is mutable.
 
 
 

@@ -10,7 +10,7 @@ const Person = {
         lastName: "Samin",
         age : 23,
         myFunction: function(){
-                // here this wil return the "Person" object.
+                // here this will return the "Person" object.
               return this;
         }
 }

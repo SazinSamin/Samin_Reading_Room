@@ -3,7 +3,7 @@
 // https://www.geeksforgeeks.org/g-fact-77/
 
 
-// "this"  actually a pointer to that class, it is only avaiable inside the class,
+// "this"  actually a pointer to that class, it is only available inside the class,
 // by using "this" we can access to class variable & methods inside the class.
 
 #include<iostream>

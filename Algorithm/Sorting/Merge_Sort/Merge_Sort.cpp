@@ -1,4 +1,4 @@
-//Merge sort implementaion
+//Merge sort implementation
 //This code sometimes crash for small data
 //And give undefined result
 

@@ -23,7 +23,7 @@ function getA(a) {
 }
 
 const myFunc = getA(10);
-// even the getA() function execution reaches the end, the inner function still has acecess to the 
+// even the getA() function execution reaches the end, the inner function still has access to the 
 // variable
 myFunc(20);
 
@@ -33,7 +33,7 @@ myFunc(20);
 
 // another example
 function count() {
-        // because of closure this counter variable will retain after finish this funciton execution
+        // because of closure this counter variable will retain after finish this function execution
         let counter = 0;
         function increment() {
                 counter ++;

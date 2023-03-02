@@ -5,7 +5,7 @@ using namespace std;
 
 
 // this algorithm is not perfect for detecting integer overflow, 
-// it detect only when singed integer turrned into negetive but if signed integer again turn into positive
+// it detect only when signed integer turrned into negetive but if signed integer again turn into positive
 // after rounding it's negetive portion, it's failed to detect the overflow.
 
 int isOverFlow(int* result, int a, int b){

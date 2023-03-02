@@ -1,7 +1,7 @@
 // https://javascript.plainenglish.io/data-hiding-with-javascript-module-pattern-62b71520bddd
 
 
-// properties & function defined inside a funciton
+// properties & function defined inside a function
 function studentDetails(name, age, id) {
         // exposed properties
         let _name = name;
@@ -15,7 +15,7 @@ function studentDetails(name, age, id) {
                return (_cgpa > 3.00) ? "Good" : "Not good";
         }
 
-        // we exposing our desired properties by return from the funciton, 
+        // we exposing our desired properties by return from the function, 
         return {
                 name: _name,
                 age: _age,

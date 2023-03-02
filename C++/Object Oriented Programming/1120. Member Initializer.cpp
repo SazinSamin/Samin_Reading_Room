@@ -1,5 +1,5 @@
-// To initilize the member variable or object of the Class member,
-// we use member initializer list, this gives performance benefit over normal assignement of member variable inside
+// To initialize the member variable or object of the Class member,
+// we use member initializer list, this gives performance benefit over normal assignment of member variable inside
 //  the constructor.
 
 // These links also give clear explaintion, with where we must use this initializer list
@@ -11,7 +11,7 @@
 
 // when we initialize class variable in constructor, we should always maintain the initialization order
 // with the declearation order of class variable,
-// like here in Parent class we have two class variabel x, y, so we first should initialize x, then y.
+// like here in Parent class we have two class variable x, y, so we first should initialize x, then y.
 
 
 #include<iostream>

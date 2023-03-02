@@ -13,7 +13,7 @@ let nextSibling = demo.nextSibling;
 let prevSibling = demo.previousSibling;
 
 
-// like querySelector traverse from top to bottom to find a elemenet, 
+// like querySelector traverse from top to bottom to find a element, 
 // closest do the reverse, from bottom(where the element belongs) to top for the element.
 let grandFather = demo.closest(".item");
 

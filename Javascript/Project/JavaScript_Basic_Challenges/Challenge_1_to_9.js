@@ -47,7 +47,7 @@ console.log(firstName + " " + lastName);
 
 var firstName = "Sazin";
 var lastName = "Samin";
-var adjective = "progammer"
+var adjective = "programmer"
 console.log(`${firstName} ${lastName} is a very good ${adjective}`);
 
 
@@ -73,7 +73,7 @@ console.log(`${firstName} ${lastName} is a very good ${adjective}`);
 // then display a sentence in the console that greets the
 // user by name and welcomes them.
 
-var myname = prompt("What's you name ? ", "Apon");
+var myname = prompt("What's you name ? ", "Upon");
 console.log(`Hello ${myname} and welcom`);
 
 

@@ -18,8 +18,8 @@ function Person(name, age) {
         person.age = age;
 
         // here we do object count optimization
-        // if we define those two methods inside here, this will create and take sperate memory space
-        // everytime we create  and return a object from this funciton.
+        // if we define those two methods inside here, this will create and take separate memory space
+        // every time we create  and return a object from this function.
         // but if we take or refer from a other object(personMethods), these two methods already defined and created, so
         // it's create once and we just refer this here for our use.
         person.eat = personMethods.eat;

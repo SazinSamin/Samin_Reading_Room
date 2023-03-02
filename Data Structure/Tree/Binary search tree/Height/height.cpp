@@ -1,14 +1,14 @@
 // The height of a binary tree is the number of edges between the tree's root and its furthest leaf
     // This function compute the height of the tree...
-    // We can also just use -1 in base case wher root == NULL, that also produce correct reults.
+    // We can also just use -1 in base case where root == NULL, that also produce correct reults.
 
 
-    //This one is my own defintion of code.
+    //This one is my own definition of code.
     // We need two base case here...
     // 1. If any node is NULL 
     // 2. Another if a node right & left both subtree is NULL
     // If we just use root == NULL base case we get height + 1
-    // bacause when we go deep, without middle base case we go to a position where node is NULL
+    // because when we go deep, without middle base case we go to a position where node is NULL
     // But when we return from there, as we recursively add 1 to compute height
     // we add 1 here also, but there no edges between leaf and NULL pointer.
     // So we add the middle base case to identify the leaf node and return from there

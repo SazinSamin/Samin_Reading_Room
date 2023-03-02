@@ -6,7 +6,7 @@
 // splice(start, deleteCount, item1, item2, ...);
 // splice take 3 parameters, start for starting index, deleteCount is the amount of element to be
 // deleted consecutively & the last on is optional, which use for adding element to the array, 
-// we can add elements as much as we want by give them in comma seperated way.
+// we can add elements as much as we want by give them in comma separated way.
 
 
 const array2 = ["He", "is", "a", "not", "good", "and" , "polite", "boy"];

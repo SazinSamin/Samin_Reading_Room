@@ -12,7 +12,7 @@
         if (distanceKm != "NaN") {
                 answer.innerHTML = `<h2>${distance} miles: ${distanceKm}</h2>`;
         } else {
-                answer.innerHTML = `<h2>Error in convertion !</h2>`;
+                answer.innerHTML = `<h2>Error in conversion !</h2>`;
         }
         });
 })()

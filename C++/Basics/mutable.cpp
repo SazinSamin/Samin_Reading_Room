@@ -1,5 +1,5 @@
 // as constant object can only call constant method of class
-// so, to somwhow change any variable inside the const method, we can
+// so, to somehow change any variable inside the const method, we can
 // marks that variable as mutable.
 
 #include<iostream>
@@ -19,7 +19,7 @@ class Player{
                         if(!weight){
                                 weight = 60;
                         }
-                        cout << "heigh: " << height << " weight: " << weight << endl;
+                        cout << "height: " << height << " weight: " << weight << endl;
                 }
 };
 

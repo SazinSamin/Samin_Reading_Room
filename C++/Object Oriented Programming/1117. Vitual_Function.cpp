@@ -34,15 +34,15 @@ class ChildClass : public BaseClass{
 
 
 int main(){
-        // Suppose we have a function overriden in Child class, means that function in both Base class & Child class.
+        // Suppose we have a function overridden in Child class, means that function in both Base class & Child class.
         // Now, when we instanace a object using Child class and that object type is on Base class, then the compiler will
-        // called the Base class function, as it doesn't have idea about the Child class overriden function.
+        // called the Base class function, as it doesn't have idea about the Child class overridden function.
 
         BaseClass* c = new ChildClass(12);
 
         // So to avoid this situation, C++ use "virtual" function, when a function of a class mark as virtual CPP create and
-        // maintain a V-Table, which have the information about the overriden function of Base class in Child classes.
-        // Now, the compiler know about the all overriden function and act correctly. The procedure same for virtual destructor.
+        // maintain a V-Table, which have the information about the overridden function of Base class in Child classes.
+        // Now, the compiler know about the all overridden function and act correctly. The procedure same for virtual destructor.
 
         c->print();
 }

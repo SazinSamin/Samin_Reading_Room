@@ -1,4 +1,4 @@
-// JS funciton are executed accroding to they have called, not they are defined.
+// JS function are executed according to they have called, not they are defined.
 
 function x() {
         console.log("Function X");

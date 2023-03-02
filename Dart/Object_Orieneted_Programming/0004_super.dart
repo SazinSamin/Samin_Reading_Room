@@ -25,7 +25,7 @@ class Student extends Person {
 
   @override
   void display() {
-    // "super" keywork is used to access the super class method from sub class.
+    // "super" keyword is used to access the super class method from sub class.
 
     super.display();
     print('$_name, $_age');

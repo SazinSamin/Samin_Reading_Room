@@ -14,7 +14,7 @@ struct Node* head;
 
 //Get new node and set data.
 struct Node* getNode(int data){
-	//Dynamic memory allocation fron heap.
+	//Dynamic memory allocation from heap.
         struct Node* temp = (struct Node*) malloc(sizeof(struct Node));
         temp->data = data;
         temp->right = NULL;

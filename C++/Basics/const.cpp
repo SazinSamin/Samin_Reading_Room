@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
         // const variable means it value can't be changed, 
-        // also have intialize at decleartion time.
+        // also have initialize at decleartion time.
         const int a = 10;
         int b = 12;
 

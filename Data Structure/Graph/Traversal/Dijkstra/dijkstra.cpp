@@ -80,7 +80,7 @@ int main(){
                 graph[n1].push_back({n2, w});
         }
 
-        // as we add node+1, so here we minus that, letter write more desciption.
+        // as we add node+1, so here we minus that, letter write more description.
         //printNode(graph, nodes - 1);
 
         int source = 3;

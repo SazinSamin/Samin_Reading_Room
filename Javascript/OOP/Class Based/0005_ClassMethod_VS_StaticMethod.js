@@ -21,7 +21,7 @@ class Person{
         }
 };
 
-// instance memeber initialization
+// instance member initialization
 const instance = new Person("Sazin", 24);
 const instanceMethod = instance.display();
 console.log(instanceMethod);

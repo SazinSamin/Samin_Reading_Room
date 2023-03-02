@@ -1,1 +1,1 @@
-[LRU chache](https://www.geeksforgeeks.org/lru-cache-implementation/)
+[LRU cache](https://www.geeksforgeeks.org/lru-cache-implementation/)

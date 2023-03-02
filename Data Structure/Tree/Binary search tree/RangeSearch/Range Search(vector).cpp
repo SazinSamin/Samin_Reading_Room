@@ -87,14 +87,14 @@ struct Node *insert(int data, struct Node *head){
         if (data < head->data){
                 temp2 = insert(data, head->left);
                 head->left = temp2;
-                //set currrent node as a parent of new node.
+                //set current node as a parent of new node.
                 temp2->parent = head;
         }
 
         else{
                 temp2 = insert(data, head->right);
                 head->right = temp2;
-                //set currrent node as a parent of new node.
+                //set current node as a parent of new node.
                 temp2->parent = head;
         }
         return head;

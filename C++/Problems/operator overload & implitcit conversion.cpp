@@ -15,7 +15,7 @@ class Fraction
 
 int main() {
 	Fraction f(2, 5);
-	float val = f; // can't able to understand without calling Fraction class Overloded function float() method how this
-	cout << val;   // convert, look like implicit conversion, search for explaination.
+	float val = f; // can't able to understand without calling Fraction class Overloaded function float() method how this
+	cout << val;   // convert, look like implicit conversion, search for explanation.
 	return 0;
 }

@@ -1,5 +1,5 @@
 
-// custome iterator, override the built-in iterator method in js.
+// custom iterator, override the built-in iterator method in js.
 Array.prototype[Symbol.iterator] = function () {
         let count = this.length;
         let arr = this;

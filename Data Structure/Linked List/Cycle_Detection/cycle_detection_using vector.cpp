@@ -55,7 +55,7 @@ void makeCycle(){
 
 
 //Declear global variable vector
-//for persistance data
+//for persistence data
 vector<int> v;
 int saveData(int data){
         //Traverse the vector and see if the data already present or not.

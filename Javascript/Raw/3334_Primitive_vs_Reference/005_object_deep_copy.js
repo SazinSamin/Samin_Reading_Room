@@ -46,10 +46,10 @@ typeof (obj2) === 'object' ? console.log(obj2) : '';
 import _ from 'lodash';
 
 let objA = {
-        indentity: "person",
-        catagory: 'student',
+        identity: "person",
+        category: 'student',
         display : function () {
-                console.log(`${this.indentity}, ${this.catagory}`);
+                console.log(`${this.identity}, ${this.category}`);
         }
 };
 

@@ -39,7 +39,7 @@ int main(){
                 //Increment i until hit 9, as out matrix is 3x3.
                 i += 1;
                 
-                //Player 1 input proccess
+                //Player 1 input process
                 printf("\nPlayer X: ");
                 scanf("%d", &player1);
                 player1 = MapKeyBoardInput(player1);
@@ -174,7 +174,7 @@ void Display(int array[]){
 }
 
 
-//This function map game input to corresponding real postion
+//This function map game input to corresponding real position
 
 // 7 8 9         0 1 2          1 2 3
 // 4 5 6 ------> 3 4 5 ------>  4 5 6

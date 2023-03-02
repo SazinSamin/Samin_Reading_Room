@@ -6,7 +6,7 @@ var goodMood = true;
 
 
 if(goodSleep && goodMood){
-        console.log("The day is awsome");
+        console.log("The day is awesome");
 }else{
         console.log("Seems like a bad day");
 }

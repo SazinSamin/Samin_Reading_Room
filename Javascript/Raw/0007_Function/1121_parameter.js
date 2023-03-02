@@ -3,7 +3,7 @@
 // Function parameters are the names listed in the function definition.
 // Function arguments are the real values passed to(and received by) the function.
 
-// we can send as many as argument as parameter, missing paramter will be as undefined
+// we can send as many as argument as parameter, missing parameter will be as undefined
 // arguments are pass by value
 
 // Parameter Rules

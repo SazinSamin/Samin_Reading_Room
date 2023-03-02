@@ -10,7 +10,7 @@ public:
         int max_end = 0, max_sum = INT_MIN;
         
         // we can also get the subarray starting & ending value, 
-        //  comment out commnet statement and get the result.
+        //  comment out comment statement and get the result.
         // int start = 0, stop = 0;
 
         for(int i=0; i<nums.size(); i++) {

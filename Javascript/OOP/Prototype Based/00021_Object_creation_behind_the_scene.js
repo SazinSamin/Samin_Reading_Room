@@ -35,7 +35,7 @@ function Student (name, age) {
         this.name = name;
         this.age = age;
         
-        // als we don't need to return the object, js will do for us
+        // also we don't need to return the object, js will do for us
         // return this;
 }
 

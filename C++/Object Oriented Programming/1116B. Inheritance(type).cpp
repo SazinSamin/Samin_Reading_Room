@@ -17,7 +17,7 @@ class GameResult : public Player{
 
 }
 
-// multiple inhertance
+// multiple inheritance
 class Detail : public Game, public Player{
 
 }

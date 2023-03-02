@@ -1,4 +1,4 @@
-// This below link vedio made for graph, but also work same for generic tree
+// This below link video made for graph, but also work same for generic tree
 // https://www.youtube.com/watch?v=ZR9f2YIFHD0&list=PLlOmh-YAEmsA3TaCvAAQjXrgeZKWxEuak&index=11
 // The array we used to build the tree, this image can found in -> https://www.geeksforgeeks.org/height-generic-tree-parent-array/
 // also we draw here.

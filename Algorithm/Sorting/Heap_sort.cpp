@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-//Swaping two elements
+//Swapping two elements
 void swap(int *a, int *b){
         int temp = *a;
         *a = *b;

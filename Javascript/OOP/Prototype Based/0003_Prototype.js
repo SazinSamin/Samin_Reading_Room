@@ -7,7 +7,7 @@
 // JS is a prototype based language
 // prototype helps us to add property directly outside the constructor function
 // every object in js has prototype & prototype chain.
-// prototype also use for inhertance because if we add a prototype to a object, it will be avaiable to all instance.
+// prototype also use for inheritance because if we add a prototype to a object, it will be available to all instance.
 // we can also add prototype to js built-in object like String, Number, Boolean (which is highly un-recommended)
 
 

@@ -100,7 +100,7 @@ int main(){
                 insert(i);
         }
 
-        //Be carefull to pass data in makeCycle
+        //Be careful to pass data in makeCycle
         //For reduce complexity we don't add
         //any bound checking to it.
         makeCycle(6);

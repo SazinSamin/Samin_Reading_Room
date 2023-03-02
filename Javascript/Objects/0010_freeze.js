@@ -1,8 +1,8 @@
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/prevent-object-mutation
 
-// const does not alone make a variable completly immutable. const does only prevent the variable 
+// const does not alone make a variable completely immutable. const does only prevent the variable 
 // from reassignment. That means we can still change the variable material from inside.
-// So, to make the variable and it's variable completly immutable we have to freeze it through 
+// So, to make the variable and it's variable completely immutable we have to freeze it through 
 // Object.freeze
 // Now we can't alter anything about that variable and strict mode if we try to do it will through an error
 

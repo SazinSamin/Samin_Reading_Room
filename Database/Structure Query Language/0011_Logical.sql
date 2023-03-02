@@ -9,7 +9,7 @@ SELECT * FROM country_stats WHERE year > 2000 AND (gdp < 100000000 OR population
 SELECT * FROM countries WHERE name='Bangladesh' OR name='China' OR name='Uzbekistan';
 -- Instead of giving too many (or) we can match using (IN)
 SELECT * FROM countries WHERE name IN('Bangladesh', 'China', 'Uzbekistan');
--- NOT IN (Exact oposite of IN)
+-- NOT IN (Exact opposite of IN)
 SELECT * FROM countries WHERE name NOT IN('Bangladesh', 'China', 'Uzbekistan');
 
 

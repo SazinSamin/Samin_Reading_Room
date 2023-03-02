@@ -6,7 +6,7 @@ using namespace std;
 // the array decays to pointer, means instead of copying the whole array & it's element, 
 // it just copy the it's first address of the array.
 // which is a pointer.
-// so, we decode that pointer, and can do pointer arithmatic to traverse tha char array here.
+// so, we decode that pointer, and can do pointer arithmetic to traverse than char array here.
 // see Denis Riche book for that.
 
 

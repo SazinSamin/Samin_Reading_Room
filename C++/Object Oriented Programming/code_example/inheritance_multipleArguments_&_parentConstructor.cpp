@@ -1,4 +1,4 @@
-// realted solved problem: https://github.com/SazinSamin/Problem-Solving/blob/main/HackerRank/30%20days%20of%20code/Day%2012:%20Inheritance.cpp
+// related solved problem: https://github.com/SazinSamin/Problem-Solving/blob/main/HackerRank/30%20days%20of%20code/Day%2012:%20Inheritance.cpp
 
 #include<iostream>
 using namespace std;

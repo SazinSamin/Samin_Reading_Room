@@ -5,7 +5,7 @@ array.reverse();
 console.log(array);
 
 
-// carefull, this below code doesn't work properly.
+// careful, this below code doesn't work properly.
 const obj1 = {
         1: 6,
         2: 4,

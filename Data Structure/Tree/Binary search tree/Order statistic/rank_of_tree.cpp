@@ -16,7 +16,7 @@
 
 int rank_of_tree(struct TreeNode* root, int data){
         
-        // intialize the rank as 0.
+        // initialize the rank as 0.
         int rank = 0;
         
         // while root not encounter NULL.
@@ -32,7 +32,7 @@ int rank_of_tree(struct TreeNode* root, int data){
                         
                         // when we go to the right of the tree, then we have to also count the left subtree size with root node.
                         // because we are going (size of left subtree + root node) far from the current node.
-                        // also we can think as, if we go to a node right subtree, then the node's left subtree & the node itselt
+                        // also we can think as, if we go to a node right subtree, then the node's left subtree & the node itself
                         // ahead of any node of node's right subtree.
                         rank += 1 + treeSize(root->left); 
                         

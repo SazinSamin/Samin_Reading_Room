@@ -8,7 +8,7 @@ class Person {
   // class variable or member, directly can call with the name of class
   static String? about;
 
-  // instance methods, can only acess instance variable & only avaiable with 
+  // instance methods, can only access instance variable & only available with 
   // Class Instance.
   void display() {
     print('$name, $age');
@@ -38,7 +38,7 @@ void main() {
 }
 
 
-// I have to add some info also to this files, because instance member can acess static variables and methods.
+// I have to add some info also to this files, because instance member can access static variables and methods.
 
 // Instance method vs Static method
 

@@ -3,22 +3,22 @@
 
 // split(), split an string into substring.
 // return an array.
-// take a pattern as parameter for seperation.
+// take a pattern as parameter for separation.
 
 
 
 const str = "Bangladesh is a riverine country";
 
-// seperate by spaces.
+// separate by spaces.
 const arr1 = str.split(' ');
 
-// seperate each character.
+// separate each character.
 const arr2 = str.split('');
 
 // we can limit the speration also, after crossing limit, rest of string won't included.
 const arr22 = str.split('', 3);
 
-// split also take mutiple character for seperation.
+// split also take multiple character for separation.
 const arr3 = str.split('is');
 
 console.log(arr1);

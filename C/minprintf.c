@@ -1,6 +1,6 @@
-//This is implementaion of printf funciton
+//This is implementation of printf function
 //from Denis Ritche book
-//before procced see this vedio,
+//before procced see this video,
 //https://www.youtube.com/watch?v=WfMWE7EAGyc
 
 

@@ -34,7 +34,7 @@
 . ls -la -> show the file's details also with hidden file[start with . consider hidden in unix]
 . pgrep -lf ml -> find specific process by name[ “ml” is a example process name]
 . sudo apt install -f [install dependency for any software]
-. lsmod -> to see all loaded dirver
+. lsmod -> to see all loaded driver
 . top -> display all running processes, uptime, freemem, avg load and others
 . uptime -> display uptime and avg load
 . nproc -> numbers of core in cpu

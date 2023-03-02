@@ -1,6 +1,6 @@
 # Hash  
 - The result of a hash function called message digest.
-#### MD5 hash in teminal
+#### MD5 hash in terminal
 
     - md5sum <<<"Your text"  
     - sha256sum <<< hey,there  
@@ -11,6 +11,6 @@
 #### [Message authentication code](https://en.wikipedia.org/wiki/Message_authentication_code)  
 #### [HMAC](https://en.wikipedia.org/wiki/HMAC)
     
-#### Hashing also very important for distributed caching service which like consistant hashing
+#### Hashing also very important for distributed caching service which like consistent hashing
     - https://www.shafaetsplanet.com/?p=3831
     - https://www.youtube.com/watch?v=iuqZvajTOyA

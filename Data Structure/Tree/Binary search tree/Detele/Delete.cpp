@@ -11,7 +11,7 @@ struct Node{
         struct Node* right;
 };
 
-//All neccessary function declearation...
+//All necessary function declearation...
 struct Node *insert(struct Node *head, int data);
 void display(struct Node *head);
 struct Node *FindMin(struct Node *head);
@@ -33,7 +33,7 @@ struct Node *deleteNode(struct Node *head, int data){
                 head->right = deleteNode(head->right, data);
         }
 
-        //If none of this above, that means we are find the given data or node postion...
+        //If none of this above, that means we are find the given data or node position...
         else{
                 // 1. If the node has no child.
                 //If the node has no right and left child, that means it is the leaf node, we can delete the node

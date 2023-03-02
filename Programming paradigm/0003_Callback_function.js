@@ -7,10 +7,10 @@ function askUserName(){
         return prompt("What is your name: ");
 }
 
-// receive funciton as argument
+// receive function as argument
 function greeting(username){
         console.log(`Congratulation ${username()}`);
 }
 
-// pass funciton as argument
+// pass function as argument
 greeting(askUserName);

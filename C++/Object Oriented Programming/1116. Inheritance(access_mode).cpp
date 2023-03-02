@@ -5,14 +5,14 @@
 using namespace std;
 
 class Animal{
-        // private data & method are only avaiable to this class.
+        // private data & method are only available to this class.
         private:
                 int weight;
                 void AnimalWeight(){
                         cout << "Weight approximately: " << weight << endl;
                 }
         
-        // protected member avaiable in this class & it's sub class.
+        // protected member available in this class & it's sub class.
         protected:
                 string name;
                 string eyeColor;
@@ -21,7 +21,7 @@ class Animal{
                 cout << "EyeColor: " << eyeColor << endl;
         }
 
-        // avaiable to all
+        // available to all
         public:
                 int speed;
         
@@ -32,11 +32,11 @@ class Animal{
 
 // public: public
 // protected: protected
-// private: can not accessable
+// private: can not accessible
 class Dog : public Animal{
         public:
                 void Color(string color){
-                        // as eyeColor is protected so can be accessable from sub class.
+                        // as eyeColor is protected so can be accessible from sub class.
                         eyeColor = color;
                         eye();
                 }
@@ -44,7 +44,7 @@ class Dog : public Animal{
 
 // public: protected
 // protected: protected
-// private: can not accessable
+// private: can not accessible
 class Shepard : protected Animal{
         public:
                 void Name(string getName){
@@ -55,7 +55,7 @@ class Shepard : protected Animal{
 
 // public: private
 // protected: private
-// private: can not accessable
+// private: can not accessible
 class GroupLeader: private Animal{
 
 }
@@ -64,7 +64,7 @@ int main(){
 
         Dog d;
         // speed variable & AnimalSpeed method both are public in super class,
-        // so, accessable from anywhere.
+        // so, accessible from anywhere.
         d.speed = 30;
         d.AnimalSpeed();
         d.Color("Blue");

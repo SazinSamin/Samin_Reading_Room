@@ -27,11 +27,11 @@ void patAttery(string s, int array[]){
                         j++;
                 }
                 else{
-                        //If i == 0, that means i already in first postion, so just have to increase the j.
+                        //If i == 0, that means i already in first position, so just have to increase the j.
                         if (i == 0){
                                 j++;
                         }
-                        //If not, then backtrack until you find a match or come to the 0th postion.
+                        //If not, then backtrack until you find a match or come to the 0th position.
                         else{
                                 while (i > 0){
                                         i = array[i - 1];

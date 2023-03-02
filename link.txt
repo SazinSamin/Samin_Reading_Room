@@ -10,7 +10,7 @@ https://github.com/jigar-sable/Portfolio-Website
 Web Dev: 
   Node js: 
     Learn with Sumit - LWS - Bangladesh
-  Font awsome
+  Font awesome
     how to add font awesome in html
 
 Api:

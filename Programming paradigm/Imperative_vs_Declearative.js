@@ -51,7 +51,7 @@ function vat2(tax) {
         }
 }
 
-const taxRate = vat2(.1); // look this one is parital function, beacuse here we use partial portion of the total function
+const taxRate = vat2(.1); // look this one is partial function, because here we use partial portion of the total function
 const v4 = taxRate(100);
 const v5 = taxRate(200);
 const v6 = taxRate(300);

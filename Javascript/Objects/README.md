@@ -6,7 +6,7 @@
 --  
 Everything is Javascript create from master "Object"  
 ------  
-#### From function => Parantheses are needed to return an object.  
+#### From function => Parentheses are needed to return an object.  
 -----  
 
 Some important properties:    

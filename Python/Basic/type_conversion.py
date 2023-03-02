@@ -4,8 +4,8 @@
 a = 10
 b = 20.20
 
-# implicit data type convertion,
-# here the interger type 10 convert to float, then a & b add together.
+# implicit data type conversion,
+# here the integer type 10 convert to float, then a & b add together.
 # implicit conversion done by python interpreter when there is no chance of data loss.
 
 c = a + b

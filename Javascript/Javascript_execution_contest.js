@@ -2,7 +2,7 @@
 // https://www.youtube.com/watch?v=Wk0-6b1W_VQ&list=PLHiZ4m8vCp9Nflbo9a0pZuLscG_Xc7DKq&index=10
 
 
-Gloabl execution context
+Global execution context
 window: global object
 this: window // this points to window object 
 topic: undefined

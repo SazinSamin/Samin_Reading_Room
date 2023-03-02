@@ -11,7 +11,7 @@
                 // prevent default behaviour.
                 evt.preventDefault();
 
-                // retrive the info from the form
+                // retrieve the info from the form
                 let dName = evt.target.elements['name'].value;
                 let dLocation = evt.target.elements['location'].value;
                 let dPhoto = evt.target.elements['photo'].value;
