@@ -1,5 +1,6 @@
 # Structure Query Language  
 [Sql advance](https://www.youtube.com/watch?v=ZNObiptSMSI&list=PL_nMO-wncU0nYz_BFwHJENd2YWoobA9Ly&index=1)  
+[Sql all](https://www.mysqltutorial.org/)
 [Different type of keys in database](https://www.guru99.com/dbms-keys.html#7)  
 #### Sql facts -  
 * Count consider both duplicate and null  
