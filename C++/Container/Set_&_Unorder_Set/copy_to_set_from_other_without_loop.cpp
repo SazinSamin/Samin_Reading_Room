@@ -1,4 +1,5 @@
 // copy_to_set_from_other_without_loop
+// https://walkccc.me/LeetCode/problems/0349/
 
 #include<bits/stdc++.h>
 using namespace std;
