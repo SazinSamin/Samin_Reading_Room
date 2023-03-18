@@ -1,0 +1,1 @@
+for searching, Sorting an array take less memory than, store array in hashmap.
