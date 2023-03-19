@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/std-find-in-cpp/
+
 #include<bits/stdc++.h>
 using namespace std;
 
