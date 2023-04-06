@@ -1,7 +1,3 @@
-// if an element contain only one duplicate, then only this algorithm works
-// like example array [1, 2, 2] it work, not for [1, 2, 2, 2]
-
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -32,6 +28,7 @@ void permutation(vector<int> nums, int idx) {
 
 int main() {
         vector<int> nums = {3, 3, 0, 3};
+        sort(nums.begin(), nums.end());
         permutation(nums, 0);
         for(auto i : result) {
                 for(auto j : i) {
