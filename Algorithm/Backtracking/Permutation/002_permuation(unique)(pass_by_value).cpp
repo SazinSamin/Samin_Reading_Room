@@ -1,4 +1,5 @@
-// The 
+// The previous one was pass by reference we have to swap back to get the original array back
+// In this below example we pass by value, so we don't have to swap back to get the original array back
 
 #include<bits/stdc++.h>
 using namespace std;
