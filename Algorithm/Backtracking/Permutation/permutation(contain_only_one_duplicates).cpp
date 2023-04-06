@@ -1,15 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> res;
-
-void print(vector<int> nums) {
-        for(auto i : nums) {
-                cout << i << " ";
-        }
-        cout << "\n";
-}
-
 
 vector<vector<int>> result;
 
