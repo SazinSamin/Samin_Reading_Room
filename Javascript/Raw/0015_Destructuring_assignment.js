@@ -26,6 +26,8 @@ const person1 = {
 };
 
 
+// In array destructuring -> element destructure according to the element position in the array
+// In object destructuring -> element desctructure according to the element names in the object
 
 
 const {name, age} = person1;
