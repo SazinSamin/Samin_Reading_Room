@@ -1,4 +1,5 @@
 // https://dmitripavlutin.com/differences-between-arrow-and-regular-functions/
+// https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/#32-pitfall-separating-method-from-its-object
 // https://www.youtube.com/watch?v=5ccXpH0nlc8
 // https://www.w3schools.com/js/js_arrow_function.asp
 
