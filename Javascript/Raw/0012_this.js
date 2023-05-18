@@ -3,6 +3,7 @@
 
 // "this" refer to that object from where it calling.
 // "this" behave different in arrow function. => https://github.com/SazinSamin/Samin_Reading_Room/blob/main/Javascript/Good_Practice/1117_this_in_arrow_function.js
+// https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/#32-pitfall-separating-method-from-its-object
 
 
 const Person = {
