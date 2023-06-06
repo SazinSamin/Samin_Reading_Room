@@ -6,3 +6,7 @@
 import multi from "./script.js";
 
 console.log(multi(10, 20));
+
+// don't know much about this two types of default import
+const { default: logger } = require("redux-logger");
+const thunk = require("redux-thunk").default;
