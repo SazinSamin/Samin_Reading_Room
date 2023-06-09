@@ -30,7 +30,7 @@ Object.keys(obj1).forEach((e) => {
 })
 // Object.keys(obj1) ;
 
-
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
 console.log("\nforEach");
 Object.entries(obj1).forEach(([key, value]) => {
         console.log(`${key}: ${value}}`);
