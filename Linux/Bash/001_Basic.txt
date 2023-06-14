@@ -48,6 +48,12 @@
 
 . cp file.txt ~/Downloads -> copy file.(file.txt move to Downloads directory)
 . cp -r test ~/Downloads -> copy folder.(-r for recursive, copy nested files and folder inside the copying folder also)
+
+. ln file1 link1 -> create hard link to a file(only works on file, not folder) (create a hard link named "link1" for an existing file 
+                            "file1")
+. ln -s directory1 link2 -> create soft link(work both file & folders) ( create a symbolic link named "link2" that points to a
+                            directory "directory1")
+
 . mv test.txt movetest -> move content.("test.txt" is filename & "movetest" is folder)
 . mv file1.txt file.txt -> rename a file name("file1.txt" is previous name, "file.txt" is new name)
 
