@@ -48,6 +48,8 @@
 
 . cp file.txt ~/Downloads -> copy file.(file.txt move to Downloads directory)
 . cp -r test ~/Downloads -> copy folder.(-r for recursive, copy nested files and folder inside the copying folder also)
+. cp Screenshot\ from\ 2023-06-20* ../../Music/Courier/public/img/ -> copy all file that have common
+
 
 . ln file1 link1 -> create hard link to a file(only works on file, not folder) (create a hard link named "link1" for an existing file 
                             "file1")
