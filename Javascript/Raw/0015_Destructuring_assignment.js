@@ -68,7 +68,7 @@ const dataBase2 = [
                 age: 24,
         }
 ];
-
+// here "student1" may be a problem
 const [{ name: s1Name, age: s1Age } = student1] = dataBase2;
 console.log(`${s1Name}, ${s1Age}`);
 
