@@ -1,0 +1,2 @@
+w - get cpu & user details
+htop - all pc information
