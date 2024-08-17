@@ -13,3 +13,5 @@ sudo apt -f install -> resolve all the mission dependeny for any installation
 ./<file name> -> run a file
 
 dpkg --list -> get the list of all .deb files
+
+uptime - get pc uptime & average load
