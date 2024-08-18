@@ -3,3 +3,7 @@ htop -> all pc information
 head -n 2 mytext.txt -> print first 2 lines of mytext.txt
 tail -n 2 mytext.txt -> print tail 2 lines of mytext.txt
 prog2 && prog2 -> If prog1 successfull then prog2 will be executed
+cat mytext.txt | cut -d: -f1 -> cur according to the delimeter(:) and print first colimn
+cat Sheet1_mux.txt | uniq -> get only the unique line
+wc Sheet1_mux.txt -> get the line, word and byte count
+cat /etc/apt/sources.list -> get software repo list
