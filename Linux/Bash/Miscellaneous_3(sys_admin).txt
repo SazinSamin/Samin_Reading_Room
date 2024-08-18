@@ -1,4 +1,5 @@
-w - get cpu & user details
-htop - all pc information
+w -> get cpu & user details
+htop -> all pc information
 head -n 2 mytext.txt -> print first 2 lines of mytext.txt
 tail -n 2 mytext.txt -> print tail 2 lines of mytext.txt
+prog2 && prog2 -> If prog1 successfull then prog2 will be executed
