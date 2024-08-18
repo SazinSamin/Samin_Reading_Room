@@ -7,4 +7,7 @@ cat mytext.txt | cut -d: -f1 -> cur according to the delimeter(:) and print firs
 cat Sheet1_mux.txt | uniq -> get only the unique line
 wc Sheet1_mux.txt -> get the line, word and byte count
 cat /etc/apt/sources.list -> get software repo list
-id -> 
+id -> get the user information
+alias -> get all the alias commands
+CTRL + R -> to get previous command using search
+ 
