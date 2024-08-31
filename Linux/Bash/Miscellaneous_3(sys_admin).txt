@@ -10,4 +10,6 @@ cat /etc/apt/sources.list -> get software repo list
 id -> get the user information
 alias -> get all the alias commands
 CTRL + R -> to get previous command using search
+
+kill -l -> show to list of all types of kill command
  
